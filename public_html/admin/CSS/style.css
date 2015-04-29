@@ -1,0 +1,221 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+
+}
+body {
+	background-color: #F7F7F7;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    padding: 0;
+    margin: 0;
+	
+}
+.show{
+	display:block;
+}
+.hide{
+	display:none;
+}
+.show_inline{
+	display:inline;
+}
+#navbar{
+    width: 100%;
+    background-color: #aa0000;
+}
+
+.top-navbar-item{
+    font-family: "Helvetica Neue", "Roboto", sans-serif;
+    text-decoration: none;
+    font-size: 1.1em;
+    text-align: center;
+    display: block;
+    float:left;
+    width: 25%;
+    padding: 0.5%;
+    color:#000;
+    border-bottom: 5px solid #c0c0c0;
+}
+
+.nav-active{
+    border-bottom: 5px solid #656565;
+}
+
+
+.admin{
+    border-right: 1px solid #9fa1a8;
+    background-color: #c0c0c0;
+}
+
+.utils{
+    border-right: 1px solid #9fa1a8;
+    background-color: #c0c0c0;
+}
+
+.reserve{
+    border-right: 1px solid #9fa1a8;
+    background-color: #c0c0c0;
+}
+
+.log_in_out{
+    background-color: #c0c0c0;
+}
+#block_count{
+	margin-right:1em;
+	width:5em;
+}
+#block_start{
+	margin-left:1em;
+	margin-right:2em;
+	width:5em;
+}
+#query_form_input_container{
+	border:solid black 1px;
+	padding:.5em;
+}
+#canned_query_submit{
+	display:inline;
+	margin-left:1em;
+}
+#pageTypes {
+	height: 100px;
+	width: 100%;
+	margin: 0 auto;
+	/*display: block;*/
+	text-align: center;
+}
+#pageTypes .mainButtons {
+	width: 11.1111111111%;
+	height: 100%;
+	float: left;
+	display: inline-block;
+}
+#CreateNewItemDiv {
+	width: 100%;
+	text-align: center;
+}
+#CreateNewItemDiv button {
+	margin: 0 auto;
+}
+#createItem {
+	height: 50px;
+	width: 30%;
+	margin:0 auto;
+	text-align: center;
+	font-size: 17px;
+}
+#actionButtons button {
+	height:30px;
+	width: 100px;
+}
+.standard_label{
+	margin-left:1.5em;
+	margin-right:1.5em;
+}
+.box {
+	width: 95%;
+	margin: 0 auto;
+	border: 1px solid #D4D0CD;
+	padding: 20px;
+}
+.box img {
+	max-width: 100%;
+}
+.box button {
+	height:30px;
+	width: 100px;
+}
+.box p {
+	padding-top: 30px;
+}
+#editArea form {
+	padding-bottom: 30px;
+	width: 95%;
+	margin: 0 auto;
+}
+#fields_list {
+	padding-top: 30px;
+}
+#inputForm input {
+	font-size: 1em;
+	height: 1.5em;
+	margin:.4em;
+}
+#inputForm label {
+	font-size: 1em;
+}
+#inputForm button{
+	height:30px;
+	width: 100px;
+}
+#inputForm textarea{
+	width:90%;
+	height:8em;
+}
+#look_up_dialog{
+	width:400px;
+}
+.lookUpItem{
+	border:solid black 2px;
+	margin:.2em;
+}
+.deleteItem{
+	background-color:#F75000;
+	margin-right:2em;
+}
+.confirm_msg{
+	background-color:#F75000;
+	color:#F7E803;
+	line-height:1.5em;
+}
+.editItem{
+	background-color:#FFC719;
+	margin-right:2em;
+}
+.cloneItem{
+	background-color:#89BF21;
+	margin-right:2em;
+}
+.nextButton{
+	background-color:#2099F1;
+	margin-right:2em;
+}
+.saveItem{
+	background-color:#89BF21;
+}
+.lookUpBtn{
+	background-color:#FFC719;
+}
+.imageLookupBtn{
+	margin-top:.5em;
+	background-color:#D2B03A;
+}
+#image_look_up_dialog img{
+	width:100%;
+}
+.lookup_img_container{
+	display:inline-block;
+	width:100px;
+	margin:.5em;
+}
+.reservation_input{
+	margin:.5em 1em .5em 1em;
+}
+.reservation_input label{
+	margin-left:2em;
+}
+.date_lookup{
+	margin-left:2em;
+	padding:.4em;
+	border:solid #000000 1px;
+}
+/*
+@media (max-width: 700px) {
+	#pageTypes .mainButtons {
+		width: 10.5%;
+	}
+}
+*/

@@ -1,0 +1,10 @@
+
+ UPDATE mtc_member SET password = '30f7dc6030e2fb250fc6bac013397925' WHERE email = 'kirkdavies@rogers.com' AND password_hint_answer = '6824cc4c7c33aabf02553093853c2e69'
+DELETE FROM mtc_court_reservation WHERE member1_id = '223'
+ UPDATE mtc_member SET password = '30f7dc6030e2fb250fc6bac013397925' WHERE email = 'kirkdavies@rogers.com' AND password_hint_answer = '6824cc4c7c33aabf02553093853c2e69'
+ UPDATE mtc_member SET password = '30f7dc6030e2fb250fc6bac013397925' WHERE email = 'kirkdavies@rogers.com' AND password_hint_answer = '6824cc4c7c33aabf02553093853c2e69'
+DELETE FROM mtc_court_reservation WHERE member1_id = '206'
+DELETE FROM mtc_court_reservation WHERE member1_id = '45'
+DELETE FROM mtc_court_reservation WHERE member1_id = '234'
+DELETE FROM mtc_court_reservation WHERE member1_id = '234'
+DELETE FROM mtc_court_reservation WHERE member1_id = '234'

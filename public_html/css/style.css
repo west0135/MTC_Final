@@ -1,0 +1,622 @@
+/*! March Tennis Club - 2b||!2b */
+
+/*! Icons created by Mister Pixel @thenounproject */
+
+
+body{
+    padding: 0px;
+}
+.float-right{float: right;}
+
+.float-left{float:left;}
+
+.white{color: #fff !important;}
+
+h1, h2, h3{
+    color: #a45449;
+    font-family: 'Oxygen', helvetica, sans-serif;
+    font-weight: bold;
+}
+
+p{
+    font-family: 'Source Sans Pro', verdana, sans-serif;
+	font-size: 1.2em !important;
+}
+
+.col-md-6, .thumbnail, .caption{
+	margin:0px;
+}
+
+.clearfix{
+	clear:both;
+}
+
+/*! HEADER ****************************************************************/
+
+.header {
+    height: 300px;
+    background: url(../img/tennis_ball.png) center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#logo{
+    width: 100%;
+}
+
+#logo-wrapper{
+    width: 15%;
+    margin-right: 3%;
+    margin-top: 2%;
+    height:300px;
+    float: left;
+}
+
+.navbar{
+    background-color: #B9C0B5;
+}
+
+nav{
+    width: 82%;
+    margin-top:2%;
+    font-size:1.1em;
+}
+
+.nav-link{
+    color:#5e6581 !important;
+    font-family: 'Source Sans Pro', verdana, sans-serif;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+
+.nav-link:hover, .active .nav-link{
+    color:#394145 !important;
+}
+
+.tagline {
+    text-shadow: 0 0 10px #000;
+    color: #fff;
+    text-align: left;
+    font-size: 4.0em;
+}
+
+.under-tagline{
+    text-shadow: 0 0 10px #000;
+    color: #fff;
+    text-align: left;
+    font-size: 1.1em;
+}
+
+/*! CONTENT BLOCKS ****************************************************************/
+
+.content-box{
+    background-color: #f9faf5;
+}
+
+.thumbnail, .thumbnail-php{
+    border: none;
+}
+
+.thumb-icon{
+	display:block;
+	margin:0 auto;
+}
+
+.thumbnail-php img{
+	width:100%;
+	height:auto;
+}
+
+.btn-primary{
+    background-color: #576072;
+	float:right;
+}
+
+.btn-login{
+  background-color: #576072;
+  position: relative;
+  left: 85%;
+  color: #ffffff;
+	
+}
+
+.btn-primary:hover{
+    background-color: #394145;
+}
+
+#court-pics{
+    width: 100%;
+    margin-top:15px;
+}
+.lookUpItem{
+	border-style:ridge;
+	padding: 5px;
+	width:60%;
+}
+input[type=checkbox] {
+	 width: 44px; height: 44px;
+ -webkit-border-radius: 22px; -moz-border-radius: 22px; border-radius: 22px;
+ border: 1px solid #bbb;
+ transform:scale(2);
+ margin-left: 15px;
+}
+
+.side-info{
+	text-align:left;
+	margin-top:15px;
+	margin-left:15px;
+	padding:10px;
+	background-color:#f9faf5;
+}
+
+.side-info h3{
+	font-size:1.3em;
+}
+
+.event{
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+.event:first-child{
+	  margin-right: 29px;
+}
+
+.notice h3{
+	font-size:1.5em;
+}
+.notice p img{
+  width: 100%;
+  height: auto;
+}
+.notice:first-child{
+	padding-left:0px;
+}
+
+.notice-col{
+	border-top:1px solid #CCC;
+	margin-top:20px;
+
+}
+.event img{
+	
+}
+/*! FOOTER ****************************************************************/
+
+
+.footer{
+    width: 100%;
+    background-color: #B9C0B5;
+	margin-top:20px;
+}
+
+footer {
+    margin: 20px 0;
+}
+
+.footer h3{
+	
+    color: #394145;
+}
+
+
+/*! MAP  ****************************************************************/
+
+#map-canvas {
+    width: 100%;
+    height: 315px;
+    background-color: #CCC;
+}
+
+#map-wrapper {
+    position: relative;
+}
+#over-map {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 99;
+    background-color: #394145;
+    padding: 0px 20px 10px 20px;
+    margin: 0px;
+    opacity: 0.75;
+}
+
+#over-map-text{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 0px 20px 10px 20px;
+    margin: 0px;
+    z-index: 100;
+    color:#fff !important;
+}
+
+/*! HOURS OF OPERATION ****************************************************************/
+
+.table{
+    font-size: 0.8em;
+    padding: 0px;
+    margin: 0px;
+    background-color: #394145;
+}
+
+th, td{
+    border: none !important;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Source Sans Pro', verdana, sans-serif;
+}
+
+th{
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+
+td{
+    background-color: #f9faf5;
+}
+
+/*! LINKS ****************************************************************/
+
+ul{
+    list-style-type: none;
+    padding: 0px;
+    font-size:1.15em;
+    color: #262626;
+}
+
+ul a{
+    color: #737373;
+}
+ul a:hover{
+    color: #394145;
+    text-decoration: none;
+}
+
+#ata-link{
+    display: block;
+    background: url("../img/ata_bw.svg") no-repeat;
+    width: 85px;
+    height: 85px;
+    float: left;
+    clear: both;
+}
+
+#ata-link:hover{
+    background: url("../img/ata.svg") no-repeat;
+}
+
+#fb-link{
+    display: block;
+    background: url("../img/f_icon_bw.svg") no-repeat;
+    width: 85px;
+    height: 85px;
+    float: left;
+}
+
+#fb-link:hover{
+    background: url("../img/f_icon.svg") no-repeat;
+}
+
+#google-link{
+    display: block;
+    background: url("../img/google_plus_bw.svg") no-repeat;
+    width: 85px;
+    height: 85px;
+    float: left;
+}
+
+#google-link:hover{
+    background: url("../img/google_plus.svg") no-repeat;
+}
+
+.links-ls, .links-rs{
+    float:left;
+    width: 50%;
+}
+
+.links, .hours{
+	margin-top:-22px;
+}
+
+#img-links{
+    margin-top:170px;
+    padding-top:10px;
+    border-top:1px solid #737373;
+}
+
+#copy-footer{
+    width:100%;
+    background-color: #565f71;
+    text-align: center;
+    color: #fff;
+    margin-bottom: -10px;
+}
+.error-message{
+    color:#e75967;
+}
+.lookUpItem{
+	border-style:ridge;
+	padding: 5px;
+	width:65%;
+	min-width:270px;
+}
+#donation, #newMember, #termsAgree {
+
+ -webkit-border-radius: 22px; -moz-border-radius: 22px; border-radius: 22px;
+ border: 1px solid #bbb;
+ transform:scale(1.1);
+ margin: 5px 0 5px 3px;
+}
+#membershipCategoryList {
+	margin-bottom: 2rem;
+}
+.leftPadding {
+	padding-left: 15px;	
+}
+
+.index-events{	
+		
+	background-color: #f9faf5;
+    width: 48%;
+}
+
+/*! RESPONSIVE FIX ****************************************************************/
+
+
+@media (max-width: 1200px) {
+
+	.index-events{	
+		width: 48%;	
+		background-color: #f9faf5;
+	}
+	
+	.index-events img{
+	
+		width: 100%;
+		
+	}
+	
+    .map{
+        clear: both;
+        float: none;
+        width: 100%;
+    }
+
+    .hours{
+        width: 50%;
+    }
+
+    .links{
+        width: 50%;
+    }
+	
+	.event img{
+		
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	
+	.index-events{	
+		width: 98%;	
+		background-color: #f9faf5;
+	}
+	
+	.index-events h3{
+	
+		padding-top: 20px;
+		margin-top: 0px;
+		
+	}
+	
+	.notice p img{
+	  width: 50%;
+	  height: auto;
+	}
+	
+	.event img{
+		max-width: 50%;
+	}
+	
+	.col-sm-9, .event, .notice{
+		width:100%;
+	}
+
+	.notice{
+		padding-left:0px;
+	}
+	
+	
+	
+	h1 {
+        font-size: 3.0em !important;
+    }
+	
+	.nav-link{
+		font-size: 0.85em;
+	}
+
+
+    .court-booking{
+
+        clear: both;
+        float: none;
+        margin-bottom:-4%;
+    }
+
+    .map{
+        clear: both;
+        float: none;
+        width: 100%;
+    }
+
+    .hours{
+        clear: both;
+        float: none;
+        width: 100%;
+    }
+
+    .links{
+        clear: both;
+        float: none;
+        width: 100%;
+    }
+
+    #img-links{
+        margin-left: 0px;
+    }
+	
+	.side-info:first-child{
+		border-top:1px solid #CCC;
+	}
+	
+	.side-info{
+		clear:both;
+		width:100%;	
+		margin:0px;
+		padding:0px;
+		background-color:#fff;
+	}
+
+}
+
+@media (max-width: 767px) {
+	
+	.index-events{	
+		width: 98%;	
+		background-color: #f9faf5;
+	}
+	
+	.index-events h3{
+	
+		padding-top: 20px;
+		margin-top: 0px;
+		
+	}
+	
+	.index-events img{
+	
+		width: 100%;
+		
+	}
+	
+	.col-sm-9{
+		width:94%;
+		margin:0px auto;
+	}
+	
+	.notice{
+		padding-left:0px;
+	}
+	.side-info:first-child{
+		border-top:1px solid #CCC;
+	}
+	
+	.side-info{
+		clear:both;
+		width:96%;
+
+		background-color:#fff;
+	}
+	
+	.event img{
+		max-height:100%;
+	}
+
+
+    .header {
+        height: 100%;
+    }
+
+    #logo-wrapper{
+        width: 30%;
+        margin-left:35%;
+        height:100%;
+        float: none
+    }
+
+    nav{
+        width: 100%;
+    }
+
+    .tagline {
+        clear: both;
+        text-align: center;
+        font-size: 2.2em !important;
+    }
+
+    .under-tagline{
+        text-align: center;
+    }
+
+    #join-btn-wrapper{
+        text-align: center;
+    }
+    .join-btn{
+        margin-bottom: 3%;
+    }
+
+    .content-box{
+        margin-bottom: 4%;
+        padding-bottom: 1%;
+    }
+    .court-booking {
+        margin-bottom: -4%;
+    }
+
+    .hours{
+        width: 100%;
+    }
+
+    .links{
+        width: 100%;
+    }
+
+    #over-map, #over-map-text{
+        padding: 0px 0px 0px 10px;
+    }
+
+    #over-map-text h3{
+        font-size: 1.4em;
+    }
+
+    #over-map-text p{
+        font-size: 1.0em;
+    }
+}
+.scrollable {
+
+    height: 490px !important;
+    overflow: scroll;
+}
+th, td {
+	width: 33%;
+	  font-size: medium;
+}
+
+
+#table1 *{
+   
+}
+
+.td-reserved{
+	background:#ffe0de !important;
+}
+
+.chart-size {
+	width: 30% !important; 
+	font-size: small !important;
+}
+.align-text {
+	text-align: center;
+}
+.darken{
+
+	background-color: #394145 !important;
+	border-color: #394145 !important;
+}

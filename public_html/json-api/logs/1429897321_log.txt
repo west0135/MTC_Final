@@ -1,0 +1,1021 @@
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:34:52-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => Event.getSchema
+)
+]END
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:34:52-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","schema":{"namespace":"tobe.avro","type":"record","name":"event","class_name":"Event","fields":[{"name":"event_id","type":"int(11) [PRIMARY_KEY]","class":"","optional":"NO"},{"name":"event_type","type":"varchar(45)","class":"","optional":"NO"},{"name":"event_name","type":"varchar(64)","class":"","optional":"NO"},{"name":"event_description","type":"varchar(1024)","class":"","optional":"NO"},{"name":"event_date_time","type":"datetime","class":"","optional":"NO"},{"name":"content","type":"longtext","class":"","optional":"YES"},{"name":"presto_url","type":"varchar(400)","class":"","optional":"YES"}],"Primary_key":"event_id"}}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:34:52-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => Event.getList
+    [start] => 0
+    [count] => 10
+)
+]END
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:34:52-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","fields":[{"event_id":"35","event_type":"MTC","event_name":"Aug 12th-16th 2015 Club Championships","event_description":"Championship","event_date_time":"2015-08-12 12:00:00","content":"<p><em><img src=\"http:\/\/adamsonstennisacademy.com\/res\/images\/891838.jpg\" alt=\"\" width=\"326\" height=\"217\" \/><\/em><\/p>\n<p><em>Since the club opened back in 1975, we have been fortunate enough to hold a tournament exclusively for our members. It is a chance for all our members to experience the joy and excitement of the tournament feeling, as well as to see where their game is at with respect to fellow members. It is a week of smiles and laughter along with a chance to enjoy the quality of tennis at the March Tennis Club.<\/em><\/p>\n<p>Please mark your calendars for our ANNUAL CLUB CHAMPIONSHIPS running from August 12th - 16th. We encourage you to participate this year and we can ensure that there is a category for all.<\/p>\n<p>The events will include:<\/p>\n<ul>\n<li>Men's Open Singles<\/li>\n<li>Men's Open Doubles<\/li>\n<li>Ladies Open Singles<\/li>\n<li>Ladies Open Doubles<\/li>\n<li>Men's 45+ Singles<\/li>\n<li>Mixed Open Doubles<\/li>\n<li>Junior Under 17 Singles<\/li>\n<\/ul>\n<p>*Please note that you may register for up to 3 events, but only ONE can be a singles event. Also, if you are in two or three events, you need to be prepared to play multiple times each day (because it&nbsp;<em>will<\/em> happen!!!)<\/p>\n<p>To register for the tournament (after August 1st) <a href=\"http:\/\/www.prestoregister.com\/cgi-bin\/order.pl?ref=marchtennisclub&amp;fm=16\">CLICK HERE<\/a>&nbsp;(registration will close on August 9th at 6pm). We hope it will be a great turn out and a FUN time for all.<\/p>","presto_url":"http:\/\/www.prestoregister.com\/cgi-bin\/order.pl?ref=marchtennisclub&fm=16"},{"event_id":"36","event_type":"ATA","event_name":"July 22nd - Kanata Klassic BBQ Social","event_description":"KKBBT","event_date_time":"2015-07-22 18:00:00","content":"<p>You'll definitely want to come by for our Kanata Klassic BBQ night. We will have a wide variety of foods available, and you can come socialize with all of your favourite tennis buddies!<\/p>","presto_url":"null"},{"event_id":"37","event_type":"ATA","event_name":"July 20-26 Kanata Klassic 2015","event_description":"Kanata Klassic Tourney","event_date_time":"2015-07-20 12:00:00","content":"<p><img src=\"http:\/\/adamsonstennisacademy.com\/res\/images\/n7yOVRq.jpg\" alt=\"\" width=\"351\" height=\"263\" \/><\/p>\n<p>The Kanata Klassic is an open tennis tournament for Ottawa area residents hosted at the March Tennis Club. Founded by Jonathan Adamson in 2005, the Kanata Klassic has become one of the biggest tournaments in the city.<\/p>\n<p>In recent years, ATA along with the March Tennis Club have joined forces with the Canadian Cancer Society and a portion of the proceeds from the Kanata Klassic are donated to the Canadian Cancer Society and its quest to find a cure for cancer.<\/p>\n<p>We would like to thank all participants; past; present; and future; for your support. We hope that you have an enjoyable experience in this tournament. Also we would like to say a special thanks to Kevin Pidgeon of Tommy and Lefebvre. &nbsp;Also, we would like to thank Ted Thompson and Yonex for their continued support.<\/p>\n<p><strong>The 2015 Kanata Klassic will be held between July 20-July 26, 2015. Registration for the tournament will OPEN JUNE 1st. &nbsp;<a href=\"http:\/\/www.prestoregister.com\/cgi-bin\/order.pl?ref=marchtennisclub&amp;fm=11\">CLICK HERE<\/a>&nbsp;to register.<\/strong><\/p>","presto_url":"www.prestoregister.com\/cgi-bin\/order.pl?ref=marchtennisclub&fm=11"},{"event_id":"38","event_type":"ATA","event_name":"July 8th - Wimbledon Night","event_description":"Wimbledon Night","event_date_time":"2015-07-08 18:00:00","content":"<p><img src=\"http:\/\/adamsonstennisacademy.com\/res\/images\/athlete-ball-competition-2342-781x550.jpg\" alt=\"\" width=\"279\" height=\"196\" \/><\/p>\n<p>We welcome you to attend our annual Wimbledon Night<\/p>","presto_url":"null"},{"event_id":"39","event_type":"ATA","event_name":"June 10th - British Pub Night","event_description":"BPN","event_date_time":"2015-06-10 18:00:00","content":"<p>Come one come all to our british pub night!<\/p>","presto_url":"null"},{"event_id":"40","event_type":"ATA","event_name":"June 5th PD Day - Tennis and Sports Fun Day","event_description":"Pd Day","event_date_time":"2015-06-05 09:00:00","content":"<p><img src=\"http:\/\/adamsonstennisacademy.com\/res\/images\/tennis-ball-512480_1280.jpg\" alt=\"\" width=\"437\" height=\"291\" \/><\/p>\n<p>Most schools in Ottawa will be closed for a PD Day on Friday, June 5th. Therefore, we will be having a special Tennis and Sports PD FUN DAY from 9:00am to 3:30pm that day.<\/p>\n<p>Ages: 5 to 15<\/p>\n<p>Activities will include:<\/p>\n<ul>\n<li>Tennis<\/li>\n<li>Soccer<\/li>\n<li>Ball Hockey<\/li>\n<li>Baseball<\/li>\n<li>Volleyball<\/li>\n<li>Capture the Flag<\/li>\n<li>Basketball<\/li>\n<li>and MORE!!!<\/li>\n<\/ul>\n<p>Cost: $60 (includes pizza or BBQ lunch)<\/p>","presto_url":"http:\/\/www.prestoregister.com\/cgi-bin\/order.pl?ref=marchtennisclub&fm=3"},{"event_id":"41","event_type":"ATA","event_name":"May 10th - Opening Day Celebration","event_description":"Opening Day","event_date_time":"2015-05-10 10:00:00","content":"<p><img src=\"http:\/\/adamsonstennisacademy.com\/res\/images\/mG2JwG4.jpg\" alt=\"\" width=\"385\" height=\"211\" \/><\/p>\n<p>Come to our grand opening on May 10th!<\/p>","presto_url":"null"},{"event_id":"42","event_type":"ATA","event_name":"May 2nd - ATA Programs @ MTC begin!","event_description":"Start of ATA programs","event_date_time":"2015-05-02 10:00:00","content":"<p><img src=\"http:\/\/adamsonstennisacademy.com\/res\/images\/mhGzJTg.jpg\" alt=\"\" width=\"135\" height=\"198\" \/><\/p>\n<p>Just a quick heads up, our summer programs being on May 2nd. Be sure to check out our selection and make your registrations!<\/p>","presto_url":"null"},{"event_id":"43","event_type":"ATA","event_name":"August 24th - US Open Social","event_description":"US OPEN SOCIAL","event_date_time":"2015-08-24 12:00:00","content":"<p>You'll absolutely want to come check out our US Open Social in celebration of the US Open.<\/p>","presto_url":"null"},{"event_id":"44","event_type":"ATA","event_name":"Past Due Event","event_description":"KKBBT","event_date_time":"2015-04-24 18:00:00","content":"<p>This is an event that is almost past due.<\/p>\n<p><img src=\"http:\/\/marchtennisclub.com\/res\/pics\/img_1339.jpg\" alt=\"\" \/><\/p>\n<p>&nbsp;<\/p>\n<p>&nbsp;<\/p>","presto_url":""}]}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:35:06-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => Event.get
+    [event_id] => 44
+)
+]END
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:35:06-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","field":{"event_id":"44","event_type":"ATA","event_name":"Past Due Event","event_description":"KKBBT","event_date_time":"2015-04-24 18:00:00","content":"<p>This is an event that is almost past due.<\/p>\n<p><img src=\"http:\/\/marchtennisclub.com\/res\/pics\/img_1339.jpg\" alt=\"\" \/><\/p>\n<p>&nbsp;<\/p>\n<p>&nbsp;<\/p>","presto_url":""}}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:38:57-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => Event.update
+    [event_id] => 44
+    [event_type] => ATA
+    [event_name] => Past Due Event
+    [event_description] => KKBBT
+    [event_date_time] => 2015-04-24T18:00:00
+    [content] => <p>This is an event that is almost past due.</p>
+<p><img src="http://marchtennisclub.com/res/pics/img_1339.jpg" alt="" /></p>
+<p>&nbsp;</p>
+<p><img src="http://marchtennisclub.com/res/pics/dsc016251.jpg" alt="" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+    [presto_url] => 
+    [userid] => 45
+    [ukey] => 5YbHKUduDpqxi
+)
+]END
+
+OBJECT
+DEBUG at 2015-04-23T17:38:57-04:00 in /json-api/index.php
+member_id: 45 PERMISSIONS:5
+
+OBJECT
+DEBUG at 2015-04-23T17:38:57-04:00 in /json-api/index.php
+class:Event mthd:update
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:38:57-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","event_id":"44"}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:38:57-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => Event.getSchema
+)
+]END
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:38:57-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","schema":{"namespace":"tobe.avro","type":"record","name":"event","class_name":"Event","fields":[{"name":"event_id","type":"int(11) [PRIMARY_KEY]","class":"","optional":"NO"},{"name":"event_type","type":"varchar(45)","class":"","optional":"NO"},{"name":"event_name","type":"varchar(64)","class":"","optional":"NO"},{"name":"event_description","type":"varchar(1024)","class":"","optional":"NO"},{"name":"event_date_time","type":"datetime","class":"","optional":"NO"},{"name":"content","type":"longtext","class":"","optional":"YES"},{"name":"presto_url","type":"varchar(400)","class":"","optional":"YES"}],"Primary_key":"event_id"}}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:38:57-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => Event.getList
+    [start] => 0
+    [count] => 10
+)
+]END
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:38:57-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","fields":[{"event_id":"35","event_type":"MTC","event_name":"Aug 12th-16th 2015 Club Championships","event_description":"Championship","event_date_time":"2015-08-12 12:00:00","content":"<p><em><img src=\"http:\/\/adamsonstennisacademy.com\/res\/images\/891838.jpg\" alt=\"\" width=\"326\" height=\"217\" \/><\/em><\/p>\n<p><em>Since the club opened back in 1975, we have been fortunate enough to hold a tournament exclusively for our members. It is a chance for all our members to experience the joy and excitement of the tournament feeling, as well as to see where their game is at with respect to fellow members. It is a week of smiles and laughter along with a chance to enjoy the quality of tennis at the March Tennis Club.<\/em><\/p>\n<p>Please mark your calendars for our ANNUAL CLUB CHAMPIONSHIPS running from August 12th - 16th. We encourage you to participate this year and we can ensure that there is a category for all.<\/p>\n<p>The events will include:<\/p>\n<ul>\n<li>Men's Open Singles<\/li>\n<li>Men's Open Doubles<\/li>\n<li>Ladies Open Singles<\/li>\n<li>Ladies Open Doubles<\/li>\n<li>Men's 45+ Singles<\/li>\n<li>Mixed Open Doubles<\/li>\n<li>Junior Under 17 Singles<\/li>\n<\/ul>\n<p>*Please note that you may register for up to 3 events, but only ONE can be a singles event. Also, if you are in two or three events, you need to be prepared to play multiple times each day (because it&nbsp;<em>will<\/em> happen!!!)<\/p>\n<p>To register for the tournament (after August 1st) <a href=\"http:\/\/www.prestoregister.com\/cgi-bin\/order.pl?ref=marchtennisclub&amp;fm=16\">CLICK HERE<\/a>&nbsp;(registration will close on August 9th at 6pm). We hope it will be a great turn out and a FUN time for all.<\/p>","presto_url":"http:\/\/www.prestoregister.com\/cgi-bin\/order.pl?ref=marchtennisclub&fm=16"},{"event_id":"36","event_type":"ATA","event_name":"July 22nd - Kanata Klassic BBQ Social","event_description":"KKBBT","event_date_time":"2015-07-22 18:00:00","content":"<p>You'll definitely want to come by for our Kanata Klassic BBQ night. We will have a wide variety of foods available, and you can come socialize with all of your favourite tennis buddies!<\/p>","presto_url":"null"},{"event_id":"37","event_type":"ATA","event_name":"July 20-26 Kanata Klassic 2015","event_description":"Kanata Klassic Tourney","event_date_time":"2015-07-20 12:00:00","content":"<p><img src=\"http:\/\/adamsonstennisacademy.com\/res\/images\/n7yOVRq.jpg\" alt=\"\" width=\"351\" height=\"263\" \/><\/p>\n<p>The Kanata Klassic is an open tennis tournament for Ottawa area residents hosted at the March Tennis Club. Founded by Jonathan Adamson in 2005, the Kanata Klassic has become one of the biggest tournaments in the city.<\/p>\n<p>In recent years, ATA along with the March Tennis Club have joined forces with the Canadian Cancer Society and a portion of the proceeds from the Kanata Klassic are donated to the Canadian Cancer Society and its quest to find a cure for cancer.<\/p>\n<p>We would like to thank all participants; past; present; and future; for your support. We hope that you have an enjoyable experience in this tournament. Also we would like to say a special thanks to Kevin Pidgeon of Tommy and Lefebvre. &nbsp;Also, we would like to thank Ted Thompson and Yonex for their continued support.<\/p>\n<p><strong>The 2015 Kanata Klassic will be held between July 20-July 26, 2015. Registration for the tournament will OPEN JUNE 1st. &nbsp;<a href=\"http:\/\/www.prestoregister.com\/cgi-bin\/order.pl?ref=marchtennisclub&amp;fm=11\">CLICK HERE<\/a>&nbsp;to register.<\/strong><\/p>","presto_url":"www.prestoregister.com\/cgi-bin\/order.pl?ref=marchtennisclub&fm=11"},{"event_id":"38","event_type":"ATA","event_name":"July 8th - Wimbledon Night","event_description":"Wimbledon Night","event_date_time":"2015-07-08 18:00:00","content":"<p><img src=\"http:\/\/adamsonstennisacademy.com\/res\/images\/athlete-ball-competition-2342-781x550.jpg\" alt=\"\" width=\"279\" height=\"196\" \/><\/p>\n<p>We welcome you to attend our annual Wimbledon Night<\/p>","presto_url":"null"},{"event_id":"39","event_type":"ATA","event_name":"June 10th - British Pub Night","event_description":"BPN","event_date_time":"2015-06-10 18:00:00","content":"<p>Come one come all to our british pub night!<\/p>","presto_url":"null"},{"event_id":"40","event_type":"ATA","event_name":"June 5th PD Day - Tennis and Sports Fun Day","event_description":"Pd Day","event_date_time":"2015-06-05 09:00:00","content":"<p><img src=\"http:\/\/adamsonstennisacademy.com\/res\/images\/tennis-ball-512480_1280.jpg\" alt=\"\" width=\"437\" height=\"291\" \/><\/p>\n<p>Most schools in Ottawa will be closed for a PD Day on Friday, June 5th. Therefore, we will be having a special Tennis and Sports PD FUN DAY from 9:00am to 3:30pm that day.<\/p>\n<p>Ages: 5 to 15<\/p>\n<p>Activities will include:<\/p>\n<ul>\n<li>Tennis<\/li>\n<li>Soccer<\/li>\n<li>Ball Hockey<\/li>\n<li>Baseball<\/li>\n<li>Volleyball<\/li>\n<li>Capture the Flag<\/li>\n<li>Basketball<\/li>\n<li>and MORE!!!<\/li>\n<\/ul>\n<p>Cost: $60 (includes pizza or BBQ lunch)<\/p>","presto_url":"http:\/\/www.prestoregister.com\/cgi-bin\/order.pl?ref=marchtennisclub&fm=3"},{"event_id":"41","event_type":"ATA","event_name":"May 10th - Opening Day Celebration","event_description":"Opening Day","event_date_time":"2015-05-10 10:00:00","content":"<p><img src=\"http:\/\/adamsonstennisacademy.com\/res\/images\/mG2JwG4.jpg\" alt=\"\" width=\"385\" height=\"211\" \/><\/p>\n<p>Come to our grand opening on May 10th!<\/p>","presto_url":"null"},{"event_id":"42","event_type":"ATA","event_name":"May 2nd - ATA Programs @ MTC begin!","event_description":"Start of ATA programs","event_date_time":"2015-05-02 10:00:00","content":"<p><img src=\"http:\/\/adamsonstennisacademy.com\/res\/images\/mhGzJTg.jpg\" alt=\"\" width=\"135\" height=\"198\" \/><\/p>\n<p>Just a quick heads up, our summer programs being on May 2nd. Be sure to check out our selection and make your registrations!<\/p>","presto_url":"null"},{"event_id":"43","event_type":"ATA","event_name":"August 24th - US Open Social","event_description":"US OPEN SOCIAL","event_date_time":"2015-08-24 12:00:00","content":"<p>You'll absolutely want to come check out our US Open Social in celebration of the US Open.<\/p>","presto_url":"null"},{"event_id":"44","event_type":"ATA","event_name":"Past Due Event","event_description":"KKBBT","event_date_time":"2015-04-24 18:00:00","content":"<p>This is an event that is almost past due.<\/p>\n<p><img src=\"http:\/\/marchtennisclub.com\/res\/pics\/img_1339.jpg\" alt=\"\" \/><\/p>\n<p>&nbsp;<\/p>\n<p><img src=\"http:\/\/marchtennisclub.com\/res\/pics\/dsc016251.jpg\" alt=\"\" \/><\/p>\n<p>&nbsp;<\/p>\n<p>&nbsp;<\/p>","presto_url":""}]}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:39:35-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => Event.get
+    [event_id] => 44
+)
+]END
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:39:35-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","field":{"event_id":"44","event_type":"ATA","event_name":"Past Due Event","event_description":"KKBBT","event_date_time":"2015-04-24 18:00:00","content":"<p>This is an event that is almost past due.<\/p>\n<p><img src=\"http:\/\/marchtennisclub.com\/res\/pics\/img_1339.jpg\" alt=\"\" \/><\/p>\n<p>&nbsp;<\/p>\n<p><img src=\"http:\/\/marchtennisclub.com\/res\/pics\/dsc016251.jpg\" alt=\"\" \/><\/p>\n<p>&nbsp;<\/p>\n<p>&nbsp;<\/p>","presto_url":""}}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:45:26-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => Utils.getLabels
+    [language] => en
+)
+]END
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:45:26-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","fields":[{"name":"AtaLesson.lesson_id","value":"Ata Lesson"},{"name":"AtaLesson.category","value":"Category"},{"name":"AtaLesson.name","value":"Name"},{"name":"AtaLesson.lesson_pro","value":"Lesson Pro"},{"name":"AtaLesson.lesson_cost","value":"Lesson Cost"},{"name":"AtaLesson.content","value":"Content"},{"name":"AtaProgram.program_id","value":"Ata Program"},{"name":"AtaProgram.program_name","value":"Program Name"},{"name":"AtaProgram.program_description","value":"Program Description"},{"name":"AtaProgram.start_date","value":"Start Date"},{"name":"AtaProgram.end_date","value":"End Date"},{"name":"AtaProgram.start_time","value":"Start Time"},{"name":"AtaProgram.end_time","value":"End Time"},{"name":"AtaProgram.days","value":"Days"},{"name":"AtaProgram.cost","value":"Cost"},{"name":"AtaProgram.content","value":"Content"},{"name":"AtaProgram.presto_url","value":"Presto Url"},{"name":"AtaProgram.ata_program_category_id","value":"Ata Program Category Id"},{"name":"AtaProgramCategory.ata_program_category_id","value":"Ata Program Category"},{"name":"AtaProgramCategory.name","value":"Name"},{"name":"AtaProgramCategory.content","value":"Content"},{"name":"CannedQuery.canned_query_id","value":"Canned Query"},{"name":"CannedQuery.key","value":"Key"},{"name":"CannedQuery.name","value":"Name"},{"name":"CannedQuery.description","value":"Description"},{"name":"CannedQuery.form","value":"Form"},{"name":"CannedQuery.query","value":"Query"},{"name":"CannedQuery.class_list","value":"Class List"},{"name":"Event.event_id","value":"Event"},{"name":"Event.event_type","value":"Event Type"},{"name":"Event.event_name","value":"Event Name"},{"name":"Event.event_description","value":"Event Description"},{"name":"Event.event_date_time","value":"Event Date Time"},{"name":"Event.content","value":"Content"},{"name":"Event.presto_url","value":"Presto Url"},{"name":"MtcCourt.court_id","value":"Mtc Court"},{"name":"MtcCourt.court_name","value":"Court Name"},{"name":"MtcCourt.court_type","value":"Court Type"},{"name":"MtcCourtReservation.court_reservation_id","value":"Mtc Court Reservation"},{"name":"MtcCourtReservation.court_id","value":"Court Id"},{"name":"MtcCourtReservation.time_stamp","value":"Time Stamp"},{"name":"MtcCourtReservation.status","value":"Status"},{"name":"MtcCourtReservation.date","value":"Date"},{"name":"MtcCourtReservation.start_time","value":"Start Time"},{"name":"MtcCourtReservation.end_time","value":"End Time"},{"name":"MtcCourtReservation.member1_id","value":"Member1 Id"},{"name":"MtcCourtReservation.notes","value":"Notes"},{"name":"MtcEmailConfirm.email_confirm_id","value":"Mtc Email Confirm"},{"name":"MtcEmailConfirm.confirmation_code","value":"Confirmation Code"},{"name":"MtcEmailConfirm.email","value":"Email"},{"name":"MtcEmailConfirm.time_stamp","value":"Time Stamp"},{"name":"MtcMember.member_id","value":"Mtc Member"},{"name":"MtcMember.first_name","value":"First Name"},{"name":"MtcMember.last_name","value":"Last Name"},{"name":"MtcMember.address","value":"Address"},{"name":"MtcMember.city","value":"City"},{"name":"MtcMember.postal_code","value":"Postal Code"},{"name":"MtcMember.home_phone","value":"Home Phone"},{"name":"MtcMember.business_phone","value":"Business Phone"},{"name":"MtcMember.family_members","value":"Family Members"},{"name":"MtcMember.email","value":"Email"},{"name":"MtcMember.password","value":"Password"},{"name":"MtcMember.password_hint","value":"Password Hint"},{"name":"MtcMember.password_hint_answer","value":"Password Hint Answer"},{"name":"MtcMember.avatar_url","value":"Avatar Url"},{"name":"MtcMember.donate","value":"Donate"},{"name":"MtcMember.membership_category_id","value":"Membership Category Id"},{"name":"MtcMember.amount_enclosed","value":"Amount Enclosed"},{"name":"MtcMembershipCategory.membership_category_id","value":"Mtc Membership Category"},{"name":"MtcMembershipCategory.name","value":"Name"},{"name":"MtcMembershipCategory.category","value":"Category"},{"name":"MtcMembershipCategory.fee","value":"Fee"},{"name":"MtcNotice.notice_id","value":"Mtc Notice"},{"name":"MtcNotice.name","value":"Name"},{"name":"MtcNotice.title","value":"Title"},{"name":"MtcNotice.category","value":"Category"},{"name":"MtcNotice.content","value":"Content"},{"name":"MtcOpenDates.open_dates_id","value":"Mtc Open Dates"},{"name":"MtcOpenDates.name","value":"Name"},{"name":"MtcOpenDates.day","value":"Day"},{"name":"MtcOpenDates.start_date","value":"Start Date"},{"name":"MtcOpenDates.end_date","value":"End Date"},{"name":"MtcOpenDates.start_time","value":"Start Time"},{"name":"MtcOpenDates.end_time","value":"End Time"},{"name":"MtcOpenDates.type","value":"Type"},{"name":"MtcOpenDates.comments","value":"Comments"},{"name":"MtcPermissions.permission_id","value":"Mtc Permissions"},{"name":"MtcPermissions.member_id","value":"Member Id"},{"name":"MtcPermissions.first_name","value":"First Name"},{"name":"MtcPermissions.last_name","value":"Last Name"},{"name":"MtcPermissions.permissions","value":"Permissions"},{"name":"MtcPermissions.comments","value":"Comments"},{"name":"MtcUserSession.userid","value":"Userid"},{"name":"MtcUserSession.ukey","value":"Ukey"},{"name":"MtcUserSession.ip_address","value":"Ip Address"},{"name":"MtcUserSession.device","value":"Device"},{"name":"MtcUserSession.modified","value":"Modified"}]}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:45:29-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => Event.getSchema
+)
+]END
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:45:29-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","schema":{"namespace":"tobe.avro","type":"record","name":"event","class_name":"Event","fields":[{"name":"event_id","type":"int(11) [PRIMARY_KEY]","class":"","optional":"NO"},{"name":"event_type","type":"varchar(45)","class":"","optional":"NO"},{"name":"event_name","type":"varchar(64)","class":"","optional":"NO"},{"name":"event_description","type":"varchar(1024)","class":"","optional":"NO"},{"name":"event_date_time","type":"datetime","class":"","optional":"NO"},{"name":"content","type":"longtext","class":"","optional":"YES"},{"name":"presto_url","type":"varchar(400)","class":"","optional":"YES"}],"Primary_key":"event_id"}}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:45:29-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => Event.getList
+    [start] => 0
+    [count] => 10
+)
+]END
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:45:29-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","fields":[{"event_id":"35","event_type":"MTC","event_name":"Aug 12th-16th 2015 Club Championships","event_description":"Championship","event_date_time":"2015-08-12 12:00:00","content":"<p><em><img src=\"http:\/\/adamsonstennisacademy.com\/res\/images\/891838.jpg\" alt=\"\" width=\"326\" height=\"217\" \/><\/em><\/p>\n<p><em>Since the club opened back in 1975, we have been fortunate enough to hold a tournament exclusively for our members. It is a chance for all our members to experience the joy and excitement of the tournament feeling, as well as to see where their game is at with respect to fellow members. It is a week of smiles and laughter along with a chance to enjoy the quality of tennis at the March Tennis Club.<\/em><\/p>\n<p>Please mark your calendars for our ANNUAL CLUB CHAMPIONSHIPS running from August 12th - 16th. We encourage you to participate this year and we can ensure that there is a category for all.<\/p>\n<p>The events will include:<\/p>\n<ul>\n<li>Men's Open Singles<\/li>\n<li>Men's Open Doubles<\/li>\n<li>Ladies Open Singles<\/li>\n<li>Ladies Open Doubles<\/li>\n<li>Men's 45+ Singles<\/li>\n<li>Mixed Open Doubles<\/li>\n<li>Junior Under 17 Singles<\/li>\n<\/ul>\n<p>*Please note that you may register for up to 3 events, but only ONE can be a singles event. Also, if you are in two or three events, you need to be prepared to play multiple times each day (because it&nbsp;<em>will<\/em> happen!!!)<\/p>\n<p>To register for the tournament (after August 1st) <a href=\"http:\/\/www.prestoregister.com\/cgi-bin\/order.pl?ref=marchtennisclub&amp;fm=16\">CLICK HERE<\/a>&nbsp;(registration will close on August 9th at 6pm). We hope it will be a great turn out and a FUN time for all.<\/p>","presto_url":"http:\/\/www.prestoregister.com\/cgi-bin\/order.pl?ref=marchtennisclub&fm=16"},{"event_id":"36","event_type":"ATA","event_name":"July 22nd - Kanata Klassic BBQ Social","event_description":"KKBBT","event_date_time":"2015-07-22 18:00:00","content":"<p>You'll definitely want to come by for our Kanata Klassic BBQ night. We will have a wide variety of foods available, and you can come socialize with all of your favourite tennis buddies!<\/p>","presto_url":"null"},{"event_id":"37","event_type":"ATA","event_name":"July 20-26 Kanata Klassic 2015","event_description":"Kanata Klassic Tourney","event_date_time":"2015-07-20 12:00:00","content":"<p><img src=\"http:\/\/adamsonstennisacademy.com\/res\/images\/n7yOVRq.jpg\" alt=\"\" width=\"351\" height=\"263\" \/><\/p>\n<p>The Kanata Klassic is an open tennis tournament for Ottawa area residents hosted at the March Tennis Club. Founded by Jonathan Adamson in 2005, the Kanata Klassic has become one of the biggest tournaments in the city.<\/p>\n<p>In recent years, ATA along with the March Tennis Club have joined forces with the Canadian Cancer Society and a portion of the proceeds from the Kanata Klassic are donated to the Canadian Cancer Society and its quest to find a cure for cancer.<\/p>\n<p>We would like to thank all participants; past; present; and future; for your support. We hope that you have an enjoyable experience in this tournament. Also we would like to say a special thanks to Kevin Pidgeon of Tommy and Lefebvre. &nbsp;Also, we would like to thank Ted Thompson and Yonex for their continued support.<\/p>\n<p><strong>The 2015 Kanata Klassic will be held between July 20-July 26, 2015. Registration for the tournament will OPEN JUNE 1st. &nbsp;<a href=\"http:\/\/www.prestoregister.com\/cgi-bin\/order.pl?ref=marchtennisclub&amp;fm=11\">CLICK HERE<\/a>&nbsp;to register.<\/strong><\/p>","presto_url":"www.prestoregister.com\/cgi-bin\/order.pl?ref=marchtennisclub&fm=11"},{"event_id":"38","event_type":"ATA","event_name":"July 8th - Wimbledon Night","event_description":"Wimbledon Night","event_date_time":"2015-07-08 18:00:00","content":"<p><img src=\"http:\/\/adamsonstennisacademy.com\/res\/images\/athlete-ball-competition-2342-781x550.jpg\" alt=\"\" width=\"279\" height=\"196\" \/><\/p>\n<p>We welcome you to attend our annual Wimbledon Night<\/p>","presto_url":"null"},{"event_id":"39","event_type":"ATA","event_name":"June 10th - British Pub Night","event_description":"BPN","event_date_time":"2015-06-10 18:00:00","content":"<p>Come one come all to our british pub night!<\/p>","presto_url":"null"},{"event_id":"40","event_type":"ATA","event_name":"June 5th PD Day - Tennis and Sports Fun Day","event_description":"Pd Day","event_date_time":"2015-06-05 09:00:00","content":"<p><img src=\"http:\/\/adamsonstennisacademy.com\/res\/images\/tennis-ball-512480_1280.jpg\" alt=\"\" width=\"437\" height=\"291\" \/><\/p>\n<p>Most schools in Ottawa will be closed for a PD Day on Friday, June 5th. Therefore, we will be having a special Tennis and Sports PD FUN DAY from 9:00am to 3:30pm that day.<\/p>\n<p>Ages: 5 to 15<\/p>\n<p>Activities will include:<\/p>\n<ul>\n<li>Tennis<\/li>\n<li>Soccer<\/li>\n<li>Ball Hockey<\/li>\n<li>Baseball<\/li>\n<li>Volleyball<\/li>\n<li>Capture the Flag<\/li>\n<li>Basketball<\/li>\n<li>and MORE!!!<\/li>\n<\/ul>\n<p>Cost: $60 (includes pizza or BBQ lunch)<\/p>","presto_url":"http:\/\/www.prestoregister.com\/cgi-bin\/order.pl?ref=marchtennisclub&fm=3"},{"event_id":"41","event_type":"ATA","event_name":"May 10th - Opening Day Celebration","event_description":"Opening Day","event_date_time":"2015-05-10 10:00:00","content":"<p><img src=\"http:\/\/adamsonstennisacademy.com\/res\/images\/mG2JwG4.jpg\" alt=\"\" width=\"385\" height=\"211\" \/><\/p>\n<p>Come to our grand opening on May 10th!<\/p>","presto_url":"null"},{"event_id":"42","event_type":"ATA","event_name":"May 2nd - ATA Programs @ MTC begin!","event_description":"Start of ATA programs","event_date_time":"2015-05-02 10:00:00","content":"<p><img src=\"http:\/\/adamsonstennisacademy.com\/res\/images\/mhGzJTg.jpg\" alt=\"\" width=\"135\" height=\"198\" \/><\/p>\n<p>Just a quick heads up, our summer programs being on May 2nd. Be sure to check out our selection and make your registrations!<\/p>","presto_url":"null"},{"event_id":"43","event_type":"ATA","event_name":"August 24th - US Open Social","event_description":"US OPEN SOCIAL","event_date_time":"2015-08-24 12:00:00","content":"<p>You'll absolutely want to come check out our US Open Social in celebration of the US Open.<\/p>","presto_url":"null"},{"event_id":"44","event_type":"ATA","event_name":"Past Due Event","event_description":"KKBBT","event_date_time":"2015-04-24 18:00:00","content":"<p>This is an event that is almost past due.<\/p>\n<p><img src=\"http:\/\/marchtennisclub.com\/res\/pics\/img_1339.jpg\" alt=\"\" \/><\/p>\n<p>&nbsp;<\/p>\n<p><img src=\"http:\/\/marchtennisclub.com\/res\/pics\/dsc016251.jpg\" alt=\"\" \/><\/p>\n<p>&nbsp;<\/p>\n<p>&nbsp;<\/p>","presto_url":""}]}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:45:33-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => Event.get
+    [event_id] => 44
+)
+]END
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:45:33-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","field":{"event_id":"44","event_type":"ATA","event_name":"Past Due Event","event_description":"KKBBT","event_date_time":"2015-04-24 18:00:00","content":"<p>This is an event that is almost past due.<\/p>\n<p><img src=\"http:\/\/marchtennisclub.com\/res\/pics\/img_1339.jpg\" alt=\"\" \/><\/p>\n<p>&nbsp;<\/p>\n<p><img src=\"http:\/\/marchtennisclub.com\/res\/pics\/dsc016251.jpg\" alt=\"\" \/><\/p>\n<p>&nbsp;<\/p>\n<p>&nbsp;<\/p>","presto_url":""}}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:45:42-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => Event.update
+    [event_id] => 44
+    [event_type] => ATA
+    [event_name] => Past Due Event
+    [event_description] => KKBBT
+    [event_date_time] => 2015-04-24T18:00:00
+    [content] => <p>This is an event that is almost past due.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+    [presto_url] => 
+    [userid] => 45
+    [ukey] => 5YbHKUduDpqxi
+)
+]END
+
+OBJECT
+DEBUG at 2015-04-23T17:45:42-04:00 in /json-api/index.php
+member_id: 45 PERMISSIONS:5
+
+OBJECT
+DEBUG at 2015-04-23T17:45:42-04:00 in /json-api/index.php
+class:Event mthd:update
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:45:42-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","event_id":"44"}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:45:42-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => Event.getSchema
+)
+]END
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:45:42-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","schema":{"namespace":"tobe.avro","type":"record","name":"event","class_name":"Event","fields":[{"name":"event_id","type":"int(11) [PRIMARY_KEY]","class":"","optional":"NO"},{"name":"event_type","type":"varchar(45)","class":"","optional":"NO"},{"name":"event_name","type":"varchar(64)","class":"","optional":"NO"},{"name":"event_description","type":"varchar(1024)","class":"","optional":"NO"},{"name":"event_date_time","type":"datetime","class":"","optional":"NO"},{"name":"content","type":"longtext","class":"","optional":"YES"},{"name":"presto_url","type":"varchar(400)","class":"","optional":"YES"}],"Primary_key":"event_id"}}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:45:42-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => Event.getList
+    [start] => 0
+    [count] => 10
+)
+]END
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:45:42-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","fields":[{"event_id":"35","event_type":"MTC","event_name":"Aug 12th-16th 2015 Club Championships","event_description":"Championship","event_date_time":"2015-08-12 12:00:00","content":"<p><em><img src=\"http:\/\/adamsonstennisacademy.com\/res\/images\/891838.jpg\" alt=\"\" width=\"326\" height=\"217\" \/><\/em><\/p>\n<p><em>Since the club opened back in 1975, we have been fortunate enough to hold a tournament exclusively for our members. It is a chance for all our members to experience the joy and excitement of the tournament feeling, as well as to see where their game is at with respect to fellow members. It is a week of smiles and laughter along with a chance to enjoy the quality of tennis at the March Tennis Club.<\/em><\/p>\n<p>Please mark your calendars for our ANNUAL CLUB CHAMPIONSHIPS running from August 12th - 16th. We encourage you to participate this year and we can ensure that there is a category for all.<\/p>\n<p>The events will include:<\/p>\n<ul>\n<li>Men's Open Singles<\/li>\n<li>Men's Open Doubles<\/li>\n<li>Ladies Open Singles<\/li>\n<li>Ladies Open Doubles<\/li>\n<li>Men's 45+ Singles<\/li>\n<li>Mixed Open Doubles<\/li>\n<li>Junior Under 17 Singles<\/li>\n<\/ul>\n<p>*Please note that you may register for up to 3 events, but only ONE can be a singles event. Also, if you are in two or three events, you need to be prepared to play multiple times each day (because it&nbsp;<em>will<\/em> happen!!!)<\/p>\n<p>To register for the tournament (after August 1st) <a href=\"http:\/\/www.prestoregister.com\/cgi-bin\/order.pl?ref=marchtennisclub&amp;fm=16\">CLICK HERE<\/a>&nbsp;(registration will close on August 9th at 6pm). We hope it will be a great turn out and a FUN time for all.<\/p>","presto_url":"http:\/\/www.prestoregister.com\/cgi-bin\/order.pl?ref=marchtennisclub&fm=16"},{"event_id":"36","event_type":"ATA","event_name":"July 22nd - Kanata Klassic BBQ Social","event_description":"KKBBT","event_date_time":"2015-07-22 18:00:00","content":"<p>You'll definitely want to come by for our Kanata Klassic BBQ night. We will have a wide variety of foods available, and you can come socialize with all of your favourite tennis buddies!<\/p>","presto_url":"null"},{"event_id":"37","event_type":"ATA","event_name":"July 20-26 Kanata Klassic 2015","event_description":"Kanata Klassic Tourney","event_date_time":"2015-07-20 12:00:00","content":"<p><img src=\"http:\/\/adamsonstennisacademy.com\/res\/images\/n7yOVRq.jpg\" alt=\"\" width=\"351\" height=\"263\" \/><\/p>\n<p>The Kanata Klassic is an open tennis tournament for Ottawa area residents hosted at the March Tennis Club. Founded by Jonathan Adamson in 2005, the Kanata Klassic has become one of the biggest tournaments in the city.<\/p>\n<p>In recent years, ATA along with the March Tennis Club have joined forces with the Canadian Cancer Society and a portion of the proceeds from the Kanata Klassic are donated to the Canadian Cancer Society and its quest to find a cure for cancer.<\/p>\n<p>We would like to thank all participants; past; present; and future; for your support. We hope that you have an enjoyable experience in this tournament. Also we would like to say a special thanks to Kevin Pidgeon of Tommy and Lefebvre. &nbsp;Also, we would like to thank Ted Thompson and Yonex for their continued support.<\/p>\n<p><strong>The 2015 Kanata Klassic will be held between July 20-July 26, 2015. Registration for the tournament will OPEN JUNE 1st. &nbsp;<a href=\"http:\/\/www.prestoregister.com\/cgi-bin\/order.pl?ref=marchtennisclub&amp;fm=11\">CLICK HERE<\/a>&nbsp;to register.<\/strong><\/p>","presto_url":"www.prestoregister.com\/cgi-bin\/order.pl?ref=marchtennisclub&fm=11"},{"event_id":"38","event_type":"ATA","event_name":"July 8th - Wimbledon Night","event_description":"Wimbledon Night","event_date_time":"2015-07-08 18:00:00","content":"<p><img src=\"http:\/\/adamsonstennisacademy.com\/res\/images\/athlete-ball-competition-2342-781x550.jpg\" alt=\"\" width=\"279\" height=\"196\" \/><\/p>\n<p>We welcome you to attend our annual Wimbledon Night<\/p>","presto_url":"null"},{"event_id":"39","event_type":"ATA","event_name":"June 10th - British Pub Night","event_description":"BPN","event_date_time":"2015-06-10 18:00:00","content":"<p>Come one come all to our british pub night!<\/p>","presto_url":"null"},{"event_id":"40","event_type":"ATA","event_name":"June 5th PD Day - Tennis and Sports Fun Day","event_description":"Pd Day","event_date_time":"2015-06-05 09:00:00","content":"<p><img src=\"http:\/\/adamsonstennisacademy.com\/res\/images\/tennis-ball-512480_1280.jpg\" alt=\"\" width=\"437\" height=\"291\" \/><\/p>\n<p>Most schools in Ottawa will be closed for a PD Day on Friday, June 5th. Therefore, we will be having a special Tennis and Sports PD FUN DAY from 9:00am to 3:30pm that day.<\/p>\n<p>Ages: 5 to 15<\/p>\n<p>Activities will include:<\/p>\n<ul>\n<li>Tennis<\/li>\n<li>Soccer<\/li>\n<li>Ball Hockey<\/li>\n<li>Baseball<\/li>\n<li>Volleyball<\/li>\n<li>Capture the Flag<\/li>\n<li>Basketball<\/li>\n<li>and MORE!!!<\/li>\n<\/ul>\n<p>Cost: $60 (includes pizza or BBQ lunch)<\/p>","presto_url":"http:\/\/www.prestoregister.com\/cgi-bin\/order.pl?ref=marchtennisclub&fm=3"},{"event_id":"41","event_type":"ATA","event_name":"May 10th - Opening Day Celebration","event_description":"Opening Day","event_date_time":"2015-05-10 10:00:00","content":"<p><img src=\"http:\/\/adamsonstennisacademy.com\/res\/images\/mG2JwG4.jpg\" alt=\"\" width=\"385\" height=\"211\" \/><\/p>\n<p>Come to our grand opening on May 10th!<\/p>","presto_url":"null"},{"event_id":"42","event_type":"ATA","event_name":"May 2nd - ATA Programs @ MTC begin!","event_description":"Start of ATA programs","event_date_time":"2015-05-02 10:00:00","content":"<p><img src=\"http:\/\/adamsonstennisacademy.com\/res\/images\/mhGzJTg.jpg\" alt=\"\" width=\"135\" height=\"198\" \/><\/p>\n<p>Just a quick heads up, our summer programs being on May 2nd. Be sure to check out our selection and make your registrations!<\/p>","presto_url":"null"},{"event_id":"43","event_type":"ATA","event_name":"August 24th - US Open Social","event_description":"US OPEN SOCIAL","event_date_time":"2015-08-24 12:00:00","content":"<p>You'll absolutely want to come check out our US Open Social in celebration of the US Open.<\/p>","presto_url":"null"},{"event_id":"44","event_type":"ATA","event_name":"Past Due Event","event_description":"KKBBT","event_date_time":"2015-04-24 18:00:00","content":"<p>This is an event that is almost past due.<\/p>\n<p>&nbsp;<\/p>\n<p>&nbsp;<\/p>\n<p>&nbsp;<\/p>\n<p>&nbsp;<\/p>\n<p>&nbsp;<\/p>","presto_url":""}]}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:45:48-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => Event.get
+    [event_id] => 44
+)
+]END
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:45:48-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","field":{"event_id":"44","event_type":"ATA","event_name":"Past Due Event","event_description":"KKBBT","event_date_time":"2015-04-24 18:00:00","content":"<p>This is an event that is almost past due.<\/p>\n<p>&nbsp;<\/p>\n<p>&nbsp;<\/p>\n<p>&nbsp;<\/p>\n<p>&nbsp;<\/p>\n<p>&nbsp;<\/p>","presto_url":""}}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:46:58-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => Event.update
+    [event_id] => 44
+    [event_type] => ATA
+    [event_name] => Past Due Event
+    [event_description] => KKBBT
+    [event_date_time] => 2015-04-24T18:00:00
+    [content] => <p>This is an event that is almost past due.</p>
+<p><img src="http://marchtennisclub.com/res/images/img_5070.jpg" alt="" /></p>
+    [presto_url] => 
+    [userid] => 45
+    [ukey] => 5YbHKUduDpqxi
+)
+]END
+
+OBJECT
+DEBUG at 2015-04-23T17:46:58-04:00 in /json-api/index.php
+member_id: 45 PERMISSIONS:5
+
+OBJECT
+DEBUG at 2015-04-23T17:46:58-04:00 in /json-api/index.php
+class:Event mthd:update
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:46:58-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","event_id":"44"}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:46:58-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => Event.getSchema
+)
+]END
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:46:58-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","schema":{"namespace":"tobe.avro","type":"record","name":"event","class_name":"Event","fields":[{"name":"event_id","type":"int(11) [PRIMARY_KEY]","class":"","optional":"NO"},{"name":"event_type","type":"varchar(45)","class":"","optional":"NO"},{"name":"event_name","type":"varchar(64)","class":"","optional":"NO"},{"name":"event_description","type":"varchar(1024)","class":"","optional":"NO"},{"name":"event_date_time","type":"datetime","class":"","optional":"NO"},{"name":"content","type":"longtext","class":"","optional":"YES"},{"name":"presto_url","type":"varchar(400)","class":"","optional":"YES"}],"Primary_key":"event_id"}}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:46:58-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => Event.getList
+    [start] => 0
+    [count] => 10
+)
+]END
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:46:58-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","fields":[{"event_id":"35","event_type":"MTC","event_name":"Aug 12th-16th 2015 Club Championships","event_description":"Championship","event_date_time":"2015-08-12 12:00:00","content":"<p><em><img src=\"http:\/\/adamsonstennisacademy.com\/res\/images\/891838.jpg\" alt=\"\" width=\"326\" height=\"217\" \/><\/em><\/p>\n<p><em>Since the club opened back in 1975, we have been fortunate enough to hold a tournament exclusively for our members. It is a chance for all our members to experience the joy and excitement of the tournament feeling, as well as to see where their game is at with respect to fellow members. It is a week of smiles and laughter along with a chance to enjoy the quality of tennis at the March Tennis Club.<\/em><\/p>\n<p>Please mark your calendars for our ANNUAL CLUB CHAMPIONSHIPS running from August 12th - 16th. We encourage you to participate this year and we can ensure that there is a category for all.<\/p>\n<p>The events will include:<\/p>\n<ul>\n<li>Men's Open Singles<\/li>\n<li>Men's Open Doubles<\/li>\n<li>Ladies Open Singles<\/li>\n<li>Ladies Open Doubles<\/li>\n<li>Men's 45+ Singles<\/li>\n<li>Mixed Open Doubles<\/li>\n<li>Junior Under 17 Singles<\/li>\n<\/ul>\n<p>*Please note that you may register for up to 3 events, but only ONE can be a singles event. Also, if you are in two or three events, you need to be prepared to play multiple times each day (because it&nbsp;<em>will<\/em> happen!!!)<\/p>\n<p>To register for the tournament (after August 1st) <a href=\"http:\/\/www.prestoregister.com\/cgi-bin\/order.pl?ref=marchtennisclub&amp;fm=16\">CLICK HERE<\/a>&nbsp;(registration will close on August 9th at 6pm). We hope it will be a great turn out and a FUN time for all.<\/p>","presto_url":"http:\/\/www.prestoregister.com\/cgi-bin\/order.pl?ref=marchtennisclub&fm=16"},{"event_id":"36","event_type":"ATA","event_name":"July 22nd - Kanata Klassic BBQ Social","event_description":"KKBBT","event_date_time":"2015-07-22 18:00:00","content":"<p>You'll definitely want to come by for our Kanata Klassic BBQ night. We will have a wide variety of foods available, and you can come socialize with all of your favourite tennis buddies!<\/p>","presto_url":"null"},{"event_id":"37","event_type":"ATA","event_name":"July 20-26 Kanata Klassic 2015","event_description":"Kanata Klassic Tourney","event_date_time":"2015-07-20 12:00:00","content":"<p><img src=\"http:\/\/adamsonstennisacademy.com\/res\/images\/n7yOVRq.jpg\" alt=\"\" width=\"351\" height=\"263\" \/><\/p>\n<p>The Kanata Klassic is an open tennis tournament for Ottawa area residents hosted at the March Tennis Club. Founded by Jonathan Adamson in 2005, the Kanata Klassic has become one of the biggest tournaments in the city.<\/p>\n<p>In recent years, ATA along with the March Tennis Club have joined forces with the Canadian Cancer Society and a portion of the proceeds from the Kanata Klassic are donated to the Canadian Cancer Society and its quest to find a cure for cancer.<\/p>\n<p>We would like to thank all participants; past; present; and future; for your support. We hope that you have an enjoyable experience in this tournament. Also we would like to say a special thanks to Kevin Pidgeon of Tommy and Lefebvre. &nbsp;Also, we would like to thank Ted Thompson and Yonex for their continued support.<\/p>\n<p><strong>The 2015 Kanata Klassic will be held between July 20-July 26, 2015. Registration for the tournament will OPEN JUNE 1st. &nbsp;<a href=\"http:\/\/www.prestoregister.com\/cgi-bin\/order.pl?ref=marchtennisclub&amp;fm=11\">CLICK HERE<\/a>&nbsp;to register.<\/strong><\/p>","presto_url":"www.prestoregister.com\/cgi-bin\/order.pl?ref=marchtennisclub&fm=11"},{"event_id":"38","event_type":"ATA","event_name":"July 8th - Wimbledon Night","event_description":"Wimbledon Night","event_date_time":"2015-07-08 18:00:00","content":"<p><img src=\"http:\/\/adamsonstennisacademy.com\/res\/images\/athlete-ball-competition-2342-781x550.jpg\" alt=\"\" width=\"279\" height=\"196\" \/><\/p>\n<p>We welcome you to attend our annual Wimbledon Night<\/p>","presto_url":"null"},{"event_id":"39","event_type":"ATA","event_name":"June 10th - British Pub Night","event_description":"BPN","event_date_time":"2015-06-10 18:00:00","content":"<p>Come one come all to our british pub night!<\/p>","presto_url":"null"},{"event_id":"40","event_type":"ATA","event_name":"June 5th PD Day - Tennis and Sports Fun Day","event_description":"Pd Day","event_date_time":"2015-06-05 09:00:00","content":"<p><img src=\"http:\/\/adamsonstennisacademy.com\/res\/images\/tennis-ball-512480_1280.jpg\" alt=\"\" width=\"437\" height=\"291\" \/><\/p>\n<p>Most schools in Ottawa will be closed for a PD Day on Friday, June 5th. Therefore, we will be having a special Tennis and Sports PD FUN DAY from 9:00am to 3:30pm that day.<\/p>\n<p>Ages: 5 to 15<\/p>\n<p>Activities will include:<\/p>\n<ul>\n<li>Tennis<\/li>\n<li>Soccer<\/li>\n<li>Ball Hockey<\/li>\n<li>Baseball<\/li>\n<li>Volleyball<\/li>\n<li>Capture the Flag<\/li>\n<li>Basketball<\/li>\n<li>and MORE!!!<\/li>\n<\/ul>\n<p>Cost: $60 (includes pizza or BBQ lunch)<\/p>","presto_url":"http:\/\/www.prestoregister.com\/cgi-bin\/order.pl?ref=marchtennisclub&fm=3"},{"event_id":"41","event_type":"ATA","event_name":"May 10th - Opening Day Celebration","event_description":"Opening Day","event_date_time":"2015-05-10 10:00:00","content":"<p><img src=\"http:\/\/adamsonstennisacademy.com\/res\/images\/mG2JwG4.jpg\" alt=\"\" width=\"385\" height=\"211\" \/><\/p>\n<p>Come to our grand opening on May 10th!<\/p>","presto_url":"null"},{"event_id":"42","event_type":"ATA","event_name":"May 2nd - ATA Programs @ MTC begin!","event_description":"Start of ATA programs","event_date_time":"2015-05-02 10:00:00","content":"<p><img src=\"http:\/\/adamsonstennisacademy.com\/res\/images\/mhGzJTg.jpg\" alt=\"\" width=\"135\" height=\"198\" \/><\/p>\n<p>Just a quick heads up, our summer programs being on May 2nd. Be sure to check out our selection and make your registrations!<\/p>","presto_url":"null"},{"event_id":"43","event_type":"ATA","event_name":"August 24th - US Open Social","event_description":"US OPEN SOCIAL","event_date_time":"2015-08-24 12:00:00","content":"<p>You'll absolutely want to come check out our US Open Social in celebration of the US Open.<\/p>","presto_url":"null"},{"event_id":"44","event_type":"ATA","event_name":"Past Due Event","event_description":"KKBBT","event_date_time":"2015-04-24 18:00:00","content":"<p>This is an event that is almost past due.<\/p>\n<p><img src=\"http:\/\/marchtennisclub.com\/res\/images\/img_5070.jpg\" alt=\"\" \/><\/p>","presto_url":""}]}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:47:04-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => Event.get
+    [event_id] => 44
+)
+]END
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:47:04-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","field":{"event_id":"44","event_type":"ATA","event_name":"Past Due Event","event_description":"KKBBT","event_date_time":"2015-04-24 18:00:00","content":"<p>This is an event that is almost past due.<\/p>\n<p><img src=\"http:\/\/marchtennisclub.com\/res\/images\/img_5070.jpg\" alt=\"\" \/><\/p>","presto_url":""}}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:47:08-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => Utils.getImageUrlList
+)
+]END
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:47:08-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","fields":[{"url":"http:\/\/marchtennisclub.com\/res\/images\/891838.jpg"},{"url":"http:\/\/marchtennisclub.com\/res\/images\/DSCN1314.jpg"},{"url":"http:\/\/marchtennisclub.com\/res\/images\/athlete-ball-competition-2342-781x550.jpg"},{"url":"http:\/\/marchtennisclub.com\/res\/images\/court-fitness-net-2273-828x550.jpg"},{"url":"http:\/\/marchtennisclub.com\/res\/images\/file0001157794926.jpg"},{"url":"http:\/\/marchtennisclub.com\/res\/images\/file0001568378212.jpg"},{"url":"http:\/\/marchtennisclub.com\/res\/images\/file000615450839.jpg"},{"url":"http:\/\/marchtennisclub.com\/res\/images\/img_5070.jpg"},{"url":"http:\/\/marchtennisclub.com\/res\/images\/mG2JwCQ.jpg"},{"url":"http:\/\/marchtennisclub.com\/res\/images\/mG2JwG4.jpg"},{"url":"http:\/\/marchtennisclub.com\/res\/images\/mG2K60o.jpg"},{"url":"http:\/\/marchtennisclub.com\/res\/images\/mG2K63C.jpg"},{"url":"http:\/\/marchtennisclub.com\/res\/images\/mfXljni.jpg"},{"url":"http:\/\/marchtennisclub.com\/res\/images\/mfXllge.jpg"},{"url":"http:\/\/marchtennisclub.com\/res\/images\/mgyOnFQ.jpg"},{"url":"http:\/\/marchtennisclub.com\/res\/images\/mgyVs5i.jpg"},{"url":"http:\/\/marchtennisclub.com\/res\/images\/mhGzJTg.jpg"},{"url":"http:\/\/marchtennisclub.com\/res\/images\/mhj3JuY.jpg"},{"url":"http:\/\/marchtennisclub.com\/res\/images\/mwWIGnS.jpg"},{"url":"http:\/\/marchtennisclub.com\/res\/images\/my8Ax5A.jpg"},{"url":"http:\/\/marchtennisclub.com\/res\/images\/my8Ax8O.jpg"},{"url":"http:\/\/marchtennisclub.com\/res\/images\/n7yOVRq.jpg"},{"url":"http:\/\/marchtennisclub.com\/res\/images\/nEic8SI.jpg"},{"url":"http:\/\/marchtennisclub.com\/res\/images\/tennis-363662_1280.jpg"},{"url":"http:\/\/marchtennisclub.com\/res\/images\/tennis-363663_1280.jpg"},{"url":"http:\/\/marchtennisclub.com\/res\/images\/tennis-363666_1280.jpg"},{"url":"http:\/\/marchtennisclub.com\/res\/images\/tennis-453505_1280.jpg"},{"url":"http:\/\/marchtennisclub.com\/res\/images\/tennis-ball-512480_1280.jpg"},{"url":"http:\/\/marchtennisclub.com\/res\/images\/tennis-court-443276_1280.jpg"}],"path":"http:\/\/marchtennisclub.com\/res\/images\/"}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:48:31-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcOpenDatesHelper.getOpenHours
+    [date] => 2015-04-23
+    [day] => Thursday
+)
+]END
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:48:31-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","field":[{"open_dates_id":"114","name":"Developer Season","day":"Thursday","start_date":"2015-04-01","end_date":"2015-04-30","start_time":"07:00:00","end_time":"22:00:00","type":"0","comments":""}]}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:48:31-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcCourtReservationHelper.getConstants
+)
+]END
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:48:31-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","constants":{"RESERVED":"RESERVED","COMPLETE":"COMPLETE","CONFIRMED":"CONFIRMED","RES_STATUS":"RES_STATUS","RES_COUNT":"RES_COUNT"}}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:48:31-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcCourt.getList
+)
+]END
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:48:31-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","fields":[{"court_id":"1","court_name":"Court One","court_type":"MTC"},{"court_id":"2","court_name":"Court Two","court_type":"MTC"},{"court_id":"3","court_name":"Court Three","court_type":"MTC"},{"court_id":"4","court_name":"Court Four","court_type":"MTC"},{"court_id":"5","court_name":"Court Five","court_type":"MTC"},{"court_id":"6","court_name":"Court Six","court_type":"MTC"},{"court_id":"7","court_name":"Court Seven","court_type":"MTC"},{"court_id":"8","court_name":"Court Eight","court_type":"MTC"}]}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:48:32-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcCourtReservationHelper.quick_res
+    [date] => 2015-04-23
+    [status] => RESERVED
+    [start_time] => 7:00
+    [end_time] => 22:00
+    [sort_order] => ASC
+)
+]END
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:48:32-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcCourtReservationHelper.quick_res
+    [date] => 2015-04-23
+    [status] => CONFIRMED
+    [start_time] => 7:00
+    [end_time] => 22:00
+    [end_date] => 2015-04-23
+    [sort_order] => ASC
+)
+]END
+
+Generic
+DEBUG at 2015-04-23T17:48:32-04:00 in /json-api/index.php
+TEST:SELECT date, court_reservation_id, start_time , end_time, member1_id, status, court_id, m.first_name as first_name, m.last_name as last_name FROM `mtc_court_reservation` AS mc INNER JOIN `mtc_member` AS m ON mc.member1_id = m.member_id WHERE date = :date AND start_time >= :start_time AND start_time < :end_time AND status = :status  ORDER BY date ASC, start_time ASC
+
+Generic
+DEBUG at 2015-04-23T17:48:32-04:00 in /json-api/index.php
+TEST:SELECT date, court_reservation_id, start_time , end_time, member1_id, status, court_id, m.first_name as first_name, m.last_name as last_name FROM `mtc_court_reservation` AS mc INNER JOIN `mtc_member` AS m ON mc.member1_id = m.member_id WHERE date >= :date AND start_time >= :start_time AND start_time < :end_time AND status = :status AND date <= :end_date ORDER BY date ASC, start_time ASC
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:48:32-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","reservations":[{"date":"2015-04-23","court_reservation_id":"962","start_time":"16:00:00","end_time":"17:00:00","member1_id":"234","status":"RESERVED","court_id":"4","first_name":"Guest6","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"963","start_time":"17:00:00","end_time":"18:00:00","member1_id":"234","status":"RESERVED","court_id":"3","first_name":"Guest6","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"964","start_time":"18:00:00","end_time":"19:00:00","member1_id":"234","status":"RESERVED","court_id":"2","first_name":"Guest6","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"965","start_time":"19:00:00","end_time":"20:00:00","member1_id":"234","status":"RESERVED","court_id":"1","first_name":"Guest6","last_name":"Player"}]}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:48:32-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","reservations":[]}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:48:45-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcOpenDatesHelper.getOpenHours
+    [date] => 2015-04-23
+    [day] => Thursday
+)
+]END
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:48:45-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","field":[{"open_dates_id":"114","name":"Developer Season","day":"Thursday","start_date":"2015-04-01","end_date":"2015-04-30","start_time":"07:00:00","end_time":"22:00:00","type":"0","comments":""}]}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:48:45-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcCourtReservationHelper.quick_res
+    [date] => 2015-04-23
+    [start_time] => 7:00
+    [end_time] => 22:00
+)
+]END
+
+Generic
+DEBUG at 2015-04-23T17:48:45-04:00 in /json-api/index.php
+TEST:SELECT date, court_reservation_id, start_time , end_time, member1_id, status, court_id, m.first_name as first_name, m.last_name as last_name FROM `mtc_court_reservation` AS mc INNER JOIN `mtc_member` AS m ON mc.member1_id = m.member_id WHERE date = :date AND start_time >= :start_time AND start_time < :end_time   ORDER BY date ASC, start_time ASC
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:48:45-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","reservations":[{"date":"2015-04-23","court_reservation_id":"933","start_time":"10:36:00","end_time":"11:36:00","member1_id":"228","status":"COMPLETE","court_id":"4","first_name":"Guest2","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"932","start_time":"11:09:00","end_time":"12:09:00","member1_id":"226","status":"COMPLETE","court_id":"5","first_name":"Guest1","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"962","start_time":"16:00:00","end_time":"17:00:00","member1_id":"234","status":"RESERVED","court_id":"4","first_name":"Guest6","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"963","start_time":"17:00:00","end_time":"18:00:00","member1_id":"234","status":"RESERVED","court_id":"3","first_name":"Guest6","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"964","start_time":"18:00:00","end_time":"19:00:00","member1_id":"234","status":"RESERVED","court_id":"2","first_name":"Guest6","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"965","start_time":"19:00:00","end_time":"20:00:00","member1_id":"234","status":"RESERVED","court_id":"1","first_name":"Guest6","last_name":"Player"}]}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:49:03-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcCourtReservation.get
+    [court_reservation_id] => 962
+)
+]END
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:49:03-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","field":{"court_reservation_id":"962","court_id":"4","time_stamp":"2015-04-23 15:36:06","status":"RESERVED","date":"2015-04-23","start_time":"16:00:00","end_time":"17:00:00","member1_id":"234","notes":"Reserved from Web site."}}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:49:08-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcCourtReservationHelper.getMemberPermission
+    [member_id] => 234
+)
+]END
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:49:08-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","field":{"permission_id":"119","member_id":"234","first_name":"Guest6","last_name":"Player","permissions":"2","comments":"2015-04-20 17:33:26"}}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:49:08-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcCourtReservationHelper.safeUpdate
+    [reservations_per_time_period] => -1
+    [reservations_per_person] => -2
+    [date] => 2015-04-23
+    [start_time] => 16:00:00
+    [end_time] => 17:00:00
+    [court_id] => 4
+    [member1_id] => 234
+    [status] => COMPLETE
+    [notes] => Reserved from Web site.
+    [court_reservation_id] => 962
+    [userid] => 45
+    [ukey] => 5YbHKUduDpqxi
+)
+]END
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:49:08-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","court_reservation_id":"962","RES_STATUS":"SUCCESS","RES_COUNT":0}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:49:08-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcCourtReservationHelper.quick_res
+    [date] => 2015-04-23
+    [start_time] => 7:00
+    [end_time] => 22:00
+)
+]END
+
+Generic
+DEBUG at 2015-04-23T17:49:08-04:00 in /json-api/index.php
+TEST:SELECT date, court_reservation_id, start_time , end_time, member1_id, status, court_id, m.first_name as first_name, m.last_name as last_name FROM `mtc_court_reservation` AS mc INNER JOIN `mtc_member` AS m ON mc.member1_id = m.member_id WHERE date = :date AND start_time >= :start_time AND start_time < :end_time   ORDER BY date ASC, start_time ASC
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:49:08-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","reservations":[{"date":"2015-04-23","court_reservation_id":"933","start_time":"10:36:00","end_time":"11:36:00","member1_id":"228","status":"COMPLETE","court_id":"4","first_name":"Guest2","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"932","start_time":"11:09:00","end_time":"12:09:00","member1_id":"226","status":"COMPLETE","court_id":"5","first_name":"Guest1","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"962","start_time":"16:00:00","end_time":"17:00:00","member1_id":"234","status":"COMPLETE","court_id":"4","first_name":"Guest6","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"963","start_time":"17:00:00","end_time":"18:00:00","member1_id":"234","status":"RESERVED","court_id":"3","first_name":"Guest6","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"964","start_time":"18:00:00","end_time":"19:00:00","member1_id":"234","status":"RESERVED","court_id":"2","first_name":"Guest6","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"965","start_time":"19:00:00","end_time":"20:00:00","member1_id":"234","status":"RESERVED","court_id":"1","first_name":"Guest6","last_name":"Player"}]}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:49:16-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcCourtReservation.get
+    [court_reservation_id] => 963
+)
+]END
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:49:16-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","field":{"court_reservation_id":"963","court_id":"3","time_stamp":"2015-04-23 15:36:14","status":"RESERVED","date":"2015-04-23","start_time":"17:00:00","end_time":"18:00:00","member1_id":"234","notes":"Reserved from Web site."}}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:49:18-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcCourtReservationHelper.getMemberPermission
+    [member_id] => 234
+)
+]END
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:49:18-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","field":{"permission_id":"119","member_id":"234","first_name":"Guest6","last_name":"Player","permissions":"2","comments":"2015-04-20 17:33:26"}}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:49:18-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcCourtReservationHelper.safeUpdate
+    [reservations_per_time_period] => -1
+    [reservations_per_person] => -2
+    [date] => 2015-04-23
+    [start_time] => 17:00:00
+    [end_time] => 18:00:00
+    [court_id] => 3
+    [member1_id] => 234
+    [status] => COMPLETE
+    [notes] => Reserved from Web site.
+    [court_reservation_id] => 963
+    [userid] => 45
+    [ukey] => 5YbHKUduDpqxi
+)
+]END
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:49:18-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","court_reservation_id":"963","RES_STATUS":"SUCCESS","RES_COUNT":0}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:49:18-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcCourtReservationHelper.quick_res
+    [date] => 2015-04-23
+    [start_time] => 7:00
+    [end_time] => 22:00
+)
+]END
+
+Generic
+DEBUG at 2015-04-23T17:49:18-04:00 in /json-api/index.php
+TEST:SELECT date, court_reservation_id, start_time , end_time, member1_id, status, court_id, m.first_name as first_name, m.last_name as last_name FROM `mtc_court_reservation` AS mc INNER JOIN `mtc_member` AS m ON mc.member1_id = m.member_id WHERE date = :date AND start_time >= :start_time AND start_time < :end_time   ORDER BY date ASC, start_time ASC
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:49:18-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","reservations":[{"date":"2015-04-23","court_reservation_id":"933","start_time":"10:36:00","end_time":"11:36:00","member1_id":"228","status":"COMPLETE","court_id":"4","first_name":"Guest2","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"932","start_time":"11:09:00","end_time":"12:09:00","member1_id":"226","status":"COMPLETE","court_id":"5","first_name":"Guest1","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"962","start_time":"16:00:00","end_time":"17:00:00","member1_id":"234","status":"COMPLETE","court_id":"4","first_name":"Guest6","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"963","start_time":"17:00:00","end_time":"18:00:00","member1_id":"234","status":"COMPLETE","court_id":"3","first_name":"Guest6","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"964","start_time":"18:00:00","end_time":"19:00:00","member1_id":"234","status":"RESERVED","court_id":"2","first_name":"Guest6","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"965","start_time":"19:00:00","end_time":"20:00:00","member1_id":"234","status":"RESERVED","court_id":"1","first_name":"Guest6","last_name":"Player"}]}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:49:22-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcCourtReservation.get
+    [court_reservation_id] => 964
+)
+]END
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:49:22-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","field":{"court_reservation_id":"964","court_id":"2","time_stamp":"2015-04-23 15:36:22","status":"RESERVED","date":"2015-04-23","start_time":"18:00:00","end_time":"19:00:00","member1_id":"234","notes":"Reserved from Web site."}}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:49:26-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcCourtReservationHelper.getMemberPermission
+    [member_id] => 234
+)
+]END
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:49:26-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","field":{"permission_id":"119","member_id":"234","first_name":"Guest6","last_name":"Player","permissions":"2","comments":"2015-04-20 17:33:26"}}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:49:26-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcCourtReservationHelper.safeUpdate
+    [reservations_per_time_period] => -1
+    [reservations_per_person] => -2
+    [date] => 2015-04-23
+    [start_time] => 18:00:00
+    [end_time] => 19:00:00
+    [court_id] => 2
+    [member1_id] => 234
+    [status] => CONFIRMED
+    [notes] => Reserved from Web site.
+    [court_reservation_id] => 964
+    [userid] => 45
+    [ukey] => 5YbHKUduDpqxi
+)
+]END
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:49:26-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","court_reservation_id":"964","RES_STATUS":"SUCCESS","RES_COUNT":0}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:49:26-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcCourtReservationHelper.quick_res
+    [date] => 2015-04-23
+    [start_time] => 7:00
+    [end_time] => 22:00
+)
+]END
+
+Generic
+DEBUG at 2015-04-23T17:49:26-04:00 in /json-api/index.php
+TEST:SELECT date, court_reservation_id, start_time , end_time, member1_id, status, court_id, m.first_name as first_name, m.last_name as last_name FROM `mtc_court_reservation` AS mc INNER JOIN `mtc_member` AS m ON mc.member1_id = m.member_id WHERE date = :date AND start_time >= :start_time AND start_time < :end_time   ORDER BY date ASC, start_time ASC
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:49:26-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","reservations":[{"date":"2015-04-23","court_reservation_id":"933","start_time":"10:36:00","end_time":"11:36:00","member1_id":"228","status":"COMPLETE","court_id":"4","first_name":"Guest2","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"932","start_time":"11:09:00","end_time":"12:09:00","member1_id":"226","status":"COMPLETE","court_id":"5","first_name":"Guest1","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"962","start_time":"16:00:00","end_time":"17:00:00","member1_id":"234","status":"COMPLETE","court_id":"4","first_name":"Guest6","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"963","start_time":"17:00:00","end_time":"18:00:00","member1_id":"234","status":"COMPLETE","court_id":"3","first_name":"Guest6","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"964","start_time":"18:00:00","end_time":"19:00:00","member1_id":"234","status":"CONFIRMED","court_id":"2","first_name":"Guest6","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"965","start_time":"19:00:00","end_time":"20:00:00","member1_id":"234","status":"RESERVED","court_id":"1","first_name":"Guest6","last_name":"Player"}]}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:49:36-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcCourtReservationHelper.getConstants
+)
+]END
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:49:36-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcOpenDatesHelper.getOpenHours
+    [date] => 2015-04-23
+    [day] => Thursday
+)
+]END
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:49:36-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","constants":{"RESERVED":"RESERVED","COMPLETE":"COMPLETE","CONFIRMED":"CONFIRMED","RES_STATUS":"RES_STATUS","RES_COUNT":"RES_COUNT"}}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:49:36-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","field":[{"open_dates_id":"114","name":"Developer Season","day":"Thursday","start_date":"2015-04-01","end_date":"2015-04-30","start_time":"07:00:00","end_time":"22:00:00","type":"0","comments":""}]}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:49:37-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcCourt.getList
+)
+]END
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:49:37-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","fields":[{"court_id":"1","court_name":"Court One","court_type":"MTC"},{"court_id":"2","court_name":"Court Two","court_type":"MTC"},{"court_id":"3","court_name":"Court Three","court_type":"MTC"},{"court_id":"4","court_name":"Court Four","court_type":"MTC"},{"court_id":"5","court_name":"Court Five","court_type":"MTC"},{"court_id":"6","court_name":"Court Six","court_type":"MTC"},{"court_id":"7","court_name":"Court Seven","court_type":"MTC"},{"court_id":"8","court_name":"Court Eight","court_type":"MTC"}]}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:49:37-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcCourtReservationHelper.quick_res
+    [date] => 2015-04-23
+    [status] => RESERVED
+    [start_time] => 7:00
+    [end_time] => 22:00
+    [sort_order] => ASC
+)
+]END
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:49:37-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcCourtReservationHelper.quick_res
+    [date] => 2015-04-23
+    [status] => CONFIRMED
+    [start_time] => 7:00
+    [end_time] => 22:00
+    [end_date] => 2015-04-23
+    [sort_order] => ASC
+)
+]END
+
+Generic
+DEBUG at 2015-04-23T17:49:37-04:00 in /json-api/index.php
+TEST:SELECT date, court_reservation_id, start_time , end_time, member1_id, status, court_id, m.first_name as first_name, m.last_name as last_name FROM `mtc_court_reservation` AS mc INNER JOIN `mtc_member` AS m ON mc.member1_id = m.member_id WHERE date = :date AND start_time >= :start_time AND start_time < :end_time AND status = :status  ORDER BY date ASC, start_time ASC
+
+Generic
+DEBUG at 2015-04-23T17:49:37-04:00 in /json-api/index.php
+TEST:SELECT date, court_reservation_id, start_time , end_time, member1_id, status, court_id, m.first_name as first_name, m.last_name as last_name FROM `mtc_court_reservation` AS mc INNER JOIN `mtc_member` AS m ON mc.member1_id = m.member_id WHERE date >= :date AND start_time >= :start_time AND start_time < :end_time AND status = :status AND date <= :end_date ORDER BY date ASC, start_time ASC
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:49:37-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","reservations":[{"date":"2015-04-23","court_reservation_id":"964","start_time":"18:00:00","end_time":"19:00:00","member1_id":"234","status":"CONFIRMED","court_id":"2","first_name":"Guest6","last_name":"Player"}]}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T17:49:37-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","reservations":[{"date":"2015-04-23","court_reservation_id":"965","start_time":"19:00:00","end_time":"20:00:00","member1_id":"234","status":"RESERVED","court_id":"1","first_name":"Guest6","last_name":"Player"}]}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-24T09:02:20-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcOpenDatesHelper.getOpenHours
+    [date] => 2015-04-24
+    [day] => Friday
+)
+]END
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-24T09:02:20-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","field":[{"open_dates_id":"115","name":"Developer Season","day":"Friday","start_date":"2015-04-01","end_date":"2015-04-30","start_time":"07:00:00","end_time":"19:00:00","type":"0","comments":""}]}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-24T09:02:20-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcCourtReservationHelper.quick_res
+    [date] => 2015-04-24
+    [start_time] => 7:00
+    [end_time] => 19:00
+)
+]END
+
+Generic
+DEBUG at 2015-04-24T09:02:20-04:00 in /json-api/index.php
+TEST:SELECT date, court_reservation_id, start_time , end_time, member1_id, status, court_id, m.first_name as first_name, m.last_name as last_name FROM `mtc_court_reservation` AS mc INNER JOIN `mtc_member` AS m ON mc.member1_id = m.member_id WHERE date = :date AND start_time >= :start_time AND start_time < :end_time   ORDER BY date ASC, start_time ASC
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-24T09:02:20-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","reservations":[]}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-24T09:02:22-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcOpenDatesHelper.getOpenHours
+    [date] => 2015-04-25
+    [day] => Saturday
+)
+]END
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-24T09:02:22-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","field":[{"open_dates_id":"116","name":"Developer Season","day":"Saturday","start_date":"2015-04-01","end_date":"2015-04-30","start_time":"07:00:00","end_time":"22:00:00","type":"0","comments":""}]}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-24T09:02:22-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcCourtReservationHelper.quick_res
+    [date] => 2015-04-25
+    [start_time] => 7:00
+    [end_time] => 22:00
+)
+]END
+
+Generic
+DEBUG at 2015-04-24T09:02:22-04:00 in /json-api/index.php
+TEST:SELECT date, court_reservation_id, start_time , end_time, member1_id, status, court_id, m.first_name as first_name, m.last_name as last_name FROM `mtc_court_reservation` AS mc INNER JOIN `mtc_member` AS m ON mc.member1_id = m.member_id WHERE date = :date AND start_time >= :start_time AND start_time < :end_time   ORDER BY date ASC, start_time ASC
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-24T09:02:22-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","reservations":[{"date":"2015-04-25","court_reservation_id":"945","start_time":"08:00:00","end_time":"06:00:00","member1_id":"110","status":"CONFIRMED","court_id":"1","first_name":"Admin","last_name":"Admin"}]}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-24T09:02:27-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcOpenDatesHelper.getOpenHours
+    [date] => 2015-04-23
+    [day] => Thursday
+)
+]END
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-24T09:02:27-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","field":[{"open_dates_id":"114","name":"Developer Season","day":"Thursday","start_date":"2015-04-01","end_date":"2015-04-30","start_time":"07:00:00","end_time":"22:00:00","type":"0","comments":""}]}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-24T09:02:27-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcCourtReservationHelper.quick_res
+    [date] => 2015-04-23
+    [start_time] => 7:00
+    [end_time] => 22:00
+)
+]END
+
+Generic
+DEBUG at 2015-04-24T09:02:27-04:00 in /json-api/index.php
+TEST:SELECT date, court_reservation_id, start_time , end_time, member1_id, status, court_id, m.first_name as first_name, m.last_name as last_name FROM `mtc_court_reservation` AS mc INNER JOIN `mtc_member` AS m ON mc.member1_id = m.member_id WHERE date = :date AND start_time >= :start_time AND start_time < :end_time   ORDER BY date ASC, start_time ASC
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-24T09:02:27-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","reservations":[{"date":"2015-04-23","court_reservation_id":"933","start_time":"10:36:00","end_time":"11:36:00","member1_id":"228","status":"COMPLETE","court_id":"4","first_name":"Guest2","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"932","start_time":"11:09:00","end_time":"12:09:00","member1_id":"226","status":"COMPLETE","court_id":"5","first_name":"Guest1","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"962","start_time":"16:00:00","end_time":"17:00:00","member1_id":"234","status":"COMPLETE","court_id":"4","first_name":"Guest6","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"963","start_time":"17:00:00","end_time":"18:00:00","member1_id":"234","status":"COMPLETE","court_id":"3","first_name":"Guest6","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"964","start_time":"18:00:00","end_time":"19:00:00","member1_id":"234","status":"CONFIRMED","court_id":"2","first_name":"Guest6","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"965","start_time":"19:00:00","end_time":"20:00:00","member1_id":"234","status":"RESERVED","court_id":"1","first_name":"Guest6","last_name":"Player"}]}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-24T09:02:35-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcCourtReservation.get
+    [court_reservation_id] => 965
+)
+]END
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-24T09:02:35-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","field":{"court_reservation_id":"965","court_id":"1","time_stamp":"2015-04-23 15:36:27","status":"RESERVED","date":"2015-04-23","start_time":"19:00:00","end_time":"20:00:00","member1_id":"234","notes":"Reserved from Web site."}}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-24T09:02:39-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcCourtReservationHelper.getMemberPermission
+    [member_id] => 234
+)
+]END
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-24T09:02:39-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","field":{"permission_id":"119","member_id":"234","first_name":"Guest6","last_name":"Player","permissions":"2","comments":"2015-04-20 17:33:26"}}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-24T09:02:39-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcCourtReservationHelper.safeUpdate
+    [reservations_per_time_period] => -1
+    [reservations_per_person] => -2
+    [date] => 2015-04-23
+    [start_time] => 19:00:00
+    [end_time] => 20:00:00
+    [court_id] => 1
+    [member1_id] => 234
+    [status] => COMPLETE
+    [notes] => Reserved from Web site.
+    [court_reservation_id] => 965
+    [userid] => 45
+    [ukey] => 5YbHKUduDpqxi
+)
+]END
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-24T09:02:39-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","court_reservation_id":"965","RES_STATUS":"SUCCESS","RES_COUNT":0}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-24T09:02:39-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcCourtReservationHelper.quick_res
+    [date] => 2015-04-23
+    [start_time] => 7:00
+    [end_time] => 22:00
+)
+]END
+
+Generic
+DEBUG at 2015-04-24T09:02:39-04:00 in /json-api/index.php
+TEST:SELECT date, court_reservation_id, start_time , end_time, member1_id, status, court_id, m.first_name as first_name, m.last_name as last_name FROM `mtc_court_reservation` AS mc INNER JOIN `mtc_member` AS m ON mc.member1_id = m.member_id WHERE date = :date AND start_time >= :start_time AND start_time < :end_time   ORDER BY date ASC, start_time ASC
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-24T09:02:39-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","reservations":[{"date":"2015-04-23","court_reservation_id":"933","start_time":"10:36:00","end_time":"11:36:00","member1_id":"228","status":"COMPLETE","court_id":"4","first_name":"Guest2","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"932","start_time":"11:09:00","end_time":"12:09:00","member1_id":"226","status":"COMPLETE","court_id":"5","first_name":"Guest1","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"962","start_time":"16:00:00","end_time":"17:00:00","member1_id":"234","status":"COMPLETE","court_id":"4","first_name":"Guest6","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"963","start_time":"17:00:00","end_time":"18:00:00","member1_id":"234","status":"COMPLETE","court_id":"3","first_name":"Guest6","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"964","start_time":"18:00:00","end_time":"19:00:00","member1_id":"234","status":"CONFIRMED","court_id":"2","first_name":"Guest6","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"965","start_time":"19:00:00","end_time":"20:00:00","member1_id":"234","status":"COMPLETE","court_id":"1","first_name":"Guest6","last_name":"Player"}]}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-24T09:02:45-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => Utils.getLabels
+    [language] => en
+)
+]END
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-24T09:02:45-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","fields":[{"name":"AtaLesson.lesson_id","value":"Ata Lesson"},{"name":"AtaLesson.category","value":"Category"},{"name":"AtaLesson.name","value":"Name"},{"name":"AtaLesson.lesson_pro","value":"Lesson Pro"},{"name":"AtaLesson.lesson_cost","value":"Lesson Cost"},{"name":"AtaLesson.content","value":"Content"},{"name":"AtaProgram.program_id","value":"Ata Program"},{"name":"AtaProgram.program_name","value":"Program Name"},{"name":"AtaProgram.program_description","value":"Program Description"},{"name":"AtaProgram.start_date","value":"Start Date"},{"name":"AtaProgram.end_date","value":"End Date"},{"name":"AtaProgram.start_time","value":"Start Time"},{"name":"AtaProgram.end_time","value":"End Time"},{"name":"AtaProgram.days","value":"Days"},{"name":"AtaProgram.cost","value":"Cost"},{"name":"AtaProgram.content","value":"Content"},{"name":"AtaProgram.presto_url","value":"Presto Url"},{"name":"AtaProgram.ata_program_category_id","value":"Ata Program Category Id"},{"name":"AtaProgramCategory.ata_program_category_id","value":"Ata Program Category"},{"name":"AtaProgramCategory.name","value":"Name"},{"name":"AtaProgramCategory.content","value":"Content"},{"name":"CannedQuery.canned_query_id","value":"Canned Query"},{"name":"CannedQuery.key","value":"Key"},{"name":"CannedQuery.name","value":"Name"},{"name":"CannedQuery.description","value":"Description"},{"name":"CannedQuery.form","value":"Form"},{"name":"CannedQuery.query","value":"Query"},{"name":"CannedQuery.class_list","value":"Class List"},{"name":"Event.event_id","value":"Event"},{"name":"Event.event_type","value":"Event Type"},{"name":"Event.event_name","value":"Event Name"},{"name":"Event.event_description","value":"Event Description"},{"name":"Event.event_date_time","value":"Event Date Time"},{"name":"Event.content","value":"Content"},{"name":"Event.presto_url","value":"Presto Url"},{"name":"MtcCourt.court_id","value":"Mtc Court"},{"name":"MtcCourt.court_name","value":"Court Name"},{"name":"MtcCourt.court_type","value":"Court Type"},{"name":"MtcCourtReservation.court_reservation_id","value":"Mtc Court Reservation"},{"name":"MtcCourtReservation.court_id","value":"Court Id"},{"name":"MtcCourtReservation.time_stamp","value":"Time Stamp"},{"name":"MtcCourtReservation.status","value":"Status"},{"name":"MtcCourtReservation.date","value":"Date"},{"name":"MtcCourtReservation.start_time","value":"Start Time"},{"name":"MtcCourtReservation.end_time","value":"End Time"},{"name":"MtcCourtReservation.member1_id","value":"Member1 Id"},{"name":"MtcCourtReservation.notes","value":"Notes"},{"name":"MtcEmailConfirm.email_confirm_id","value":"Mtc Email Confirm"},{"name":"MtcEmailConfirm.confirmation_code","value":"Confirmation Code"},{"name":"MtcEmailConfirm.email","value":"Email"},{"name":"MtcEmailConfirm.time_stamp","value":"Time Stamp"},{"name":"MtcMember.member_id","value":"Mtc Member"},{"name":"MtcMember.first_name","value":"First Name"},{"name":"MtcMember.last_name","value":"Last Name"},{"name":"MtcMember.address","value":"Address"},{"name":"MtcMember.city","value":"City"},{"name":"MtcMember.postal_code","value":"Postal Code"},{"name":"MtcMember.home_phone","value":"Home Phone"},{"name":"MtcMember.business_phone","value":"Business Phone"},{"name":"MtcMember.family_members","value":"Family Members"},{"name":"MtcMember.email","value":"Email"},{"name":"MtcMember.password","value":"Password"},{"name":"MtcMember.password_hint","value":"Password Hint"},{"name":"MtcMember.password_hint_answer","value":"Password Hint Answer"},{"name":"MtcMember.avatar_url","value":"Avatar Url"},{"name":"MtcMember.donate","value":"Donate"},{"name":"MtcMember.membership_category_id","value":"Membership Category Id"},{"name":"MtcMember.amount_enclosed","value":"Amount Enclosed"},{"name":"MtcMembershipCategory.membership_category_id","value":"Mtc Membership Category"},{"name":"MtcMembershipCategory.name","value":"Name"},{"name":"MtcMembershipCategory.category","value":"Category"},{"name":"MtcMembershipCategory.fee","value":"Fee"},{"name":"MtcNotice.notice_id","value":"Mtc Notice"},{"name":"MtcNotice.name","value":"Name"},{"name":"MtcNotice.title","value":"Title"},{"name":"MtcNotice.category","value":"Category"},{"name":"MtcNotice.content","value":"Content"},{"name":"MtcOpenDates.open_dates_id","value":"Mtc Open Dates"},{"name":"MtcOpenDates.name","value":"Name"},{"name":"MtcOpenDates.day","value":"Day"},{"name":"MtcOpenDates.start_date","value":"Start Date"},{"name":"MtcOpenDates.end_date","value":"End Date"},{"name":"MtcOpenDates.start_time","value":"Start Time"},{"name":"MtcOpenDates.end_time","value":"End Time"},{"name":"MtcOpenDates.type","value":"Type"},{"name":"MtcOpenDates.comments","value":"Comments"},{"name":"MtcPermissions.permission_id","value":"Mtc Permissions"},{"name":"MtcPermissions.member_id","value":"Member Id"},{"name":"MtcPermissions.first_name","value":"First Name"},{"name":"MtcPermissions.last_name","value":"Last Name"},{"name":"MtcPermissions.permissions","value":"Permissions"},{"name":"MtcPermissions.comments","value":"Comments"},{"name":"MtcUserSession.userid","value":"Userid"},{"name":"MtcUserSession.ukey","value":"Ukey"},{"name":"MtcUserSession.ip_address","value":"Ip Address"},{"name":"MtcUserSession.device","value":"Device"},{"name":"MtcUserSession.modified","value":"Modified"}]}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-24T09:06:31-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcCourtReservationHelper.getConstants
+)
+]END
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-24T09:06:31-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcOpenDatesHelper.getOpenHours
+    [date] => 2015-04-24
+    [day] => Friday
+)
+]END
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-24T09:06:31-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","constants":{"RESERVED":"RESERVED","COMPLETE":"COMPLETE","CONFIRMED":"CONFIRMED","RES_STATUS":"RES_STATUS","RES_COUNT":"RES_COUNT"}}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-24T09:06:31-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","field":[{"open_dates_id":"115","name":"Developer Season","day":"Friday","start_date":"2015-04-01","end_date":"2015-04-30","start_time":"07:00:00","end_time":"19:00:00","type":"0","comments":""}]}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-24T09:06:31-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcCourt.getList
+)
+]END
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-24T09:06:31-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","fields":[{"court_id":"1","court_name":"Court One","court_type":"MTC"},{"court_id":"2","court_name":"Court Two","court_type":"MTC"},{"court_id":"3","court_name":"Court Three","court_type":"MTC"},{"court_id":"4","court_name":"Court Four","court_type":"MTC"},{"court_id":"5","court_name":"Court Five","court_type":"MTC"},{"court_id":"6","court_name":"Court Six","court_type":"MTC"},{"court_id":"7","court_name":"Court Seven","court_type":"MTC"},{"court_id":"8","court_name":"Court Eight","court_type":"MTC"}]}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-24T09:06:31-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcCourtReservationHelper.quick_res
+    [date] => 2015-04-24
+    [status] => RESERVED
+    [start_time] => 7:00
+    [end_time] => 19:00
+    [sort_order] => ASC
+)
+]END
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-24T09:06:31-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcCourtReservationHelper.quick_res
+    [date] => 2015-04-24
+    [status] => CONFIRMED
+    [start_time] => 7:00
+    [end_time] => 19:00
+    [end_date] => 2015-04-24
+    [sort_order] => ASC
+)
+]END
+
+Generic
+DEBUG at 2015-04-24T09:06:31-04:00 in /json-api/index.php
+TEST:SELECT date, court_reservation_id, start_time , end_time, member1_id, status, court_id, m.first_name as first_name, m.last_name as last_name FROM `mtc_court_reservation` AS mc INNER JOIN `mtc_member` AS m ON mc.member1_id = m.member_id WHERE date = :date AND start_time >= :start_time AND start_time < :end_time AND status = :status  ORDER BY date ASC, start_time ASC
+
+Generic
+DEBUG at 2015-04-24T09:06:31-04:00 in /json-api/index.php
+TEST:SELECT date, court_reservation_id, start_time , end_time, member1_id, status, court_id, m.first_name as first_name, m.last_name as last_name FROM `mtc_court_reservation` AS mc INNER JOIN `mtc_member` AS m ON mc.member1_id = m.member_id WHERE date >= :date AND start_time >= :start_time AND start_time < :end_time AND status = :status AND date <= :end_date ORDER BY date ASC, start_time ASC
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-24T09:06:31-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","reservations":[]}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-24T09:06:31-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","reservations":[]}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-24T13:41:54-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => Utils.getLabels
+    [language] => en
+)
+]END
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-24T13:41:54-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","fields":[{"name":"AtaLesson.lesson_id","value":"Ata Lesson"},{"name":"AtaLesson.category","value":"Category"},{"name":"AtaLesson.name","value":"Name"},{"name":"AtaLesson.lesson_pro","value":"Lesson Pro"},{"name":"AtaLesson.lesson_cost","value":"Lesson Cost"},{"name":"AtaLesson.content","value":"Content"},{"name":"AtaProgram.program_id","value":"Ata Program"},{"name":"AtaProgram.program_name","value":"Program Name"},{"name":"AtaProgram.program_description","value":"Program Description"},{"name":"AtaProgram.start_date","value":"Start Date"},{"name":"AtaProgram.end_date","value":"End Date"},{"name":"AtaProgram.start_time","value":"Start Time"},{"name":"AtaProgram.end_time","value":"End Time"},{"name":"AtaProgram.days","value":"Days"},{"name":"AtaProgram.cost","value":"Cost"},{"name":"AtaProgram.content","value":"Content"},{"name":"AtaProgram.presto_url","value":"Presto Url"},{"name":"AtaProgram.ata_program_category_id","value":"Ata Program Category Id"},{"name":"AtaProgramCategory.ata_program_category_id","value":"Ata Program Category"},{"name":"AtaProgramCategory.name","value":"Name"},{"name":"AtaProgramCategory.content","value":"Content"},{"name":"CannedQuery.canned_query_id","value":"Canned Query"},{"name":"CannedQuery.key","value":"Key"},{"name":"CannedQuery.name","value":"Name"},{"name":"CannedQuery.description","value":"Description"},{"name":"CannedQuery.form","value":"Form"},{"name":"CannedQuery.query","value":"Query"},{"name":"CannedQuery.class_list","value":"Class List"},{"name":"Event.event_id","value":"Event"},{"name":"Event.event_type","value":"Event Type"},{"name":"Event.event_name","value":"Event Name"},{"name":"Event.event_description","value":"Event Description"},{"name":"Event.event_date_time","value":"Event Date Time"},{"name":"Event.content","value":"Content"},{"name":"Event.presto_url","value":"Presto Url"},{"name":"MtcCourt.court_id","value":"Mtc Court"},{"name":"MtcCourt.court_name","value":"Court Name"},{"name":"MtcCourt.court_type","value":"Court Type"},{"name":"MtcCourtReservation.court_reservation_id","value":"Mtc Court Reservation"},{"name":"MtcCourtReservation.court_id","value":"Court Id"},{"name":"MtcCourtReservation.time_stamp","value":"Time Stamp"},{"name":"MtcCourtReservation.status","value":"Status"},{"name":"MtcCourtReservation.date","value":"Date"},{"name":"MtcCourtReservation.start_time","value":"Start Time"},{"name":"MtcCourtReservation.end_time","value":"End Time"},{"name":"MtcCourtReservation.member1_id","value":"Member1 Id"},{"name":"MtcCourtReservation.notes","value":"Notes"},{"name":"MtcEmailConfirm.email_confirm_id","value":"Mtc Email Confirm"},{"name":"MtcEmailConfirm.confirmation_code","value":"Confirmation Code"},{"name":"MtcEmailConfirm.email","value":"Email"},{"name":"MtcEmailConfirm.time_stamp","value":"Time Stamp"},{"name":"MtcMember.member_id","value":"Mtc Member"},{"name":"MtcMember.first_name","value":"First Name"},{"name":"MtcMember.last_name","value":"Last Name"},{"name":"MtcMember.address","value":"Address"},{"name":"MtcMember.city","value":"City"},{"name":"MtcMember.postal_code","value":"Postal Code"},{"name":"MtcMember.home_phone","value":"Home Phone"},{"name":"MtcMember.business_phone","value":"Business Phone"},{"name":"MtcMember.family_members","value":"Family Members"},{"name":"MtcMember.email","value":"Email"},{"name":"MtcMember.password","value":"Password"},{"name":"MtcMember.password_hint","value":"Password Hint"},{"name":"MtcMember.password_hint_answer","value":"Password Hint Answer"},{"name":"MtcMember.avatar_url","value":"Avatar Url"},{"name":"MtcMember.donate","value":"Donate"},{"name":"MtcMember.membership_category_id","value":"Membership Category Id"},{"name":"MtcMember.amount_enclosed","value":"Amount Enclosed"},{"name":"MtcMembershipCategory.membership_category_id","value":"Mtc Membership Category"},{"name":"MtcMembershipCategory.name","value":"Name"},{"name":"MtcMembershipCategory.category","value":"Category"},{"name":"MtcMembershipCategory.fee","value":"Fee"},{"name":"MtcNotice.notice_id","value":"Mtc Notice"},{"name":"MtcNotice.name","value":"Name"},{"name":"MtcNotice.title","value":"Title"},{"name":"MtcNotice.category","value":"Category"},{"name":"MtcNotice.content","value":"Content"},{"name":"MtcOpenDates.open_dates_id","value":"Mtc Open Dates"},{"name":"MtcOpenDates.name","value":"Name"},{"name":"MtcOpenDates.day","value":"Day"},{"name":"MtcOpenDates.start_date","value":"Start Date"},{"name":"MtcOpenDates.end_date","value":"End Date"},{"name":"MtcOpenDates.start_time","value":"Start Time"},{"name":"MtcOpenDates.end_time","value":"End Time"},{"name":"MtcOpenDates.type","value":"Type"},{"name":"MtcOpenDates.comments","value":"Comments"},{"name":"MtcPermissions.permission_id","value":"Mtc Permissions"},{"name":"MtcPermissions.member_id","value":"Member Id"},{"name":"MtcPermissions.first_name","value":"First Name"},{"name":"MtcPermissions.last_name","value":"Last Name"},{"name":"MtcPermissions.permissions","value":"Permissions"},{"name":"MtcPermissions.comments","value":"Comments"},{"name":"MtcUserSession.userid","value":"Userid"},{"name":"MtcUserSession.ukey","value":"Ukey"},{"name":"MtcUserSession.ip_address","value":"Ip Address"},{"name":"MtcUserSession.device","value":"Device"},{"name":"MtcUserSession.modified","value":"Modified"}]}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-24T13:41:56-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => Event.getSchema
+)
+]END
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-24T13:41:56-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","schema":{"namespace":"tobe.avro","type":"record","name":"event","class_name":"Event","fields":[{"name":"event_id","type":"int(11) [PRIMARY_KEY]","class":"","optional":"NO"},{"name":"event_type","type":"varchar(45)","class":"","optional":"NO"},{"name":"event_name","type":"varchar(64)","class":"","optional":"NO"},{"name":"event_description","type":"varchar(1024)","class":"","optional":"NO"},{"name":"event_date_time","type":"datetime","class":"","optional":"NO"},{"name":"content","type":"longtext","class":"","optional":"YES"},{"name":"presto_url","type":"varchar(400)","class":"","optional":"YES"}],"Primary_key":"event_id"}}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-24T13:41:56-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => Event.getList
+    [start] => 0
+    [count] => 10
+)
+]END
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-24T13:41:56-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","fields":[{"event_id":"35","event_type":"MTC","event_name":"Aug 12th-16th 2015 Club Championships","event_description":"Championship","event_date_time":"2015-08-12 12:00:00","content":"<p><em><img src=\"http:\/\/adamsonstennisacademy.com\/res\/images\/891838.jpg\" alt=\"\" width=\"326\" height=\"217\" \/><\/em><\/p>\n<p><em>Since the club opened back in 1975, we have been fortunate enough to hold a tournament exclusively for our members. It is a chance for all our members to experience the joy and excitement of the tournament feeling, as well as to see where their game is at with respect to fellow members. It is a week of smiles and laughter along with a chance to enjoy the quality of tennis at the March Tennis Club.<\/em><\/p>\n<p>Please mark your calendars for our ANNUAL CLUB CHAMPIONSHIPS running from August 12th - 16th. We encourage you to participate this year and we can ensure that there is a category for all.<\/p>\n<p>The events will include:<\/p>\n<ul>\n<li>Men's Open Singles<\/li>\n<li>Men's Open Doubles<\/li>\n<li>Ladies Open Singles<\/li>\n<li>Ladies Open Doubles<\/li>\n<li>Men's 45+ Singles<\/li>\n<li>Mixed Open Doubles<\/li>\n<li>Junior Under 17 Singles<\/li>\n<\/ul>\n<p>*Please note that you may register for up to 3 events, but only ONE can be a singles event. Also, if you are in two or three events, you need to be prepared to play multiple times each day (because it&nbsp;<em>will<\/em> happen!!!)<\/p>\n<p>To register for the tournament (after August 1st) <a href=\"http:\/\/www.prestoregister.com\/cgi-bin\/order.pl?ref=marchtennisclub&amp;fm=16\">CLICK HERE<\/a>&nbsp;(registration will close on August 9th at 6pm). We hope it will be a great turn out and a FUN time for all.<\/p>","presto_url":"http:\/\/www.prestoregister.com\/cgi-bin\/order.pl?ref=marchtennisclub&fm=16"},{"event_id":"36","event_type":"ATA","event_name":"July 22nd - Kanata Klassic BBQ Social","event_description":"KKBBT","event_date_time":"2015-07-22 18:00:00","content":"<p>You'll definitely want to come by for our Kanata Klassic BBQ night. We will have a wide variety of foods available, and you can come socialize with all of your favourite tennis buddies!<\/p>","presto_url":"null"},{"event_id":"37","event_type":"ATA","event_name":"July 20-26 Kanata Klassic 2015","event_description":"Kanata Klassic Tourney","event_date_time":"2015-07-20 12:00:00","content":"<p><img src=\"http:\/\/adamsonstennisacademy.com\/res\/images\/n7yOVRq.jpg\" alt=\"\" width=\"351\" height=\"263\" \/><\/p>\n<p>The Kanata Klassic is an open tennis tournament for Ottawa area residents hosted at the March Tennis Club. Founded by Jonathan Adamson in 2005, the Kanata Klassic has become one of the biggest tournaments in the city.<\/p>\n<p>In recent years, ATA along with the March Tennis Club have joined forces with the Canadian Cancer Society and a portion of the proceeds from the Kanata Klassic are donated to the Canadian Cancer Society and its quest to find a cure for cancer.<\/p>\n<p>We would like to thank all participants; past; present; and future; for your support. We hope that you have an enjoyable experience in this tournament. Also we would like to say a special thanks to Kevin Pidgeon of Tommy and Lefebvre. &nbsp;Also, we would like to thank Ted Thompson and Yonex for their continued support.<\/p>\n<p><strong>The 2015 Kanata Klassic will be held between July 20-July 26, 2015. Registration for the tournament will OPEN JUNE 1st. &nbsp;<a href=\"http:\/\/www.prestoregister.com\/cgi-bin\/order.pl?ref=marchtennisclub&amp;fm=11\">CLICK HERE<\/a>&nbsp;to register.<\/strong><\/p>","presto_url":"www.prestoregister.com\/cgi-bin\/order.pl?ref=marchtennisclub&fm=11"},{"event_id":"38","event_type":"ATA","event_name":"July 8th - Wimbledon Night","event_description":"Wimbledon Night","event_date_time":"2015-07-08 18:00:00","content":"<p><img src=\"http:\/\/adamsonstennisacademy.com\/res\/images\/athlete-ball-competition-2342-781x550.jpg\" alt=\"\" width=\"279\" height=\"196\" \/><\/p>\n<p>We welcome you to attend our annual Wimbledon Night<\/p>","presto_url":"null"},{"event_id":"39","event_type":"ATA","event_name":"June 10th - British Pub Night","event_description":"BPN","event_date_time":"2015-06-10 18:00:00","content":"<p>Come one come all to our british pub night!<\/p>","presto_url":"null"},{"event_id":"40","event_type":"ATA","event_name":"June 5th PD Day - Tennis and Sports Fun Day","event_description":"Pd Day","event_date_time":"2015-06-05 09:00:00","content":"<p><img src=\"http:\/\/adamsonstennisacademy.com\/res\/images\/tennis-ball-512480_1280.jpg\" alt=\"\" width=\"437\" height=\"291\" \/><\/p>\n<p>Most schools in Ottawa will be closed for a PD Day on Friday, June 5th. Therefore, we will be having a special Tennis and Sports PD FUN DAY from 9:00am to 3:30pm that day.<\/p>\n<p>Ages: 5 to 15<\/p>\n<p>Activities will include:<\/p>\n<ul>\n<li>Tennis<\/li>\n<li>Soccer<\/li>\n<li>Ball Hockey<\/li>\n<li>Baseball<\/li>\n<li>Volleyball<\/li>\n<li>Capture the Flag<\/li>\n<li>Basketball<\/li>\n<li>and MORE!!!<\/li>\n<\/ul>\n<p>Cost: $60 (includes pizza or BBQ lunch)<\/p>","presto_url":"http:\/\/www.prestoregister.com\/cgi-bin\/order.pl?ref=marchtennisclub&fm=3"},{"event_id":"41","event_type":"ATA","event_name":"May 10th - Opening Day Celebration","event_description":"Opening Day","event_date_time":"2015-05-10 10:00:00","content":"<p><img src=\"http:\/\/adamsonstennisacademy.com\/res\/images\/mG2JwG4.jpg\" alt=\"\" width=\"385\" height=\"211\" \/><\/p>\n<p>Come to our grand opening on May 10th!<\/p>","presto_url":"null"},{"event_id":"42","event_type":"ATA","event_name":"May 2nd - ATA Programs @ MTC begin!","event_description":"Start of ATA programs","event_date_time":"2015-05-02 10:00:00","content":"<p><img src=\"http:\/\/adamsonstennisacademy.com\/res\/images\/mhGzJTg.jpg\" alt=\"\" width=\"135\" height=\"198\" \/><\/p>\n<p>Just a quick heads up, our summer programs being on May 2nd. Be sure to check out our selection and make your registrations!<\/p>","presto_url":"null"},{"event_id":"43","event_type":"ATA","event_name":"August 24th - US Open Social","event_description":"US OPEN SOCIAL","event_date_time":"2015-08-24 12:00:00","content":"<p>You'll absolutely want to come check out our US Open Social in celebration of the US Open.<\/p>","presto_url":"null"},{"event_id":"44","event_type":"ATA","event_name":"Past Due Event","event_description":"KKBBT","event_date_time":"2015-04-24 18:00:00","content":"<p>This is an event that is almost past due.<\/p>\n<p><img src=\"http:\/\/marchtennisclub.com\/res\/images\/img_5070.jpg\" alt=\"\" \/><\/p>","presto_url":""}]}

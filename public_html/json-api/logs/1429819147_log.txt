@@ -1,0 +1,1390 @@
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:42:34-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcCourtReservation.delete
+    [court_reservation_id] => 937
+    [userid] => 45
+    [ukey] => 5YbHKUduDpqxi
+)
+]END
+
+OBJECT
+DEBUG at 2015-04-23T15:42:34-04:00 in /json-api/index.php
+member_id: 45 PERMISSIONS:5
+
+OBJECT
+DEBUG at 2015-04-23T15:42:34-04:00 in /json-api/index.php
+class:MtcCourtReservation mthd:delete
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:42:34-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","court_reservation_id":"937"}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:42:34-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcCourtReservationHelper.quick_res
+    [date] => 2015-04-23
+    [start_time] => 7:00
+    [end_time] => 22:00
+)
+]END
+
+Generic
+DEBUG at 2015-04-23T15:42:34-04:00 in /json-api/index.php
+TEST:SELECT date, court_reservation_id, start_time , end_time, member1_id, status, court_id, m.first_name as first_name, m.last_name as last_name FROM `mtc_court_reservation` AS mc INNER JOIN `mtc_member` AS m ON mc.member1_id = m.member_id WHERE date = :date AND start_time >= :start_time AND start_time < :end_time   ORDER BY date ASC, start_time ASC
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:42:34-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","reservations":[{"date":"2015-04-23","court_reservation_id":"933","start_time":"10:36:00","end_time":"11:36:00","member1_id":"228","status":"COMPLETE","court_id":"4","first_name":"Guest2","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"932","start_time":"11:09:00","end_time":"12:09:00","member1_id":"226","status":"COMPLETE","court_id":"5","first_name":"Guest1","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"940","start_time":"13:00:00","end_time":"14:00:00","member1_id":"226","status":"RESERVED","court_id":"5","first_name":"Guest1","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"960","start_time":"14:00:00","end_time":"20:00:00","member1_id":"45","status":"CONFIRMED","court_id":"8","first_name":"Thomas","last_name":"Wiegand"},{"date":"2015-04-23","court_reservation_id":"959","start_time":"14:00:00","end_time":"21:00:00","member1_id":"45","status":"CONFIRMED","court_id":"7","first_name":"Thomas","last_name":"Wiegand"},{"date":"2015-04-23","court_reservation_id":"958","start_time":"14:00:00","end_time":"20:00:00","member1_id":"45","status":"CONFIRMED","court_id":"6","first_name":"Thomas","last_name":"Wiegand"},{"date":"2015-04-23","court_reservation_id":"951","start_time":"14:00:00","end_time":"22:00:00","member1_id":"45","status":"CONFIRMED","court_id":"5","first_name":"Thomas","last_name":"Wiegand"},{"date":"2015-04-23","court_reservation_id":"941","start_time":"14:00:00","end_time":"20:00:00","member1_id":"226","status":"CONFIRMED","court_id":"4","first_name":"Guest1","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"962","start_time":"16:00:00","end_time":"17:00:00","member1_id":"234","status":"RESERVED","court_id":"4","first_name":"Guest6","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"963","start_time":"17:00:00","end_time":"18:00:00","member1_id":"234","status":"RESERVED","court_id":"3","first_name":"Guest6","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"964","start_time":"18:00:00","end_time":"19:00:00","member1_id":"234","status":"RESERVED","court_id":"2","first_name":"Guest6","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"965","start_time":"19:00:00","end_time":"20:00:00","member1_id":"234","status":"RESERVED","court_id":"1","first_name":"Guest6","last_name":"Player"}]}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:42:41-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcCourtReservation.delete
+    [court_reservation_id] => 941
+    [userid] => 45
+    [ukey] => 5YbHKUduDpqxi
+)
+]END
+
+OBJECT
+DEBUG at 2015-04-23T15:42:41-04:00 in /json-api/index.php
+member_id: 45 PERMISSIONS:5
+
+OBJECT
+DEBUG at 2015-04-23T15:42:41-04:00 in /json-api/index.php
+class:MtcCourtReservation mthd:delete
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:42:41-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","court_reservation_id":"941"}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:42:41-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcCourtReservationHelper.quick_res
+    [date] => 2015-04-23
+    [start_time] => 7:00
+    [end_time] => 22:00
+)
+]END
+
+Generic
+DEBUG at 2015-04-23T15:42:41-04:00 in /json-api/index.php
+TEST:SELECT date, court_reservation_id, start_time , end_time, member1_id, status, court_id, m.first_name as first_name, m.last_name as last_name FROM `mtc_court_reservation` AS mc INNER JOIN `mtc_member` AS m ON mc.member1_id = m.member_id WHERE date = :date AND start_time >= :start_time AND start_time < :end_time   ORDER BY date ASC, start_time ASC
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:42:41-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","reservations":[{"date":"2015-04-23","court_reservation_id":"933","start_time":"10:36:00","end_time":"11:36:00","member1_id":"228","status":"COMPLETE","court_id":"4","first_name":"Guest2","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"932","start_time":"11:09:00","end_time":"12:09:00","member1_id":"226","status":"COMPLETE","court_id":"5","first_name":"Guest1","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"940","start_time":"13:00:00","end_time":"14:00:00","member1_id":"226","status":"RESERVED","court_id":"5","first_name":"Guest1","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"960","start_time":"14:00:00","end_time":"20:00:00","member1_id":"45","status":"CONFIRMED","court_id":"8","first_name":"Thomas","last_name":"Wiegand"},{"date":"2015-04-23","court_reservation_id":"959","start_time":"14:00:00","end_time":"21:00:00","member1_id":"45","status":"CONFIRMED","court_id":"7","first_name":"Thomas","last_name":"Wiegand"},{"date":"2015-04-23","court_reservation_id":"958","start_time":"14:00:00","end_time":"20:00:00","member1_id":"45","status":"CONFIRMED","court_id":"6","first_name":"Thomas","last_name":"Wiegand"},{"date":"2015-04-23","court_reservation_id":"951","start_time":"14:00:00","end_time":"22:00:00","member1_id":"45","status":"CONFIRMED","court_id":"5","first_name":"Thomas","last_name":"Wiegand"},{"date":"2015-04-23","court_reservation_id":"962","start_time":"16:00:00","end_time":"17:00:00","member1_id":"234","status":"RESERVED","court_id":"4","first_name":"Guest6","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"963","start_time":"17:00:00","end_time":"18:00:00","member1_id":"234","status":"RESERVED","court_id":"3","first_name":"Guest6","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"964","start_time":"18:00:00","end_time":"19:00:00","member1_id":"234","status":"RESERVED","court_id":"2","first_name":"Guest6","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"965","start_time":"19:00:00","end_time":"20:00:00","member1_id":"234","status":"RESERVED","court_id":"1","first_name":"Guest6","last_name":"Player"}]}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:42:45-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcCourtReservation.delete
+    [court_reservation_id] => 951
+    [userid] => 45
+    [ukey] => 5YbHKUduDpqxi
+)
+]END
+
+OBJECT
+DEBUG at 2015-04-23T15:42:45-04:00 in /json-api/index.php
+member_id: 45 PERMISSIONS:5
+
+OBJECT
+DEBUG at 2015-04-23T15:42:45-04:00 in /json-api/index.php
+class:MtcCourtReservation mthd:delete
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:42:45-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","court_reservation_id":"951"}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:42:45-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcCourtReservationHelper.quick_res
+    [date] => 2015-04-23
+    [start_time] => 7:00
+    [end_time] => 22:00
+)
+]END
+
+Generic
+DEBUG at 2015-04-23T15:42:45-04:00 in /json-api/index.php
+TEST:SELECT date, court_reservation_id, start_time , end_time, member1_id, status, court_id, m.first_name as first_name, m.last_name as last_name FROM `mtc_court_reservation` AS mc INNER JOIN `mtc_member` AS m ON mc.member1_id = m.member_id WHERE date = :date AND start_time >= :start_time AND start_time < :end_time   ORDER BY date ASC, start_time ASC
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:42:45-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","reservations":[{"date":"2015-04-23","court_reservation_id":"933","start_time":"10:36:00","end_time":"11:36:00","member1_id":"228","status":"COMPLETE","court_id":"4","first_name":"Guest2","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"932","start_time":"11:09:00","end_time":"12:09:00","member1_id":"226","status":"COMPLETE","court_id":"5","first_name":"Guest1","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"940","start_time":"13:00:00","end_time":"14:00:00","member1_id":"226","status":"RESERVED","court_id":"5","first_name":"Guest1","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"960","start_time":"14:00:00","end_time":"20:00:00","member1_id":"45","status":"CONFIRMED","court_id":"8","first_name":"Thomas","last_name":"Wiegand"},{"date":"2015-04-23","court_reservation_id":"959","start_time":"14:00:00","end_time":"21:00:00","member1_id":"45","status":"CONFIRMED","court_id":"7","first_name":"Thomas","last_name":"Wiegand"},{"date":"2015-04-23","court_reservation_id":"958","start_time":"14:00:00","end_time":"20:00:00","member1_id":"45","status":"CONFIRMED","court_id":"6","first_name":"Thomas","last_name":"Wiegand"},{"date":"2015-04-23","court_reservation_id":"962","start_time":"16:00:00","end_time":"17:00:00","member1_id":"234","status":"RESERVED","court_id":"4","first_name":"Guest6","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"963","start_time":"17:00:00","end_time":"18:00:00","member1_id":"234","status":"RESERVED","court_id":"3","first_name":"Guest6","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"964","start_time":"18:00:00","end_time":"19:00:00","member1_id":"234","status":"RESERVED","court_id":"2","first_name":"Guest6","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"965","start_time":"19:00:00","end_time":"20:00:00","member1_id":"234","status":"RESERVED","court_id":"1","first_name":"Guest6","last_name":"Player"}]}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:42:48-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcCourtReservation.delete
+    [court_reservation_id] => 958
+    [userid] => 45
+    [ukey] => 5YbHKUduDpqxi
+)
+]END
+
+OBJECT
+DEBUG at 2015-04-23T15:42:48-04:00 in /json-api/index.php
+member_id: 45 PERMISSIONS:5
+
+OBJECT
+DEBUG at 2015-04-23T15:42:48-04:00 in /json-api/index.php
+class:MtcCourtReservation mthd:delete
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:42:48-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","court_reservation_id":"958"}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:42:48-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcCourtReservationHelper.quick_res
+    [date] => 2015-04-23
+    [start_time] => 7:00
+    [end_time] => 22:00
+)
+]END
+
+Generic
+DEBUG at 2015-04-23T15:42:48-04:00 in /json-api/index.php
+TEST:SELECT date, court_reservation_id, start_time , end_time, member1_id, status, court_id, m.first_name as first_name, m.last_name as last_name FROM `mtc_court_reservation` AS mc INNER JOIN `mtc_member` AS m ON mc.member1_id = m.member_id WHERE date = :date AND start_time >= :start_time AND start_time < :end_time   ORDER BY date ASC, start_time ASC
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:42:48-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","reservations":[{"date":"2015-04-23","court_reservation_id":"933","start_time":"10:36:00","end_time":"11:36:00","member1_id":"228","status":"COMPLETE","court_id":"4","first_name":"Guest2","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"932","start_time":"11:09:00","end_time":"12:09:00","member1_id":"226","status":"COMPLETE","court_id":"5","first_name":"Guest1","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"940","start_time":"13:00:00","end_time":"14:00:00","member1_id":"226","status":"RESERVED","court_id":"5","first_name":"Guest1","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"959","start_time":"14:00:00","end_time":"21:00:00","member1_id":"45","status":"CONFIRMED","court_id":"7","first_name":"Thomas","last_name":"Wiegand"},{"date":"2015-04-23","court_reservation_id":"960","start_time":"14:00:00","end_time":"20:00:00","member1_id":"45","status":"CONFIRMED","court_id":"8","first_name":"Thomas","last_name":"Wiegand"},{"date":"2015-04-23","court_reservation_id":"962","start_time":"16:00:00","end_time":"17:00:00","member1_id":"234","status":"RESERVED","court_id":"4","first_name":"Guest6","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"963","start_time":"17:00:00","end_time":"18:00:00","member1_id":"234","status":"RESERVED","court_id":"3","first_name":"Guest6","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"964","start_time":"18:00:00","end_time":"19:00:00","member1_id":"234","status":"RESERVED","court_id":"2","first_name":"Guest6","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"965","start_time":"19:00:00","end_time":"20:00:00","member1_id":"234","status":"RESERVED","court_id":"1","first_name":"Guest6","last_name":"Player"}]}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:42:52-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcCourtReservation.delete
+    [court_reservation_id] => 959
+    [userid] => 45
+    [ukey] => 5YbHKUduDpqxi
+)
+]END
+
+OBJECT
+DEBUG at 2015-04-23T15:42:52-04:00 in /json-api/index.php
+member_id: 45 PERMISSIONS:5
+
+OBJECT
+DEBUG at 2015-04-23T15:42:52-04:00 in /json-api/index.php
+class:MtcCourtReservation mthd:delete
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:42:52-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","court_reservation_id":"959"}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:42:52-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcCourtReservationHelper.quick_res
+    [date] => 2015-04-23
+    [start_time] => 7:00
+    [end_time] => 22:00
+)
+]END
+
+Generic
+DEBUG at 2015-04-23T15:42:52-04:00 in /json-api/index.php
+TEST:SELECT date, court_reservation_id, start_time , end_time, member1_id, status, court_id, m.first_name as first_name, m.last_name as last_name FROM `mtc_court_reservation` AS mc INNER JOIN `mtc_member` AS m ON mc.member1_id = m.member_id WHERE date = :date AND start_time >= :start_time AND start_time < :end_time   ORDER BY date ASC, start_time ASC
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:42:52-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","reservations":[{"date":"2015-04-23","court_reservation_id":"933","start_time":"10:36:00","end_time":"11:36:00","member1_id":"228","status":"COMPLETE","court_id":"4","first_name":"Guest2","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"932","start_time":"11:09:00","end_time":"12:09:00","member1_id":"226","status":"COMPLETE","court_id":"5","first_name":"Guest1","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"940","start_time":"13:00:00","end_time":"14:00:00","member1_id":"226","status":"RESERVED","court_id":"5","first_name":"Guest1","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"960","start_time":"14:00:00","end_time":"20:00:00","member1_id":"45","status":"CONFIRMED","court_id":"8","first_name":"Thomas","last_name":"Wiegand"},{"date":"2015-04-23","court_reservation_id":"962","start_time":"16:00:00","end_time":"17:00:00","member1_id":"234","status":"RESERVED","court_id":"4","first_name":"Guest6","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"963","start_time":"17:00:00","end_time":"18:00:00","member1_id":"234","status":"RESERVED","court_id":"3","first_name":"Guest6","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"964","start_time":"18:00:00","end_time":"19:00:00","member1_id":"234","status":"RESERVED","court_id":"2","first_name":"Guest6","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"965","start_time":"19:00:00","end_time":"20:00:00","member1_id":"234","status":"RESERVED","court_id":"1","first_name":"Guest6","last_name":"Player"}]}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:42:56-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcCourtReservation.delete
+    [court_reservation_id] => 960
+    [userid] => 45
+    [ukey] => 5YbHKUduDpqxi
+)
+]END
+
+OBJECT
+DEBUG at 2015-04-23T15:42:56-04:00 in /json-api/index.php
+member_id: 45 PERMISSIONS:5
+
+OBJECT
+DEBUG at 2015-04-23T15:42:56-04:00 in /json-api/index.php
+class:MtcCourtReservation mthd:delete
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:42:56-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","court_reservation_id":"960"}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:42:56-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcCourtReservationHelper.quick_res
+    [date] => 2015-04-23
+    [start_time] => 7:00
+    [end_time] => 22:00
+)
+]END
+
+Generic
+DEBUG at 2015-04-23T15:42:56-04:00 in /json-api/index.php
+TEST:SELECT date, court_reservation_id, start_time , end_time, member1_id, status, court_id, m.first_name as first_name, m.last_name as last_name FROM `mtc_court_reservation` AS mc INNER JOIN `mtc_member` AS m ON mc.member1_id = m.member_id WHERE date = :date AND start_time >= :start_time AND start_time < :end_time   ORDER BY date ASC, start_time ASC
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:42:56-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","reservations":[{"date":"2015-04-23","court_reservation_id":"933","start_time":"10:36:00","end_time":"11:36:00","member1_id":"228","status":"COMPLETE","court_id":"4","first_name":"Guest2","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"932","start_time":"11:09:00","end_time":"12:09:00","member1_id":"226","status":"COMPLETE","court_id":"5","first_name":"Guest1","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"940","start_time":"13:00:00","end_time":"14:00:00","member1_id":"226","status":"RESERVED","court_id":"5","first_name":"Guest1","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"962","start_time":"16:00:00","end_time":"17:00:00","member1_id":"234","status":"RESERVED","court_id":"4","first_name":"Guest6","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"963","start_time":"17:00:00","end_time":"18:00:00","member1_id":"234","status":"RESERVED","court_id":"3","first_name":"Guest6","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"964","start_time":"18:00:00","end_time":"19:00:00","member1_id":"234","status":"RESERVED","court_id":"2","first_name":"Guest6","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"965","start_time":"19:00:00","end_time":"20:00:00","member1_id":"234","status":"RESERVED","court_id":"1","first_name":"Guest6","last_name":"Player"}]}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:43:13-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcCourtReservation.delete
+    [court_reservation_id] => 940
+    [userid] => 45
+    [ukey] => 5YbHKUduDpqxi
+)
+]END
+
+OBJECT
+DEBUG at 2015-04-23T15:43:13-04:00 in /json-api/index.php
+member_id: 45 PERMISSIONS:5
+
+OBJECT
+DEBUG at 2015-04-23T15:43:13-04:00 in /json-api/index.php
+class:MtcCourtReservation mthd:delete
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:43:13-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","court_reservation_id":"940"}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:43:13-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcCourtReservationHelper.quick_res
+    [date] => 2015-04-23
+    [start_time] => 7:00
+    [end_time] => 22:00
+)
+]END
+
+Generic
+DEBUG at 2015-04-23T15:43:13-04:00 in /json-api/index.php
+TEST:SELECT date, court_reservation_id, start_time , end_time, member1_id, status, court_id, m.first_name as first_name, m.last_name as last_name FROM `mtc_court_reservation` AS mc INNER JOIN `mtc_member` AS m ON mc.member1_id = m.member_id WHERE date = :date AND start_time >= :start_time AND start_time < :end_time   ORDER BY date ASC, start_time ASC
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:43:13-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","reservations":[{"date":"2015-04-23","court_reservation_id":"933","start_time":"10:36:00","end_time":"11:36:00","member1_id":"228","status":"COMPLETE","court_id":"4","first_name":"Guest2","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"932","start_time":"11:09:00","end_time":"12:09:00","member1_id":"226","status":"COMPLETE","court_id":"5","first_name":"Guest1","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"962","start_time":"16:00:00","end_time":"17:00:00","member1_id":"234","status":"RESERVED","court_id":"4","first_name":"Guest6","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"963","start_time":"17:00:00","end_time":"18:00:00","member1_id":"234","status":"RESERVED","court_id":"3","first_name":"Guest6","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"964","start_time":"18:00:00","end_time":"19:00:00","member1_id":"234","status":"RESERVED","court_id":"2","first_name":"Guest6","last_name":"Player"},{"date":"2015-04-23","court_reservation_id":"965","start_time":"19:00:00","end_time":"20:00:00","member1_id":"234","status":"RESERVED","court_id":"1","first_name":"Guest6","last_name":"Player"}]}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:55:16-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcCourtReservation.get
+    [court_reservation_id] => 932
+)
+]END
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:55:16-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","field":{"court_reservation_id":"932","court_id":"5","time_stamp":"2015-04-23 11:08:50","status":"COMPLETE","date":"2015-04-23","start_time":"11:09:00","end_time":"12:09:00","member1_id":"226","notes":"Reserved by admin: 45"}}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:55:24-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcOpenDatesHelper.getOpenHours
+    [date] => 2015-04-24
+    [day] => Friday
+)
+]END
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:55:24-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","field":[{"open_dates_id":"115","name":"Developer Season","day":"Friday","start_date":"2015-04-01","end_date":"2015-04-30","start_time":"07:00:00","end_time":"19:00:00","type":"0","comments":""}]}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:55:24-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcCourtReservationHelper.quick_res
+    [date] => 2015-04-24
+    [start_time] => 7:00
+    [end_time] => 19:00
+)
+]END
+
+Generic
+DEBUG at 2015-04-23T15:55:24-04:00 in /json-api/index.php
+TEST:SELECT date, court_reservation_id, start_time , end_time, member1_id, status, court_id, m.first_name as first_name, m.last_name as last_name FROM `mtc_court_reservation` AS mc INNER JOIN `mtc_member` AS m ON mc.member1_id = m.member_id WHERE date = :date AND start_time >= :start_time AND start_time < :end_time   ORDER BY date ASC, start_time ASC
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:55:24-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","reservations":[{"date":"2015-04-24","court_reservation_id":"944","start_time":"07:00:00","end_time":"18:30:00","member1_id":"110","status":"CONFIRMED","court_id":"1","first_name":"Admin","last_name":"Admin"}]}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:55:28-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcCourtReservation.delete
+    [court_reservation_id] => 944
+    [userid] => 45
+    [ukey] => 5YbHKUduDpqxi
+)
+]END
+
+OBJECT
+DEBUG at 2015-04-23T15:55:28-04:00 in /json-api/index.php
+member_id: 45 PERMISSIONS:5
+
+OBJECT
+DEBUG at 2015-04-23T15:55:28-04:00 in /json-api/index.php
+class:MtcCourtReservation mthd:delete
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:55:28-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","court_reservation_id":"944"}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:55:29-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcCourtReservationHelper.quick_res
+    [date] => 2015-04-24
+    [start_time] => 7:00
+    [end_time] => 19:00
+)
+]END
+
+Generic
+DEBUG at 2015-04-23T15:55:29-04:00 in /json-api/index.php
+TEST:SELECT date, court_reservation_id, start_time , end_time, member1_id, status, court_id, m.first_name as first_name, m.last_name as last_name FROM `mtc_court_reservation` AS mc INNER JOIN `mtc_member` AS m ON mc.member1_id = m.member_id WHERE date = :date AND start_time >= :start_time AND start_time < :end_time   ORDER BY date ASC, start_time ASC
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:55:29-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","reservations":[]}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:55:39-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcOpenDatesHelper.getOpenHours
+    [date] => 2015-04-22
+    [day] => Wednesday
+)
+]END
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:55:39-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","field":[{"open_dates_id":"113","name":"Developer Season","day":"Wednesday","start_date":"2015-04-01","end_date":"2015-04-30","start_time":"07:00:00","end_time":"22:00:00","type":"0","comments":""}]}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:55:39-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcCourtReservationHelper.quick_res
+    [date] => 2015-04-22
+    [start_time] => 7:00
+    [end_time] => 22:00
+)
+]END
+
+Generic
+DEBUG at 2015-04-23T15:55:39-04:00 in /json-api/index.php
+TEST:SELECT date, court_reservation_id, start_time , end_time, member1_id, status, court_id, m.first_name as first_name, m.last_name as last_name FROM `mtc_court_reservation` AS mc INNER JOIN `mtc_member` AS m ON mc.member1_id = m.member_id WHERE date = :date AND start_time >= :start_time AND start_time < :end_time   ORDER BY date ASC, start_time ASC
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:55:39-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","reservations":[]}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:55:44-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcOpenDatesHelper.getOpenHours
+    [date] => 2015-04-21
+    [day] => Tuesday
+)
+]END
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:55:44-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","field":[{"open_dates_id":"112","name":"Developer Season","day":"Tuesday","start_date":"2015-04-01","end_date":"2015-04-30","start_time":"07:00:00","end_time":"22:00:00","type":"0","comments":""}]}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:55:44-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcCourtReservationHelper.quick_res
+    [date] => 2015-04-21
+    [start_time] => 7:00
+    [end_time] => 22:00
+)
+]END
+
+Generic
+DEBUG at 2015-04-23T15:55:44-04:00 in /json-api/index.php
+TEST:SELECT date, court_reservation_id, start_time , end_time, member1_id, status, court_id, m.first_name as first_name, m.last_name as last_name FROM `mtc_court_reservation` AS mc INNER JOIN `mtc_member` AS m ON mc.member1_id = m.member_id WHERE date = :date AND start_time >= :start_time AND start_time < :end_time   ORDER BY date ASC, start_time ASC
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:55:44-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","reservations":[]}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:55:48-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcOpenDatesHelper.getOpenHours
+    [date] => 2015-04-20
+    [day] => Monday
+)
+]END
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:55:48-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","field":[{"open_dates_id":"111","name":"Developer Season","day":"Monday","start_date":"2015-04-01","end_date":"2015-04-30","start_time":"07:00:00","end_time":"22:00:00","type":"0","comments":""}]}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:55:48-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcCourtReservationHelper.quick_res
+    [date] => 2015-04-20
+    [start_time] => 7:00
+    [end_time] => 22:00
+)
+]END
+
+Generic
+DEBUG at 2015-04-23T15:55:48-04:00 in /json-api/index.php
+TEST:SELECT date, court_reservation_id, start_time , end_time, member1_id, status, court_id, m.first_name as first_name, m.last_name as last_name FROM `mtc_court_reservation` AS mc INNER JOIN `mtc_member` AS m ON mc.member1_id = m.member_id WHERE date = :date AND start_time >= :start_time AND start_time < :end_time   ORDER BY date ASC, start_time ASC
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:55:48-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","reservations":[]}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:55:51-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcOpenDatesHelper.getOpenHours
+    [date] => 2015-04-25
+    [day] => Saturday
+)
+]END
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:55:52-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","field":[{"open_dates_id":"116","name":"Developer Season","day":"Saturday","start_date":"2015-04-01","end_date":"2015-04-30","start_time":"07:00:00","end_time":"22:00:00","type":"0","comments":""}]}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:55:52-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcCourtReservationHelper.quick_res
+    [date] => 2015-04-25
+    [start_time] => 7:00
+    [end_time] => 22:00
+)
+]END
+
+Generic
+DEBUG at 2015-04-23T15:55:52-04:00 in /json-api/index.php
+TEST:SELECT date, court_reservation_id, start_time , end_time, member1_id, status, court_id, m.first_name as first_name, m.last_name as last_name FROM `mtc_court_reservation` AS mc INNER JOIN `mtc_member` AS m ON mc.member1_id = m.member_id WHERE date = :date AND start_time >= :start_time AND start_time < :end_time   ORDER BY date ASC, start_time ASC
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:55:52-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","reservations":[{"date":"2015-04-25","court_reservation_id":"945","start_time":"08:00:00","end_time":"06:00:00","member1_id":"110","status":"CONFIRMED","court_id":"1","first_name":"Admin","last_name":"Admin"}]}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:55:59-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcOpenDatesHelper.getOpenHours
+    [date] => 2015-04-24
+    [day] => Friday
+)
+]END
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:55:59-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","field":[{"open_dates_id":"115","name":"Developer Season","day":"Friday","start_date":"2015-04-01","end_date":"2015-04-30","start_time":"07:00:00","end_time":"19:00:00","type":"0","comments":""}]}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:55:59-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcCourtReservationHelper.quick_res
+    [date] => 2015-04-24
+    [start_time] => 7:00
+    [end_time] => 19:00
+)
+]END
+
+Generic
+DEBUG at 2015-04-23T15:55:59-04:00 in /json-api/index.php
+TEST:SELECT date, court_reservation_id, start_time , end_time, member1_id, status, court_id, m.first_name as first_name, m.last_name as last_name FROM `mtc_court_reservation` AS mc INNER JOIN `mtc_member` AS m ON mc.member1_id = m.member_id WHERE date = :date AND start_time >= :start_time AND start_time < :end_time   ORDER BY date ASC, start_time ASC
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:55:59-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","reservations":[]}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:57:16-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => CannedQueryHelper.runCannedQuery
+    [userid] => 45
+    [ukey] => 5YbHKUduDpqxi
+    [key] => show_old_reservations
+    [date] => 2015-04-24
+)
+]END
+
+OBJECT
+DEBUG at 2015-04-23T15:57:16-04:00 in /json-api/index.php
+member_id: 45 PERMISSIONS:5
+
+OBJECT
+DEBUG at 2015-04-23T15:57:16-04:00 in /json-api/index.php
+class:CannedQueryHelper mthd:runCannedQuery
+
+Generic
+DEBUG at 2015-04-23T15:57:16-04:00 in /json-api/index.php
+DEBUG query: SELECT * FROM `mtc_court_reservation` WHERE `date` < :date
+
+Generic
+DEBUG at 2015-04-23T15:57:16-04:00 in /json-api/index.php
+DEBUG postArray: Array
+(
+    [date] => 2015-04-24
+)
+
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:57:16-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","fields":[{"court_reservation_id":"932","court_id":"5","time_stamp":"2015-04-23 11:08:50","status":"COMPLETE","date":"2015-04-23","start_time":"11:09:00","end_time":"12:09:00","member1_id":"226","notes":"Reserved by admin: 45"},{"court_reservation_id":"933","court_id":"4","time_stamp":"2015-04-23 11:09:52","status":"COMPLETE","date":"2015-04-23","start_time":"10:36:00","end_time":"11:36:00","member1_id":"228","notes":"Reserved by admin: 45"},{"court_reservation_id":"962","court_id":"4","time_stamp":"2015-04-23 15:36:06","status":"RESERVED","date":"2015-04-23","start_time":"16:00:00","end_time":"17:00:00","member1_id":"234","notes":"Reserved from Web site."},{"court_reservation_id":"963","court_id":"3","time_stamp":"2015-04-23 15:36:14","status":"RESERVED","date":"2015-04-23","start_time":"17:00:00","end_time":"18:00:00","member1_id":"234","notes":"Reserved from Web site."},{"court_reservation_id":"964","court_id":"2","time_stamp":"2015-04-23 15:36:22","status":"RESERVED","date":"2015-04-23","start_time":"18:00:00","end_time":"19:00:00","member1_id":"234","notes":"Reserved from Web site."},{"court_reservation_id":"965","court_id":"1","time_stamp":"2015-04-23 15:36:27","status":"RESERVED","date":"2015-04-23","start_time":"19:00:00","end_time":"20:00:00","member1_id":"234","notes":"Reserved from Web site."}],"primary_key_name":"court_reservation_id","class_name":"MtcCourtReservation"}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:57:25-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => Utils.getLabels
+    [language] => en
+)
+]END
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:57:25-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","fields":[{"name":"AtaLesson.lesson_id","value":"Ata Lesson"},{"name":"AtaLesson.category","value":"Category"},{"name":"AtaLesson.name","value":"Name"},{"name":"AtaLesson.lesson_pro","value":"Lesson Pro"},{"name":"AtaLesson.lesson_cost","value":"Lesson Cost"},{"name":"AtaLesson.content","value":"Content"},{"name":"AtaProgram.program_id","value":"Ata Program"},{"name":"AtaProgram.program_name","value":"Program Name"},{"name":"AtaProgram.program_description","value":"Program Description"},{"name":"AtaProgram.start_date","value":"Start Date"},{"name":"AtaProgram.end_date","value":"End Date"},{"name":"AtaProgram.start_time","value":"Start Time"},{"name":"AtaProgram.end_time","value":"End Time"},{"name":"AtaProgram.days","value":"Days"},{"name":"AtaProgram.cost","value":"Cost"},{"name":"AtaProgram.content","value":"Content"},{"name":"AtaProgram.presto_url","value":"Presto Url"},{"name":"AtaProgram.ata_program_category_id","value":"Ata Program Category Id"},{"name":"AtaProgramCategory.ata_program_category_id","value":"Ata Program Category"},{"name":"AtaProgramCategory.name","value":"Name"},{"name":"AtaProgramCategory.content","value":"Content"},{"name":"CannedQuery.canned_query_id","value":"Canned Query"},{"name":"CannedQuery.key","value":"Key"},{"name":"CannedQuery.name","value":"Name"},{"name":"CannedQuery.description","value":"Description"},{"name":"CannedQuery.form","value":"Form"},{"name":"CannedQuery.query","value":"Query"},{"name":"CannedQuery.class_list","value":"Class List"},{"name":"Event.event_id","value":"Event"},{"name":"Event.event_type","value":"Event Type"},{"name":"Event.event_name","value":"Event Name"},{"name":"Event.event_description","value":"Event Description"},{"name":"Event.event_date_time","value":"Event Date Time"},{"name":"Event.content","value":"Content"},{"name":"Event.presto_url","value":"Presto Url"},{"name":"MtcCourt.court_id","value":"Mtc Court"},{"name":"MtcCourt.court_name","value":"Court Name"},{"name":"MtcCourt.court_type","value":"Court Type"},{"name":"MtcCourtReservation.court_reservation_id","value":"Mtc Court Reservation"},{"name":"MtcCourtReservation.court_id","value":"Court Id"},{"name":"MtcCourtReservation.time_stamp","value":"Time Stamp"},{"name":"MtcCourtReservation.status","value":"Status"},{"name":"MtcCourtReservation.date","value":"Date"},{"name":"MtcCourtReservation.start_time","value":"Start Time"},{"name":"MtcCourtReservation.end_time","value":"End Time"},{"name":"MtcCourtReservation.member1_id","value":"Member1 Id"},{"name":"MtcCourtReservation.notes","value":"Notes"},{"name":"MtcEmailConfirm.email_confirm_id","value":"Mtc Email Confirm"},{"name":"MtcEmailConfirm.confirmation_code","value":"Confirmation Code"},{"name":"MtcEmailConfirm.email","value":"Email"},{"name":"MtcEmailConfirm.time_stamp","value":"Time Stamp"},{"name":"MtcMember.member_id","value":"Mtc Member"},{"name":"MtcMember.first_name","value":"First Name"},{"name":"MtcMember.last_name","value":"Last Name"},{"name":"MtcMember.address","value":"Address"},{"name":"MtcMember.city","value":"City"},{"name":"MtcMember.postal_code","value":"Postal Code"},{"name":"MtcMember.home_phone","value":"Home Phone"},{"name":"MtcMember.business_phone","value":"Business Phone"},{"name":"MtcMember.family_members","value":"Family Members"},{"name":"MtcMember.email","value":"Email"},{"name":"MtcMember.password","value":"Password"},{"name":"MtcMember.password_hint","value":"Password Hint"},{"name":"MtcMember.password_hint_answer","value":"Password Hint Answer"},{"name":"MtcMember.avatar_url","value":"Avatar Url"},{"name":"MtcMember.donate","value":"Donate"},{"name":"MtcMember.membership_category_id","value":"Membership Category Id"},{"name":"MtcMember.amount_enclosed","value":"Amount Enclosed"},{"name":"MtcMembershipCategory.membership_category_id","value":"Mtc Membership Category"},{"name":"MtcMembershipCategory.name","value":"Name"},{"name":"MtcMembershipCategory.category","value":"Category"},{"name":"MtcMembershipCategory.fee","value":"Fee"},{"name":"MtcNotice.notice_id","value":"Mtc Notice"},{"name":"MtcNotice.name","value":"Name"},{"name":"MtcNotice.title","value":"Title"},{"name":"MtcNotice.category","value":"Category"},{"name":"MtcNotice.content","value":"Content"},{"name":"MtcOpenDates.open_dates_id","value":"Mtc Open Dates"},{"name":"MtcOpenDates.name","value":"Name"},{"name":"MtcOpenDates.day","value":"Day"},{"name":"MtcOpenDates.start_date","value":"Start Date"},{"name":"MtcOpenDates.end_date","value":"End Date"},{"name":"MtcOpenDates.start_time","value":"Start Time"},{"name":"MtcOpenDates.end_time","value":"End Time"},{"name":"MtcOpenDates.type","value":"Type"},{"name":"MtcOpenDates.comments","value":"Comments"},{"name":"MtcPermissions.permission_id","value":"Mtc Permissions"},{"name":"MtcPermissions.member_id","value":"Member Id"},{"name":"MtcPermissions.first_name","value":"First Name"},{"name":"MtcPermissions.last_name","value":"Last Name"},{"name":"MtcPermissions.permissions","value":"Permissions"},{"name":"MtcPermissions.comments","value":"Comments"},{"name":"MtcUserSession.userid","value":"Userid"},{"name":"MtcUserSession.ukey","value":"Ukey"},{"name":"MtcUserSession.ip_address","value":"Ip Address"},{"name":"MtcUserSession.device","value":"Device"},{"name":"MtcUserSession.modified","value":"Modified"}]}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:57:26-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => CannedQueryHelper.getSortedList
+)
+]END
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:57:26-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","fields":[{"canned_query_id":"16","key":"show_permissions_for_members_first_name","name":"Show Permissions for Members","description":"Show Permissions for Members by first name and permission number ","form":"Show Permissions that = number: %permissions$number%  for Members with first name like: %first_name$text%","query":"SELECT * FROM `mtc_permissions` WHERE `permissions` = :permissions AND `first_name` LIKE :first_name","class_list":"MtcPermissions"},{"canned_query_id":"9","key":"search_for_member_where_first_name_like","name":"Search for member using FIRST name","description":"Search For member using first name.","form":"Search for member where FIRST name is like %first_name$text","query":"SELECT m.member_id, m.first_name, m.last_name, m.address, m.city, m.postal_code, m.home_phone, m.business_phone, m.family_members, m.email,  m.donate, m.amount_enclosed, mc.name AS category\nFROM `mtc_member` AS m\nINNER JOIN `mtc_membership_category` AS mc\nON m.membership_category_id= mc.membership_category_id\nWHERE m.first_name LIKE :first_name ORDER BY m.first_name","class_list":"MtcMember"},{"canned_query_id":"8","key":"search_for_member_where_last_name_like","name":"Search for member using LAST name","description":"Search For member using last name.","form":"Search for member where LAST name is like %last_name$text","query":"SELECT m.member_id, m.first_name, m.last_name, m.address, m.city, m.postal_code, m.home_phone, m.business_phone, m.family_members, m.email, m.donate, m.amount_enclosed, mc.name AS category\nFROM `mtc_member` AS m\nINNER JOIN `mtc_membership_category` AS mc\nON m.membership_category_id= mc.membership_category_id\nWHERE m.last_name LIKE :last_name ORDER BY m.last_name","class_list":"MtcMember"},{"canned_query_id":"13","key":"search_for_reservations_where_first_name_like","name":"Search for Reserations using FIRST name","description":"Search For Reservations using first name.","form":"Search for Reservations where FIRST name is like %first_name$text","query":"SELECT m.member_id, m.first_name, m.last_name, m.email, c.start_time, c.end_time, c.date\nFROM `mtc_member` AS m\nINNER JOIN `mtc_court_reservation` AS c\nON m.member_id = c.member1_id\nWHERE m.first_name LIKE :first_name ORDER BY m.first_name","class_list":"MtcMember"},{"canned_query_id":"17","key":"search_members_by_permissions_and_name","name":"Search Members by Permission and First Name","description":"Search Members by Permission and First Name","form":"Search for member where FIRST name is like %first_name$text% and Permissions = %permissions$number","query":"SELECT m.member_id, m.first_name, m.last_name, m.address, m.city, m.postal_code, m.home_phone, m.business_phone, m.family_members, m.email,  m.donate, m.amount_enclosed\nFROM `mtc_member` AS m\nINNER JOIN `mtc_permissions` AS mp\nON m.member_id= mp.member_id\nWHERE mp.permissions = :permissions AND m.first_name LIKE :first_name ORDER BY m.first_name\n","class_list":"MtcMember"},{"canned_query_id":"14","key":"show_old_email_confirmations","name":"Show Old Email Confirmations","description":"Show email confirmations older than the selected date.","form":"Show Email Confirmations that are Older than %time_stamp$date%","query":"SELECT * FROM `mtc_email_confirm` WHERE `time_stamp` < :time_stamp","class_list":"MtcEmailConfirm"},{"canned_query_id":"15","key":"delete_old_email_confirmations","name":"Delete Old Email Confirmations","description":"Delete old email confirmations","form":"Delete Reservations Older than %time_stamp$date% this Date.","query":"DELETE FROM `time_stamp` WHERE `time_stamp` < :time_stamp","class_list":"MtcEmailConfirm"},{"canned_query_id":"1","key":"delete_old_reservations","name":"Delete Old Reservations","description":"Delete old reservations","form":"Delete Reservations Older than %date$date% this Date.","query":"DELETE FROM `mtc_court_reservation` WHERE `date` < :date","class_list":"MtcCourtReservation"},{"canned_query_id":"2","key":"show_old_reservations","name":"Show Old Reservations","description":"Show reservation older than the selected date.","form":"Show Reservations that are Older than %date$date%","query":"SELECT * FROM `mtc_court_reservation` WHERE `date` < :date","class_list":"MtcCourtReservation"}]}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:57:40-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => Utils.getLabels
+    [language] => en
+)
+]END
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:57:40-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","fields":[{"name":"AtaLesson.lesson_id","value":"Ata Lesson"},{"name":"AtaLesson.category","value":"Category"},{"name":"AtaLesson.name","value":"Name"},{"name":"AtaLesson.lesson_pro","value":"Lesson Pro"},{"name":"AtaLesson.lesson_cost","value":"Lesson Cost"},{"name":"AtaLesson.content","value":"Content"},{"name":"AtaProgram.program_id","value":"Ata Program"},{"name":"AtaProgram.program_name","value":"Program Name"},{"name":"AtaProgram.program_description","value":"Program Description"},{"name":"AtaProgram.start_date","value":"Start Date"},{"name":"AtaProgram.end_date","value":"End Date"},{"name":"AtaProgram.start_time","value":"Start Time"},{"name":"AtaProgram.end_time","value":"End Time"},{"name":"AtaProgram.days","value":"Days"},{"name":"AtaProgram.cost","value":"Cost"},{"name":"AtaProgram.content","value":"Content"},{"name":"AtaProgram.presto_url","value":"Presto Url"},{"name":"AtaProgram.ata_program_category_id","value":"Ata Program Category Id"},{"name":"AtaProgramCategory.ata_program_category_id","value":"Ata Program Category"},{"name":"AtaProgramCategory.name","value":"Name"},{"name":"AtaProgramCategory.content","value":"Content"},{"name":"CannedQuery.canned_query_id","value":"Canned Query"},{"name":"CannedQuery.key","value":"Key"},{"name":"CannedQuery.name","value":"Name"},{"name":"CannedQuery.description","value":"Description"},{"name":"CannedQuery.form","value":"Form"},{"name":"CannedQuery.query","value":"Query"},{"name":"CannedQuery.class_list","value":"Class List"},{"name":"Event.event_id","value":"Event"},{"name":"Event.event_type","value":"Event Type"},{"name":"Event.event_name","value":"Event Name"},{"name":"Event.event_description","value":"Event Description"},{"name":"Event.event_date_time","value":"Event Date Time"},{"name":"Event.content","value":"Content"},{"name":"Event.presto_url","value":"Presto Url"},{"name":"MtcCourt.court_id","value":"Mtc Court"},{"name":"MtcCourt.court_name","value":"Court Name"},{"name":"MtcCourt.court_type","value":"Court Type"},{"name":"MtcCourtReservation.court_reservation_id","value":"Mtc Court Reservation"},{"name":"MtcCourtReservation.court_id","value":"Court Id"},{"name":"MtcCourtReservation.time_stamp","value":"Time Stamp"},{"name":"MtcCourtReservation.status","value":"Status"},{"name":"MtcCourtReservation.date","value":"Date"},{"name":"MtcCourtReservation.start_time","value":"Start Time"},{"name":"MtcCourtReservation.end_time","value":"End Time"},{"name":"MtcCourtReservation.member1_id","value":"Member1 Id"},{"name":"MtcCourtReservation.notes","value":"Notes"},{"name":"MtcEmailConfirm.email_confirm_id","value":"Mtc Email Confirm"},{"name":"MtcEmailConfirm.confirmation_code","value":"Confirmation Code"},{"name":"MtcEmailConfirm.email","value":"Email"},{"name":"MtcEmailConfirm.time_stamp","value":"Time Stamp"},{"name":"MtcMember.member_id","value":"Mtc Member"},{"name":"MtcMember.first_name","value":"First Name"},{"name":"MtcMember.last_name","value":"Last Name"},{"name":"MtcMember.address","value":"Address"},{"name":"MtcMember.city","value":"City"},{"name":"MtcMember.postal_code","value":"Postal Code"},{"name":"MtcMember.home_phone","value":"Home Phone"},{"name":"MtcMember.business_phone","value":"Business Phone"},{"name":"MtcMember.family_members","value":"Family Members"},{"name":"MtcMember.email","value":"Email"},{"name":"MtcMember.password","value":"Password"},{"name":"MtcMember.password_hint","value":"Password Hint"},{"name":"MtcMember.password_hint_answer","value":"Password Hint Answer"},{"name":"MtcMember.avatar_url","value":"Avatar Url"},{"name":"MtcMember.donate","value":"Donate"},{"name":"MtcMember.membership_category_id","value":"Membership Category Id"},{"name":"MtcMember.amount_enclosed","value":"Amount Enclosed"},{"name":"MtcMembershipCategory.membership_category_id","value":"Mtc Membership Category"},{"name":"MtcMembershipCategory.name","value":"Name"},{"name":"MtcMembershipCategory.category","value":"Category"},{"name":"MtcMembershipCategory.fee","value":"Fee"},{"name":"MtcNotice.notice_id","value":"Mtc Notice"},{"name":"MtcNotice.name","value":"Name"},{"name":"MtcNotice.title","value":"Title"},{"name":"MtcNotice.category","value":"Category"},{"name":"MtcNotice.content","value":"Content"},{"name":"MtcOpenDates.open_dates_id","value":"Mtc Open Dates"},{"name":"MtcOpenDates.name","value":"Name"},{"name":"MtcOpenDates.day","value":"Day"},{"name":"MtcOpenDates.start_date","value":"Start Date"},{"name":"MtcOpenDates.end_date","value":"End Date"},{"name":"MtcOpenDates.start_time","value":"Start Time"},{"name":"MtcOpenDates.end_time","value":"End Time"},{"name":"MtcOpenDates.type","value":"Type"},{"name":"MtcOpenDates.comments","value":"Comments"},{"name":"MtcPermissions.permission_id","value":"Mtc Permissions"},{"name":"MtcPermissions.member_id","value":"Member Id"},{"name":"MtcPermissions.first_name","value":"First Name"},{"name":"MtcPermissions.last_name","value":"Last Name"},{"name":"MtcPermissions.permissions","value":"Permissions"},{"name":"MtcPermissions.comments","value":"Comments"},{"name":"MtcUserSession.userid","value":"Userid"},{"name":"MtcUserSession.ukey","value":"Ukey"},{"name":"MtcUserSession.ip_address","value":"Ip Address"},{"name":"MtcUserSession.device","value":"Device"},{"name":"MtcUserSession.modified","value":"Modified"}]}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:57:40-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => CannedQuery.get
+    [canned_query_id] => 14
+)
+]END
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:57:40-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","field":{"canned_query_id":"14","key":"show_old_email_confirmations","name":"Show Old Email Confirmations","description":"Show email confirmations older than the selected date.","form":"Show Email Confirmations that are Older than %time_stamp$date%","query":"SELECT * FROM `mtc_email_confirm` WHERE `time_stamp` < :time_stamp","class_list":"MtcEmailConfirm"}}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:57:41-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcEmailConfirm.getSchema
+)
+]END
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:57:41-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","schema":{"namespace":"tobe.avro","type":"record","name":"mtc_email_confirm","class_name":"MtcEmailConfirm","fields":[{"name":"email_confirm_id","type":"int(10) [PRIMARY_KEY]","class":"","optional":"NO"},{"name":"confirmation_code","type":"varchar(32)","class":"","optional":"NO"},{"name":"email","type":"varchar(200)","class":"","optional":"NO"},{"name":"time_stamp","type":"timestamp","class":"","optional":"NO"}],"Primary_key":"email_confirm_id"}}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:58:12-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => CannedQueryHelper.runCannedQuery
+    [userid] => 45
+    [ukey] => 5YbHKUduDpqxi
+    [key] => show_old_email_confirmations
+    [time_stamp] => 2015-05-04
+)
+]END
+
+OBJECT
+DEBUG at 2015-04-23T15:58:12-04:00 in /json-api/index.php
+member_id: 45 PERMISSIONS:5
+
+OBJECT
+DEBUG at 2015-04-23T15:58:12-04:00 in /json-api/index.php
+class:CannedQueryHelper mthd:runCannedQuery
+
+Generic
+DEBUG at 2015-04-23T15:58:12-04:00 in /json-api/index.php
+DEBUG query: SELECT * FROM `mtc_email_confirm` WHERE `time_stamp` < :time_stamp
+
+Generic
+DEBUG at 2015-04-23T15:58:12-04:00 in /json-api/index.php
+DEBUG postArray: Array
+(
+    [time_stamp] => 2015-05-04
+)
+
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:58:12-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","fields":[{"email_confirm_id":"9","confirmation_code":"b962489278b156a25a977c1f94eaba27","email":"danwestenberger@gmail.com","time_stamp":"2015-04-13 19:28:23"},{"email_confirm_id":"11","confirmation_code":"8f45c6b12b9c1afa78355962ad5e14c0","email":"meghnakaushik@icloud.com","time_stamp":"2015-04-14 08:30:23"},{"email_confirm_id":"12","confirmation_code":"94d28f7cd8e903dbcb98a05793182299","email":"rich@email.com","time_stamp":"2015-04-14 09:09:59"},{"email_confirm_id":"15","confirmation_code":"377d202bdff3b98323c418d1bb8d3df4","email":"test4@test4.com","time_stamp":"2015-04-15 17:40:38"},{"email_confirm_id":"16","confirmation_code":"e105e6ccb4645f42daae909c853fadfa","email":"yuhanji@gmail.com","time_stamp":"2015-04-15 17:54:25"},{"email_confirm_id":"17","confirmation_code":"7289061367eee41700f5aceec4d11ab6","email":"yuhanji1@gmail.com","time_stamp":"2015-04-15 17:55:00"},{"email_confirm_id":"18","confirmation_code":"1edea59f83ee961250dfc2afe02651c4","email":"wiley2@rogers.com","time_stamp":"2015-04-16 10:03:26"},{"email_confirm_id":"19","confirmation_code":"3d060cbe45915db68df3885814e48aba","email":"wiley3@rogers.com","time_stamp":"2015-04-16 10:04:01"},{"email_confirm_id":"20","confirmation_code":"a8f0cef3f406682b147e3e0cfa962599","email":"wiley4@rogers.com","time_stamp":"2015-04-16 10:04:11"},{"email_confirm_id":"21","confirmation_code":"145885ba9b76b11f9d57db1b46bf461b","email":"jack0179@algonquinlive.ca","time_stamp":"2015-04-16 12:56:03"},{"email_confirm_id":"22","confirmation_code":"17a86e8678fc19bb72669e1e99f466fe","email":"none@email.com","time_stamp":"2015-04-16 12:57:27"},{"email_confirm_id":"23","confirmation_code":"6282a9a0afc58bc86d7965caefc77f14","email":"kirkdavies@rogers.com","time_stamp":"2015-04-17 09:40:59"},{"email_confirm_id":"24","confirmation_code":"dbd5b124aef6ec8712df9284409f1b1f","email":"long@rogers.com","time_stamp":"2015-04-18 16:12:15"},{"email_confirm_id":"25","confirmation_code":"33502d07a365368829b11204cce497c8","email":"guest1@adamsonsacademy.com","time_stamp":"2015-04-20 15:23:14"},{"email_confirm_id":"26","confirmation_code":"4882538048c42800a6b25f1c8b5c8151","email":"guest2@adamsonsacademy.com","time_stamp":"2015-04-20 15:24:46"},{"email_confirm_id":"27","confirmation_code":"e2256a6c7b75e51eb69998a86ecd4412","email":"guest3@adamsonsacademy.com","time_stamp":"2015-04-20 15:25:17"},{"email_confirm_id":"28","confirmation_code":"a4ef15e3fa35c0d20512e96947e16f6f","email":"guest4@adamsonsacademy.com","time_stamp":"2015-04-20 16:31:59"},{"email_confirm_id":"29","confirmation_code":"dd82f5166696362fc44cb4a5c2c143d6","email":"guest5@adamsonsacademy.com","time_stamp":"2015-04-20 16:47:08"},{"email_confirm_id":"30","confirmation_code":"1b2d5f1fccad59b305c84a9cda437ddf","email":"test@test","time_stamp":"2015-04-20 17:30:21"},{"email_confirm_id":"31","confirmation_code":"6306a56d3a8963758190d524a216b538","email":"guest6@adamsonsacademy.com","time_stamp":"2015-04-20 17:33:26"},{"email_confirm_id":"32","confirmation_code":"62a142a135805b6aa3476f3a25ba257a","email":"guest7@adamsonsacademy.com","time_stamp":"2015-04-20 17:33:47"},{"email_confirm_id":"33","confirmation_code":"224d278664e897a5286575f7f46d4171","email":"guest8@adamsonsacademy.com","time_stamp":"2015-04-20 17:34:47"}],"primary_key_name":"email_confirm_id","class_name":"MtcEmailConfirm"}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:58:29-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcEmailConfirm.delete
+    [email_confirm_id] => 21
+    [userid] => 45
+    [ukey] => 5YbHKUduDpqxi
+)
+]END
+
+OBJECT
+DEBUG at 2015-04-23T15:58:29-04:00 in /json-api/index.php
+member_id: 45 PERMISSIONS:5
+
+OBJECT
+DEBUG at 2015-04-23T15:58:29-04:00 in /json-api/index.php
+class:MtcEmailConfirm mthd:delete
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:58:29-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","email_confirm_id":"21"}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:58:29-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => CannedQueryHelper.runCannedQuery
+    [userid] => 45
+    [ukey] => 5YbHKUduDpqxi
+    [key] => show_old_email_confirmations
+    [time_stamp] => 2015-05-04
+)
+]END
+
+OBJECT
+DEBUG at 2015-04-23T15:58:29-04:00 in /json-api/index.php
+member_id: 45 PERMISSIONS:5
+
+OBJECT
+DEBUG at 2015-04-23T15:58:29-04:00 in /json-api/index.php
+class:CannedQueryHelper mthd:runCannedQuery
+
+Generic
+DEBUG at 2015-04-23T15:58:29-04:00 in /json-api/index.php
+DEBUG query: SELECT * FROM `mtc_email_confirm` WHERE `time_stamp` < :time_stamp
+
+Generic
+DEBUG at 2015-04-23T15:58:29-04:00 in /json-api/index.php
+DEBUG postArray: Array
+(
+    [time_stamp] => 2015-05-04
+)
+
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:58:29-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","fields":[{"email_confirm_id":"9","confirmation_code":"b962489278b156a25a977c1f94eaba27","email":"danwestenberger@gmail.com","time_stamp":"2015-04-13 19:28:23"},{"email_confirm_id":"11","confirmation_code":"8f45c6b12b9c1afa78355962ad5e14c0","email":"meghnakaushik@icloud.com","time_stamp":"2015-04-14 08:30:23"},{"email_confirm_id":"12","confirmation_code":"94d28f7cd8e903dbcb98a05793182299","email":"rich@email.com","time_stamp":"2015-04-14 09:09:59"},{"email_confirm_id":"15","confirmation_code":"377d202bdff3b98323c418d1bb8d3df4","email":"test4@test4.com","time_stamp":"2015-04-15 17:40:38"},{"email_confirm_id":"16","confirmation_code":"e105e6ccb4645f42daae909c853fadfa","email":"yuhanji@gmail.com","time_stamp":"2015-04-15 17:54:25"},{"email_confirm_id":"17","confirmation_code":"7289061367eee41700f5aceec4d11ab6","email":"yuhanji1@gmail.com","time_stamp":"2015-04-15 17:55:00"},{"email_confirm_id":"18","confirmation_code":"1edea59f83ee961250dfc2afe02651c4","email":"wiley2@rogers.com","time_stamp":"2015-04-16 10:03:26"},{"email_confirm_id":"19","confirmation_code":"3d060cbe45915db68df3885814e48aba","email":"wiley3@rogers.com","time_stamp":"2015-04-16 10:04:01"},{"email_confirm_id":"20","confirmation_code":"a8f0cef3f406682b147e3e0cfa962599","email":"wiley4@rogers.com","time_stamp":"2015-04-16 10:04:11"},{"email_confirm_id":"22","confirmation_code":"17a86e8678fc19bb72669e1e99f466fe","email":"none@email.com","time_stamp":"2015-04-16 12:57:27"},{"email_confirm_id":"23","confirmation_code":"6282a9a0afc58bc86d7965caefc77f14","email":"kirkdavies@rogers.com","time_stamp":"2015-04-17 09:40:59"},{"email_confirm_id":"24","confirmation_code":"dbd5b124aef6ec8712df9284409f1b1f","email":"long@rogers.com","time_stamp":"2015-04-18 16:12:15"},{"email_confirm_id":"25","confirmation_code":"33502d07a365368829b11204cce497c8","email":"guest1@adamsonsacademy.com","time_stamp":"2015-04-20 15:23:14"},{"email_confirm_id":"26","confirmation_code":"4882538048c42800a6b25f1c8b5c8151","email":"guest2@adamsonsacademy.com","time_stamp":"2015-04-20 15:24:46"},{"email_confirm_id":"27","confirmation_code":"e2256a6c7b75e51eb69998a86ecd4412","email":"guest3@adamsonsacademy.com","time_stamp":"2015-04-20 15:25:17"},{"email_confirm_id":"28","confirmation_code":"a4ef15e3fa35c0d20512e96947e16f6f","email":"guest4@adamsonsacademy.com","time_stamp":"2015-04-20 16:31:59"},{"email_confirm_id":"29","confirmation_code":"dd82f5166696362fc44cb4a5c2c143d6","email":"guest5@adamsonsacademy.com","time_stamp":"2015-04-20 16:47:08"},{"email_confirm_id":"30","confirmation_code":"1b2d5f1fccad59b305c84a9cda437ddf","email":"test@test","time_stamp":"2015-04-20 17:30:21"},{"email_confirm_id":"31","confirmation_code":"6306a56d3a8963758190d524a216b538","email":"guest6@adamsonsacademy.com","time_stamp":"2015-04-20 17:33:26"},{"email_confirm_id":"32","confirmation_code":"62a142a135805b6aa3476f3a25ba257a","email":"guest7@adamsonsacademy.com","time_stamp":"2015-04-20 17:33:47"},{"email_confirm_id":"33","confirmation_code":"224d278664e897a5286575f7f46d4171","email":"guest8@adamsonsacademy.com","time_stamp":"2015-04-20 17:34:47"}],"primary_key_name":"email_confirm_id","class_name":"MtcEmailConfirm"}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:58:36-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcEmailConfirm.delete
+    [email_confirm_id] => 24
+    [userid] => 45
+    [ukey] => 5YbHKUduDpqxi
+)
+]END
+
+OBJECT
+DEBUG at 2015-04-23T15:58:36-04:00 in /json-api/index.php
+member_id: 45 PERMISSIONS:5
+
+OBJECT
+DEBUG at 2015-04-23T15:58:36-04:00 in /json-api/index.php
+class:MtcEmailConfirm mthd:delete
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:58:36-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","email_confirm_id":"24"}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:58:36-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => CannedQueryHelper.runCannedQuery
+    [userid] => 45
+    [ukey] => 5YbHKUduDpqxi
+    [key] => show_old_email_confirmations
+    [time_stamp] => 2015-05-04
+)
+]END
+
+OBJECT
+DEBUG at 2015-04-23T15:58:36-04:00 in /json-api/index.php
+member_id: 45 PERMISSIONS:5
+
+OBJECT
+DEBUG at 2015-04-23T15:58:36-04:00 in /json-api/index.php
+class:CannedQueryHelper mthd:runCannedQuery
+
+Generic
+DEBUG at 2015-04-23T15:58:36-04:00 in /json-api/index.php
+DEBUG query: SELECT * FROM `mtc_email_confirm` WHERE `time_stamp` < :time_stamp
+
+Generic
+DEBUG at 2015-04-23T15:58:36-04:00 in /json-api/index.php
+DEBUG postArray: Array
+(
+    [time_stamp] => 2015-05-04
+)
+
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:58:36-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","fields":[{"email_confirm_id":"9","confirmation_code":"b962489278b156a25a977c1f94eaba27","email":"danwestenberger@gmail.com","time_stamp":"2015-04-13 19:28:23"},{"email_confirm_id":"11","confirmation_code":"8f45c6b12b9c1afa78355962ad5e14c0","email":"meghnakaushik@icloud.com","time_stamp":"2015-04-14 08:30:23"},{"email_confirm_id":"12","confirmation_code":"94d28f7cd8e903dbcb98a05793182299","email":"rich@email.com","time_stamp":"2015-04-14 09:09:59"},{"email_confirm_id":"15","confirmation_code":"377d202bdff3b98323c418d1bb8d3df4","email":"test4@test4.com","time_stamp":"2015-04-15 17:40:38"},{"email_confirm_id":"16","confirmation_code":"e105e6ccb4645f42daae909c853fadfa","email":"yuhanji@gmail.com","time_stamp":"2015-04-15 17:54:25"},{"email_confirm_id":"17","confirmation_code":"7289061367eee41700f5aceec4d11ab6","email":"yuhanji1@gmail.com","time_stamp":"2015-04-15 17:55:00"},{"email_confirm_id":"18","confirmation_code":"1edea59f83ee961250dfc2afe02651c4","email":"wiley2@rogers.com","time_stamp":"2015-04-16 10:03:26"},{"email_confirm_id":"19","confirmation_code":"3d060cbe45915db68df3885814e48aba","email":"wiley3@rogers.com","time_stamp":"2015-04-16 10:04:01"},{"email_confirm_id":"20","confirmation_code":"a8f0cef3f406682b147e3e0cfa962599","email":"wiley4@rogers.com","time_stamp":"2015-04-16 10:04:11"},{"email_confirm_id":"22","confirmation_code":"17a86e8678fc19bb72669e1e99f466fe","email":"none@email.com","time_stamp":"2015-04-16 12:57:27"},{"email_confirm_id":"23","confirmation_code":"6282a9a0afc58bc86d7965caefc77f14","email":"kirkdavies@rogers.com","time_stamp":"2015-04-17 09:40:59"},{"email_confirm_id":"25","confirmation_code":"33502d07a365368829b11204cce497c8","email":"guest1@adamsonsacademy.com","time_stamp":"2015-04-20 15:23:14"},{"email_confirm_id":"26","confirmation_code":"4882538048c42800a6b25f1c8b5c8151","email":"guest2@adamsonsacademy.com","time_stamp":"2015-04-20 15:24:46"},{"email_confirm_id":"27","confirmation_code":"e2256a6c7b75e51eb69998a86ecd4412","email":"guest3@adamsonsacademy.com","time_stamp":"2015-04-20 15:25:17"},{"email_confirm_id":"28","confirmation_code":"a4ef15e3fa35c0d20512e96947e16f6f","email":"guest4@adamsonsacademy.com","time_stamp":"2015-04-20 16:31:59"},{"email_confirm_id":"29","confirmation_code":"dd82f5166696362fc44cb4a5c2c143d6","email":"guest5@adamsonsacademy.com","time_stamp":"2015-04-20 16:47:08"},{"email_confirm_id":"30","confirmation_code":"1b2d5f1fccad59b305c84a9cda437ddf","email":"test@test","time_stamp":"2015-04-20 17:30:21"},{"email_confirm_id":"31","confirmation_code":"6306a56d3a8963758190d524a216b538","email":"guest6@adamsonsacademy.com","time_stamp":"2015-04-20 17:33:26"},{"email_confirm_id":"32","confirmation_code":"62a142a135805b6aa3476f3a25ba257a","email":"guest7@adamsonsacademy.com","time_stamp":"2015-04-20 17:33:47"},{"email_confirm_id":"33","confirmation_code":"224d278664e897a5286575f7f46d4171","email":"guest8@adamsonsacademy.com","time_stamp":"2015-04-20 17:34:47"}],"primary_key_name":"email_confirm_id","class_name":"MtcEmailConfirm"}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:58:38-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcEmailConfirm.delete
+    [email_confirm_id] => 11
+    [userid] => 45
+    [ukey] => 5YbHKUduDpqxi
+)
+]END
+
+OBJECT
+DEBUG at 2015-04-23T15:58:38-04:00 in /json-api/index.php
+member_id: 45 PERMISSIONS:5
+
+OBJECT
+DEBUG at 2015-04-23T15:58:38-04:00 in /json-api/index.php
+class:MtcEmailConfirm mthd:delete
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:58:38-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","email_confirm_id":"11"}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:58:38-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => CannedQueryHelper.runCannedQuery
+    [userid] => 45
+    [ukey] => 5YbHKUduDpqxi
+    [key] => show_old_email_confirmations
+    [time_stamp] => 2015-05-04
+)
+]END
+
+OBJECT
+DEBUG at 2015-04-23T15:58:38-04:00 in /json-api/index.php
+member_id: 45 PERMISSIONS:5
+
+OBJECT
+DEBUG at 2015-04-23T15:58:38-04:00 in /json-api/index.php
+class:CannedQueryHelper mthd:runCannedQuery
+
+Generic
+DEBUG at 2015-04-23T15:58:38-04:00 in /json-api/index.php
+DEBUG query: SELECT * FROM `mtc_email_confirm` WHERE `time_stamp` < :time_stamp
+
+Generic
+DEBUG at 2015-04-23T15:58:38-04:00 in /json-api/index.php
+DEBUG postArray: Array
+(
+    [time_stamp] => 2015-05-04
+)
+
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:58:38-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","fields":[{"email_confirm_id":"9","confirmation_code":"b962489278b156a25a977c1f94eaba27","email":"danwestenberger@gmail.com","time_stamp":"2015-04-13 19:28:23"},{"email_confirm_id":"12","confirmation_code":"94d28f7cd8e903dbcb98a05793182299","email":"rich@email.com","time_stamp":"2015-04-14 09:09:59"},{"email_confirm_id":"15","confirmation_code":"377d202bdff3b98323c418d1bb8d3df4","email":"test4@test4.com","time_stamp":"2015-04-15 17:40:38"},{"email_confirm_id":"16","confirmation_code":"e105e6ccb4645f42daae909c853fadfa","email":"yuhanji@gmail.com","time_stamp":"2015-04-15 17:54:25"},{"email_confirm_id":"17","confirmation_code":"7289061367eee41700f5aceec4d11ab6","email":"yuhanji1@gmail.com","time_stamp":"2015-04-15 17:55:00"},{"email_confirm_id":"18","confirmation_code":"1edea59f83ee961250dfc2afe02651c4","email":"wiley2@rogers.com","time_stamp":"2015-04-16 10:03:26"},{"email_confirm_id":"19","confirmation_code":"3d060cbe45915db68df3885814e48aba","email":"wiley3@rogers.com","time_stamp":"2015-04-16 10:04:01"},{"email_confirm_id":"20","confirmation_code":"a8f0cef3f406682b147e3e0cfa962599","email":"wiley4@rogers.com","time_stamp":"2015-04-16 10:04:11"},{"email_confirm_id":"22","confirmation_code":"17a86e8678fc19bb72669e1e99f466fe","email":"none@email.com","time_stamp":"2015-04-16 12:57:27"},{"email_confirm_id":"23","confirmation_code":"6282a9a0afc58bc86d7965caefc77f14","email":"kirkdavies@rogers.com","time_stamp":"2015-04-17 09:40:59"},{"email_confirm_id":"25","confirmation_code":"33502d07a365368829b11204cce497c8","email":"guest1@adamsonsacademy.com","time_stamp":"2015-04-20 15:23:14"},{"email_confirm_id":"26","confirmation_code":"4882538048c42800a6b25f1c8b5c8151","email":"guest2@adamsonsacademy.com","time_stamp":"2015-04-20 15:24:46"},{"email_confirm_id":"27","confirmation_code":"e2256a6c7b75e51eb69998a86ecd4412","email":"guest3@adamsonsacademy.com","time_stamp":"2015-04-20 15:25:17"},{"email_confirm_id":"28","confirmation_code":"a4ef15e3fa35c0d20512e96947e16f6f","email":"guest4@adamsonsacademy.com","time_stamp":"2015-04-20 16:31:59"},{"email_confirm_id":"29","confirmation_code":"dd82f5166696362fc44cb4a5c2c143d6","email":"guest5@adamsonsacademy.com","time_stamp":"2015-04-20 16:47:08"},{"email_confirm_id":"30","confirmation_code":"1b2d5f1fccad59b305c84a9cda437ddf","email":"test@test","time_stamp":"2015-04-20 17:30:21"},{"email_confirm_id":"31","confirmation_code":"6306a56d3a8963758190d524a216b538","email":"guest6@adamsonsacademy.com","time_stamp":"2015-04-20 17:33:26"},{"email_confirm_id":"32","confirmation_code":"62a142a135805b6aa3476f3a25ba257a","email":"guest7@adamsonsacademy.com","time_stamp":"2015-04-20 17:33:47"},{"email_confirm_id":"33","confirmation_code":"224d278664e897a5286575f7f46d4171","email":"guest8@adamsonsacademy.com","time_stamp":"2015-04-20 17:34:47"}],"primary_key_name":"email_confirm_id","class_name":"MtcEmailConfirm"}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:58:41-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcEmailConfirm.delete
+    [email_confirm_id] => 22
+    [userid] => 45
+    [ukey] => 5YbHKUduDpqxi
+)
+]END
+
+OBJECT
+DEBUG at 2015-04-23T15:58:41-04:00 in /json-api/index.php
+member_id: 45 PERMISSIONS:5
+
+OBJECT
+DEBUG at 2015-04-23T15:58:41-04:00 in /json-api/index.php
+class:MtcEmailConfirm mthd:delete
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:58:41-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","email_confirm_id":"22"}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:58:41-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => CannedQueryHelper.runCannedQuery
+    [userid] => 45
+    [ukey] => 5YbHKUduDpqxi
+    [key] => show_old_email_confirmations
+    [time_stamp] => 2015-05-04
+)
+]END
+
+OBJECT
+DEBUG at 2015-04-23T15:58:41-04:00 in /json-api/index.php
+member_id: 45 PERMISSIONS:5
+
+OBJECT
+DEBUG at 2015-04-23T15:58:41-04:00 in /json-api/index.php
+class:CannedQueryHelper mthd:runCannedQuery
+
+Generic
+DEBUG at 2015-04-23T15:58:41-04:00 in /json-api/index.php
+DEBUG query: SELECT * FROM `mtc_email_confirm` WHERE `time_stamp` < :time_stamp
+
+Generic
+DEBUG at 2015-04-23T15:58:41-04:00 in /json-api/index.php
+DEBUG postArray: Array
+(
+    [time_stamp] => 2015-05-04
+)
+
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:58:41-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","fields":[{"email_confirm_id":"9","confirmation_code":"b962489278b156a25a977c1f94eaba27","email":"danwestenberger@gmail.com","time_stamp":"2015-04-13 19:28:23"},{"email_confirm_id":"12","confirmation_code":"94d28f7cd8e903dbcb98a05793182299","email":"rich@email.com","time_stamp":"2015-04-14 09:09:59"},{"email_confirm_id":"15","confirmation_code":"377d202bdff3b98323c418d1bb8d3df4","email":"test4@test4.com","time_stamp":"2015-04-15 17:40:38"},{"email_confirm_id":"16","confirmation_code":"e105e6ccb4645f42daae909c853fadfa","email":"yuhanji@gmail.com","time_stamp":"2015-04-15 17:54:25"},{"email_confirm_id":"17","confirmation_code":"7289061367eee41700f5aceec4d11ab6","email":"yuhanji1@gmail.com","time_stamp":"2015-04-15 17:55:00"},{"email_confirm_id":"18","confirmation_code":"1edea59f83ee961250dfc2afe02651c4","email":"wiley2@rogers.com","time_stamp":"2015-04-16 10:03:26"},{"email_confirm_id":"19","confirmation_code":"3d060cbe45915db68df3885814e48aba","email":"wiley3@rogers.com","time_stamp":"2015-04-16 10:04:01"},{"email_confirm_id":"20","confirmation_code":"a8f0cef3f406682b147e3e0cfa962599","email":"wiley4@rogers.com","time_stamp":"2015-04-16 10:04:11"},{"email_confirm_id":"23","confirmation_code":"6282a9a0afc58bc86d7965caefc77f14","email":"kirkdavies@rogers.com","time_stamp":"2015-04-17 09:40:59"},{"email_confirm_id":"25","confirmation_code":"33502d07a365368829b11204cce497c8","email":"guest1@adamsonsacademy.com","time_stamp":"2015-04-20 15:23:14"},{"email_confirm_id":"26","confirmation_code":"4882538048c42800a6b25f1c8b5c8151","email":"guest2@adamsonsacademy.com","time_stamp":"2015-04-20 15:24:46"},{"email_confirm_id":"27","confirmation_code":"e2256a6c7b75e51eb69998a86ecd4412","email":"guest3@adamsonsacademy.com","time_stamp":"2015-04-20 15:25:17"},{"email_confirm_id":"28","confirmation_code":"a4ef15e3fa35c0d20512e96947e16f6f","email":"guest4@adamsonsacademy.com","time_stamp":"2015-04-20 16:31:59"},{"email_confirm_id":"29","confirmation_code":"dd82f5166696362fc44cb4a5c2c143d6","email":"guest5@adamsonsacademy.com","time_stamp":"2015-04-20 16:47:08"},{"email_confirm_id":"30","confirmation_code":"1b2d5f1fccad59b305c84a9cda437ddf","email":"test@test","time_stamp":"2015-04-20 17:30:21"},{"email_confirm_id":"31","confirmation_code":"6306a56d3a8963758190d524a216b538","email":"guest6@adamsonsacademy.com","time_stamp":"2015-04-20 17:33:26"},{"email_confirm_id":"32","confirmation_code":"62a142a135805b6aa3476f3a25ba257a","email":"guest7@adamsonsacademy.com","time_stamp":"2015-04-20 17:33:47"},{"email_confirm_id":"33","confirmation_code":"224d278664e897a5286575f7f46d4171","email":"guest8@adamsonsacademy.com","time_stamp":"2015-04-20 17:34:47"}],"primary_key_name":"email_confirm_id","class_name":"MtcEmailConfirm"}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:58:45-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcEmailConfirm.delete
+    [email_confirm_id] => 12
+    [userid] => 45
+    [ukey] => 5YbHKUduDpqxi
+)
+]END
+
+OBJECT
+DEBUG at 2015-04-23T15:58:45-04:00 in /json-api/index.php
+member_id: 45 PERMISSIONS:5
+
+OBJECT
+DEBUG at 2015-04-23T15:58:45-04:00 in /json-api/index.php
+class:MtcEmailConfirm mthd:delete
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:58:45-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","email_confirm_id":"12"}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:58:45-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => CannedQueryHelper.runCannedQuery
+    [userid] => 45
+    [ukey] => 5YbHKUduDpqxi
+    [key] => show_old_email_confirmations
+    [time_stamp] => 2015-05-04
+)
+]END
+
+OBJECT
+DEBUG at 2015-04-23T15:58:45-04:00 in /json-api/index.php
+member_id: 45 PERMISSIONS:5
+
+OBJECT
+DEBUG at 2015-04-23T15:58:45-04:00 in /json-api/index.php
+class:CannedQueryHelper mthd:runCannedQuery
+
+Generic
+DEBUG at 2015-04-23T15:58:45-04:00 in /json-api/index.php
+DEBUG query: SELECT * FROM `mtc_email_confirm` WHERE `time_stamp` < :time_stamp
+
+Generic
+DEBUG at 2015-04-23T15:58:45-04:00 in /json-api/index.php
+DEBUG postArray: Array
+(
+    [time_stamp] => 2015-05-04
+)
+
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:58:45-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","fields":[{"email_confirm_id":"9","confirmation_code":"b962489278b156a25a977c1f94eaba27","email":"danwestenberger@gmail.com","time_stamp":"2015-04-13 19:28:23"},{"email_confirm_id":"15","confirmation_code":"377d202bdff3b98323c418d1bb8d3df4","email":"test4@test4.com","time_stamp":"2015-04-15 17:40:38"},{"email_confirm_id":"16","confirmation_code":"e105e6ccb4645f42daae909c853fadfa","email":"yuhanji@gmail.com","time_stamp":"2015-04-15 17:54:25"},{"email_confirm_id":"17","confirmation_code":"7289061367eee41700f5aceec4d11ab6","email":"yuhanji1@gmail.com","time_stamp":"2015-04-15 17:55:00"},{"email_confirm_id":"18","confirmation_code":"1edea59f83ee961250dfc2afe02651c4","email":"wiley2@rogers.com","time_stamp":"2015-04-16 10:03:26"},{"email_confirm_id":"19","confirmation_code":"3d060cbe45915db68df3885814e48aba","email":"wiley3@rogers.com","time_stamp":"2015-04-16 10:04:01"},{"email_confirm_id":"20","confirmation_code":"a8f0cef3f406682b147e3e0cfa962599","email":"wiley4@rogers.com","time_stamp":"2015-04-16 10:04:11"},{"email_confirm_id":"23","confirmation_code":"6282a9a0afc58bc86d7965caefc77f14","email":"kirkdavies@rogers.com","time_stamp":"2015-04-17 09:40:59"},{"email_confirm_id":"25","confirmation_code":"33502d07a365368829b11204cce497c8","email":"guest1@adamsonsacademy.com","time_stamp":"2015-04-20 15:23:14"},{"email_confirm_id":"26","confirmation_code":"4882538048c42800a6b25f1c8b5c8151","email":"guest2@adamsonsacademy.com","time_stamp":"2015-04-20 15:24:46"},{"email_confirm_id":"27","confirmation_code":"e2256a6c7b75e51eb69998a86ecd4412","email":"guest3@adamsonsacademy.com","time_stamp":"2015-04-20 15:25:17"},{"email_confirm_id":"28","confirmation_code":"a4ef15e3fa35c0d20512e96947e16f6f","email":"guest4@adamsonsacademy.com","time_stamp":"2015-04-20 16:31:59"},{"email_confirm_id":"29","confirmation_code":"dd82f5166696362fc44cb4a5c2c143d6","email":"guest5@adamsonsacademy.com","time_stamp":"2015-04-20 16:47:08"},{"email_confirm_id":"30","confirmation_code":"1b2d5f1fccad59b305c84a9cda437ddf","email":"test@test","time_stamp":"2015-04-20 17:30:21"},{"email_confirm_id":"31","confirmation_code":"6306a56d3a8963758190d524a216b538","email":"guest6@adamsonsacademy.com","time_stamp":"2015-04-20 17:33:26"},{"email_confirm_id":"32","confirmation_code":"62a142a135805b6aa3476f3a25ba257a","email":"guest7@adamsonsacademy.com","time_stamp":"2015-04-20 17:33:47"},{"email_confirm_id":"33","confirmation_code":"224d278664e897a5286575f7f46d4171","email":"guest8@adamsonsacademy.com","time_stamp":"2015-04-20 17:34:47"}],"primary_key_name":"email_confirm_id","class_name":"MtcEmailConfirm"}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:58:48-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcEmailConfirm.delete
+    [email_confirm_id] => 23
+    [userid] => 45
+    [ukey] => 5YbHKUduDpqxi
+)
+]END
+
+OBJECT
+DEBUG at 2015-04-23T15:58:48-04:00 in /json-api/index.php
+member_id: 45 PERMISSIONS:5
+
+OBJECT
+DEBUG at 2015-04-23T15:58:48-04:00 in /json-api/index.php
+class:MtcEmailConfirm mthd:delete
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:58:48-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","email_confirm_id":"23"}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:58:48-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => CannedQueryHelper.runCannedQuery
+    [userid] => 45
+    [ukey] => 5YbHKUduDpqxi
+    [key] => show_old_email_confirmations
+    [time_stamp] => 2015-05-04
+)
+]END
+
+OBJECT
+DEBUG at 2015-04-23T15:58:48-04:00 in /json-api/index.php
+member_id: 45 PERMISSIONS:5
+
+OBJECT
+DEBUG at 2015-04-23T15:58:48-04:00 in /json-api/index.php
+class:CannedQueryHelper mthd:runCannedQuery
+
+Generic
+DEBUG at 2015-04-23T15:58:48-04:00 in /json-api/index.php
+DEBUG query: SELECT * FROM `mtc_email_confirm` WHERE `time_stamp` < :time_stamp
+
+Generic
+DEBUG at 2015-04-23T15:58:48-04:00 in /json-api/index.php
+DEBUG postArray: Array
+(
+    [time_stamp] => 2015-05-04
+)
+
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:58:48-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","fields":[{"email_confirm_id":"9","confirmation_code":"b962489278b156a25a977c1f94eaba27","email":"danwestenberger@gmail.com","time_stamp":"2015-04-13 19:28:23"},{"email_confirm_id":"15","confirmation_code":"377d202bdff3b98323c418d1bb8d3df4","email":"test4@test4.com","time_stamp":"2015-04-15 17:40:38"},{"email_confirm_id":"16","confirmation_code":"e105e6ccb4645f42daae909c853fadfa","email":"yuhanji@gmail.com","time_stamp":"2015-04-15 17:54:25"},{"email_confirm_id":"17","confirmation_code":"7289061367eee41700f5aceec4d11ab6","email":"yuhanji1@gmail.com","time_stamp":"2015-04-15 17:55:00"},{"email_confirm_id":"18","confirmation_code":"1edea59f83ee961250dfc2afe02651c4","email":"wiley2@rogers.com","time_stamp":"2015-04-16 10:03:26"},{"email_confirm_id":"19","confirmation_code":"3d060cbe45915db68df3885814e48aba","email":"wiley3@rogers.com","time_stamp":"2015-04-16 10:04:01"},{"email_confirm_id":"20","confirmation_code":"a8f0cef3f406682b147e3e0cfa962599","email":"wiley4@rogers.com","time_stamp":"2015-04-16 10:04:11"},{"email_confirm_id":"25","confirmation_code":"33502d07a365368829b11204cce497c8","email":"guest1@adamsonsacademy.com","time_stamp":"2015-04-20 15:23:14"},{"email_confirm_id":"26","confirmation_code":"4882538048c42800a6b25f1c8b5c8151","email":"guest2@adamsonsacademy.com","time_stamp":"2015-04-20 15:24:46"},{"email_confirm_id":"27","confirmation_code":"e2256a6c7b75e51eb69998a86ecd4412","email":"guest3@adamsonsacademy.com","time_stamp":"2015-04-20 15:25:17"},{"email_confirm_id":"28","confirmation_code":"a4ef15e3fa35c0d20512e96947e16f6f","email":"guest4@adamsonsacademy.com","time_stamp":"2015-04-20 16:31:59"},{"email_confirm_id":"29","confirmation_code":"dd82f5166696362fc44cb4a5c2c143d6","email":"guest5@adamsonsacademy.com","time_stamp":"2015-04-20 16:47:08"},{"email_confirm_id":"30","confirmation_code":"1b2d5f1fccad59b305c84a9cda437ddf","email":"test@test","time_stamp":"2015-04-20 17:30:21"},{"email_confirm_id":"31","confirmation_code":"6306a56d3a8963758190d524a216b538","email":"guest6@adamsonsacademy.com","time_stamp":"2015-04-20 17:33:26"},{"email_confirm_id":"32","confirmation_code":"62a142a135805b6aa3476f3a25ba257a","email":"guest7@adamsonsacademy.com","time_stamp":"2015-04-20 17:33:47"},{"email_confirm_id":"33","confirmation_code":"224d278664e897a5286575f7f46d4171","email":"guest8@adamsonsacademy.com","time_stamp":"2015-04-20 17:34:47"}],"primary_key_name":"email_confirm_id","class_name":"MtcEmailConfirm"}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:58:51-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcEmailConfirm.delete
+    [email_confirm_id] => 15
+    [userid] => 45
+    [ukey] => 5YbHKUduDpqxi
+)
+]END
+
+OBJECT
+DEBUG at 2015-04-23T15:58:51-04:00 in /json-api/index.php
+member_id: 45 PERMISSIONS:5
+
+OBJECT
+DEBUG at 2015-04-23T15:58:51-04:00 in /json-api/index.php
+class:MtcEmailConfirm mthd:delete
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:58:51-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","email_confirm_id":"15"}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:58:51-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => CannedQueryHelper.runCannedQuery
+    [userid] => 45
+    [ukey] => 5YbHKUduDpqxi
+    [key] => show_old_email_confirmations
+    [time_stamp] => 2015-05-04
+)
+]END
+
+OBJECT
+DEBUG at 2015-04-23T15:58:51-04:00 in /json-api/index.php
+member_id: 45 PERMISSIONS:5
+
+OBJECT
+DEBUG at 2015-04-23T15:58:51-04:00 in /json-api/index.php
+class:CannedQueryHelper mthd:runCannedQuery
+
+Generic
+DEBUG at 2015-04-23T15:58:51-04:00 in /json-api/index.php
+DEBUG query: SELECT * FROM `mtc_email_confirm` WHERE `time_stamp` < :time_stamp
+
+Generic
+DEBUG at 2015-04-23T15:58:51-04:00 in /json-api/index.php
+DEBUG postArray: Array
+(
+    [time_stamp] => 2015-05-04
+)
+
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:58:51-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","fields":[{"email_confirm_id":"9","confirmation_code":"b962489278b156a25a977c1f94eaba27","email":"danwestenberger@gmail.com","time_stamp":"2015-04-13 19:28:23"},{"email_confirm_id":"16","confirmation_code":"e105e6ccb4645f42daae909c853fadfa","email":"yuhanji@gmail.com","time_stamp":"2015-04-15 17:54:25"},{"email_confirm_id":"17","confirmation_code":"7289061367eee41700f5aceec4d11ab6","email":"yuhanji1@gmail.com","time_stamp":"2015-04-15 17:55:00"},{"email_confirm_id":"18","confirmation_code":"1edea59f83ee961250dfc2afe02651c4","email":"wiley2@rogers.com","time_stamp":"2015-04-16 10:03:26"},{"email_confirm_id":"19","confirmation_code":"3d060cbe45915db68df3885814e48aba","email":"wiley3@rogers.com","time_stamp":"2015-04-16 10:04:01"},{"email_confirm_id":"20","confirmation_code":"a8f0cef3f406682b147e3e0cfa962599","email":"wiley4@rogers.com","time_stamp":"2015-04-16 10:04:11"},{"email_confirm_id":"25","confirmation_code":"33502d07a365368829b11204cce497c8","email":"guest1@adamsonsacademy.com","time_stamp":"2015-04-20 15:23:14"},{"email_confirm_id":"26","confirmation_code":"4882538048c42800a6b25f1c8b5c8151","email":"guest2@adamsonsacademy.com","time_stamp":"2015-04-20 15:24:46"},{"email_confirm_id":"27","confirmation_code":"e2256a6c7b75e51eb69998a86ecd4412","email":"guest3@adamsonsacademy.com","time_stamp":"2015-04-20 15:25:17"},{"email_confirm_id":"28","confirmation_code":"a4ef15e3fa35c0d20512e96947e16f6f","email":"guest4@adamsonsacademy.com","time_stamp":"2015-04-20 16:31:59"},{"email_confirm_id":"29","confirmation_code":"dd82f5166696362fc44cb4a5c2c143d6","email":"guest5@adamsonsacademy.com","time_stamp":"2015-04-20 16:47:08"},{"email_confirm_id":"30","confirmation_code":"1b2d5f1fccad59b305c84a9cda437ddf","email":"test@test","time_stamp":"2015-04-20 17:30:21"},{"email_confirm_id":"31","confirmation_code":"6306a56d3a8963758190d524a216b538","email":"guest6@adamsonsacademy.com","time_stamp":"2015-04-20 17:33:26"},{"email_confirm_id":"32","confirmation_code":"62a142a135805b6aa3476f3a25ba257a","email":"guest7@adamsonsacademy.com","time_stamp":"2015-04-20 17:33:47"},{"email_confirm_id":"33","confirmation_code":"224d278664e897a5286575f7f46d4171","email":"guest8@adamsonsacademy.com","time_stamp":"2015-04-20 17:34:47"}],"primary_key_name":"email_confirm_id","class_name":"MtcEmailConfirm"}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:58:53-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcEmailConfirm.delete
+    [email_confirm_id] => 30
+    [userid] => 45
+    [ukey] => 5YbHKUduDpqxi
+)
+]END
+
+OBJECT
+DEBUG at 2015-04-23T15:58:53-04:00 in /json-api/index.php
+member_id: 45 PERMISSIONS:5
+
+OBJECT
+DEBUG at 2015-04-23T15:58:53-04:00 in /json-api/index.php
+class:MtcEmailConfirm mthd:delete
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:58:53-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","email_confirm_id":"30"}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:58:53-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => CannedQueryHelper.runCannedQuery
+    [userid] => 45
+    [ukey] => 5YbHKUduDpqxi
+    [key] => show_old_email_confirmations
+    [time_stamp] => 2015-05-04
+)
+]END
+
+OBJECT
+DEBUG at 2015-04-23T15:58:53-04:00 in /json-api/index.php
+member_id: 45 PERMISSIONS:5
+
+OBJECT
+DEBUG at 2015-04-23T15:58:53-04:00 in /json-api/index.php
+class:CannedQueryHelper mthd:runCannedQuery
+
+Generic
+DEBUG at 2015-04-23T15:58:53-04:00 in /json-api/index.php
+DEBUG query: SELECT * FROM `mtc_email_confirm` WHERE `time_stamp` < :time_stamp
+
+Generic
+DEBUG at 2015-04-23T15:58:53-04:00 in /json-api/index.php
+DEBUG postArray: Array
+(
+    [time_stamp] => 2015-05-04
+)
+
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:58:53-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","fields":[{"email_confirm_id":"9","confirmation_code":"b962489278b156a25a977c1f94eaba27","email":"danwestenberger@gmail.com","time_stamp":"2015-04-13 19:28:23"},{"email_confirm_id":"16","confirmation_code":"e105e6ccb4645f42daae909c853fadfa","email":"yuhanji@gmail.com","time_stamp":"2015-04-15 17:54:25"},{"email_confirm_id":"17","confirmation_code":"7289061367eee41700f5aceec4d11ab6","email":"yuhanji1@gmail.com","time_stamp":"2015-04-15 17:55:00"},{"email_confirm_id":"18","confirmation_code":"1edea59f83ee961250dfc2afe02651c4","email":"wiley2@rogers.com","time_stamp":"2015-04-16 10:03:26"},{"email_confirm_id":"19","confirmation_code":"3d060cbe45915db68df3885814e48aba","email":"wiley3@rogers.com","time_stamp":"2015-04-16 10:04:01"},{"email_confirm_id":"20","confirmation_code":"a8f0cef3f406682b147e3e0cfa962599","email":"wiley4@rogers.com","time_stamp":"2015-04-16 10:04:11"},{"email_confirm_id":"25","confirmation_code":"33502d07a365368829b11204cce497c8","email":"guest1@adamsonsacademy.com","time_stamp":"2015-04-20 15:23:14"},{"email_confirm_id":"26","confirmation_code":"4882538048c42800a6b25f1c8b5c8151","email":"guest2@adamsonsacademy.com","time_stamp":"2015-04-20 15:24:46"},{"email_confirm_id":"27","confirmation_code":"e2256a6c7b75e51eb69998a86ecd4412","email":"guest3@adamsonsacademy.com","time_stamp":"2015-04-20 15:25:17"},{"email_confirm_id":"28","confirmation_code":"a4ef15e3fa35c0d20512e96947e16f6f","email":"guest4@adamsonsacademy.com","time_stamp":"2015-04-20 16:31:59"},{"email_confirm_id":"29","confirmation_code":"dd82f5166696362fc44cb4a5c2c143d6","email":"guest5@adamsonsacademy.com","time_stamp":"2015-04-20 16:47:08"},{"email_confirm_id":"31","confirmation_code":"6306a56d3a8963758190d524a216b538","email":"guest6@adamsonsacademy.com","time_stamp":"2015-04-20 17:33:26"},{"email_confirm_id":"32","confirmation_code":"62a142a135805b6aa3476f3a25ba257a","email":"guest7@adamsonsacademy.com","time_stamp":"2015-04-20 17:33:47"},{"email_confirm_id":"33","confirmation_code":"224d278664e897a5286575f7f46d4171","email":"guest8@adamsonsacademy.com","time_stamp":"2015-04-20 17:34:47"}],"primary_key_name":"email_confirm_id","class_name":"MtcEmailConfirm"}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:58:55-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcEmailConfirm.delete
+    [email_confirm_id] => 18
+    [userid] => 45
+    [ukey] => 5YbHKUduDpqxi
+)
+]END
+
+OBJECT
+DEBUG at 2015-04-23T15:58:55-04:00 in /json-api/index.php
+member_id: 45 PERMISSIONS:5
+
+OBJECT
+DEBUG at 2015-04-23T15:58:55-04:00 in /json-api/index.php
+class:MtcEmailConfirm mthd:delete
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:58:55-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","email_confirm_id":"18"}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:58:55-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => CannedQueryHelper.runCannedQuery
+    [userid] => 45
+    [ukey] => 5YbHKUduDpqxi
+    [key] => show_old_email_confirmations
+    [time_stamp] => 2015-05-04
+)
+]END
+
+OBJECT
+DEBUG at 2015-04-23T15:58:55-04:00 in /json-api/index.php
+member_id: 45 PERMISSIONS:5
+
+OBJECT
+DEBUG at 2015-04-23T15:58:55-04:00 in /json-api/index.php
+class:CannedQueryHelper mthd:runCannedQuery
+
+Generic
+DEBUG at 2015-04-23T15:58:55-04:00 in /json-api/index.php
+DEBUG query: SELECT * FROM `mtc_email_confirm` WHERE `time_stamp` < :time_stamp
+
+Generic
+DEBUG at 2015-04-23T15:58:55-04:00 in /json-api/index.php
+DEBUG postArray: Array
+(
+    [time_stamp] => 2015-05-04
+)
+
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:58:55-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","fields":[{"email_confirm_id":"9","confirmation_code":"b962489278b156a25a977c1f94eaba27","email":"danwestenberger@gmail.com","time_stamp":"2015-04-13 19:28:23"},{"email_confirm_id":"16","confirmation_code":"e105e6ccb4645f42daae909c853fadfa","email":"yuhanji@gmail.com","time_stamp":"2015-04-15 17:54:25"},{"email_confirm_id":"17","confirmation_code":"7289061367eee41700f5aceec4d11ab6","email":"yuhanji1@gmail.com","time_stamp":"2015-04-15 17:55:00"},{"email_confirm_id":"19","confirmation_code":"3d060cbe45915db68df3885814e48aba","email":"wiley3@rogers.com","time_stamp":"2015-04-16 10:04:01"},{"email_confirm_id":"20","confirmation_code":"a8f0cef3f406682b147e3e0cfa962599","email":"wiley4@rogers.com","time_stamp":"2015-04-16 10:04:11"},{"email_confirm_id":"25","confirmation_code":"33502d07a365368829b11204cce497c8","email":"guest1@adamsonsacademy.com","time_stamp":"2015-04-20 15:23:14"},{"email_confirm_id":"26","confirmation_code":"4882538048c42800a6b25f1c8b5c8151","email":"guest2@adamsonsacademy.com","time_stamp":"2015-04-20 15:24:46"},{"email_confirm_id":"27","confirmation_code":"e2256a6c7b75e51eb69998a86ecd4412","email":"guest3@adamsonsacademy.com","time_stamp":"2015-04-20 15:25:17"},{"email_confirm_id":"28","confirmation_code":"a4ef15e3fa35c0d20512e96947e16f6f","email":"guest4@adamsonsacademy.com","time_stamp":"2015-04-20 16:31:59"},{"email_confirm_id":"29","confirmation_code":"dd82f5166696362fc44cb4a5c2c143d6","email":"guest5@adamsonsacademy.com","time_stamp":"2015-04-20 16:47:08"},{"email_confirm_id":"31","confirmation_code":"6306a56d3a8963758190d524a216b538","email":"guest6@adamsonsacademy.com","time_stamp":"2015-04-20 17:33:26"},{"email_confirm_id":"32","confirmation_code":"62a142a135805b6aa3476f3a25ba257a","email":"guest7@adamsonsacademy.com","time_stamp":"2015-04-20 17:33:47"},{"email_confirm_id":"33","confirmation_code":"224d278664e897a5286575f7f46d4171","email":"guest8@adamsonsacademy.com","time_stamp":"2015-04-20 17:34:47"}],"primary_key_name":"email_confirm_id","class_name":"MtcEmailConfirm"}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:58:58-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcEmailConfirm.delete
+    [email_confirm_id] => 19
+    [userid] => 45
+    [ukey] => 5YbHKUduDpqxi
+)
+]END
+
+OBJECT
+DEBUG at 2015-04-23T15:58:58-04:00 in /json-api/index.php
+member_id: 45 PERMISSIONS:5
+
+OBJECT
+DEBUG at 2015-04-23T15:58:58-04:00 in /json-api/index.php
+class:MtcEmailConfirm mthd:delete
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:58:58-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","email_confirm_id":"19"}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:58:58-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => CannedQueryHelper.runCannedQuery
+    [userid] => 45
+    [ukey] => 5YbHKUduDpqxi
+    [key] => show_old_email_confirmations
+    [time_stamp] => 2015-05-04
+)
+]END
+
+OBJECT
+DEBUG at 2015-04-23T15:58:58-04:00 in /json-api/index.php
+member_id: 45 PERMISSIONS:5
+
+OBJECT
+DEBUG at 2015-04-23T15:58:58-04:00 in /json-api/index.php
+class:CannedQueryHelper mthd:runCannedQuery
+
+Generic
+DEBUG at 2015-04-23T15:58:58-04:00 in /json-api/index.php
+DEBUG query: SELECT * FROM `mtc_email_confirm` WHERE `time_stamp` < :time_stamp
+
+Generic
+DEBUG at 2015-04-23T15:58:58-04:00 in /json-api/index.php
+DEBUG postArray: Array
+(
+    [time_stamp] => 2015-05-04
+)
+
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:58:58-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","fields":[{"email_confirm_id":"9","confirmation_code":"b962489278b156a25a977c1f94eaba27","email":"danwestenberger@gmail.com","time_stamp":"2015-04-13 19:28:23"},{"email_confirm_id":"16","confirmation_code":"e105e6ccb4645f42daae909c853fadfa","email":"yuhanji@gmail.com","time_stamp":"2015-04-15 17:54:25"},{"email_confirm_id":"17","confirmation_code":"7289061367eee41700f5aceec4d11ab6","email":"yuhanji1@gmail.com","time_stamp":"2015-04-15 17:55:00"},{"email_confirm_id":"20","confirmation_code":"a8f0cef3f406682b147e3e0cfa962599","email":"wiley4@rogers.com","time_stamp":"2015-04-16 10:04:11"},{"email_confirm_id":"25","confirmation_code":"33502d07a365368829b11204cce497c8","email":"guest1@adamsonsacademy.com","time_stamp":"2015-04-20 15:23:14"},{"email_confirm_id":"26","confirmation_code":"4882538048c42800a6b25f1c8b5c8151","email":"guest2@adamsonsacademy.com","time_stamp":"2015-04-20 15:24:46"},{"email_confirm_id":"27","confirmation_code":"e2256a6c7b75e51eb69998a86ecd4412","email":"guest3@adamsonsacademy.com","time_stamp":"2015-04-20 15:25:17"},{"email_confirm_id":"28","confirmation_code":"a4ef15e3fa35c0d20512e96947e16f6f","email":"guest4@adamsonsacademy.com","time_stamp":"2015-04-20 16:31:59"},{"email_confirm_id":"29","confirmation_code":"dd82f5166696362fc44cb4a5c2c143d6","email":"guest5@adamsonsacademy.com","time_stamp":"2015-04-20 16:47:08"},{"email_confirm_id":"31","confirmation_code":"6306a56d3a8963758190d524a216b538","email":"guest6@adamsonsacademy.com","time_stamp":"2015-04-20 17:33:26"},{"email_confirm_id":"32","confirmation_code":"62a142a135805b6aa3476f3a25ba257a","email":"guest7@adamsonsacademy.com","time_stamp":"2015-04-20 17:33:47"},{"email_confirm_id":"33","confirmation_code":"224d278664e897a5286575f7f46d4171","email":"guest8@adamsonsacademy.com","time_stamp":"2015-04-20 17:34:47"}],"primary_key_name":"email_confirm_id","class_name":"MtcEmailConfirm"}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:59:01-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcEmailConfirm.delete
+    [email_confirm_id] => 20
+    [userid] => 45
+    [ukey] => 5YbHKUduDpqxi
+)
+]END
+
+OBJECT
+DEBUG at 2015-04-23T15:59:01-04:00 in /json-api/index.php
+member_id: 45 PERMISSIONS:5
+
+OBJECT
+DEBUG at 2015-04-23T15:59:01-04:00 in /json-api/index.php
+class:MtcEmailConfirm mthd:delete
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:59:01-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","email_confirm_id":"20"}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:59:01-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => CannedQueryHelper.runCannedQuery
+    [userid] => 45
+    [ukey] => 5YbHKUduDpqxi
+    [key] => show_old_email_confirmations
+    [time_stamp] => 2015-05-04
+)
+]END
+
+OBJECT
+DEBUG at 2015-04-23T15:59:01-04:00 in /json-api/index.php
+member_id: 45 PERMISSIONS:5
+
+OBJECT
+DEBUG at 2015-04-23T15:59:01-04:00 in /json-api/index.php
+class:CannedQueryHelper mthd:runCannedQuery
+
+Generic
+DEBUG at 2015-04-23T15:59:01-04:00 in /json-api/index.php
+DEBUG query: SELECT * FROM `mtc_email_confirm` WHERE `time_stamp` < :time_stamp
+
+Generic
+DEBUG at 2015-04-23T15:59:01-04:00 in /json-api/index.php
+DEBUG postArray: Array
+(
+    [time_stamp] => 2015-05-04
+)
+
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:59:01-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","fields":[{"email_confirm_id":"9","confirmation_code":"b962489278b156a25a977c1f94eaba27","email":"danwestenberger@gmail.com","time_stamp":"2015-04-13 19:28:23"},{"email_confirm_id":"16","confirmation_code":"e105e6ccb4645f42daae909c853fadfa","email":"yuhanji@gmail.com","time_stamp":"2015-04-15 17:54:25"},{"email_confirm_id":"17","confirmation_code":"7289061367eee41700f5aceec4d11ab6","email":"yuhanji1@gmail.com","time_stamp":"2015-04-15 17:55:00"},{"email_confirm_id":"25","confirmation_code":"33502d07a365368829b11204cce497c8","email":"guest1@adamsonsacademy.com","time_stamp":"2015-04-20 15:23:14"},{"email_confirm_id":"26","confirmation_code":"4882538048c42800a6b25f1c8b5c8151","email":"guest2@adamsonsacademy.com","time_stamp":"2015-04-20 15:24:46"},{"email_confirm_id":"27","confirmation_code":"e2256a6c7b75e51eb69998a86ecd4412","email":"guest3@adamsonsacademy.com","time_stamp":"2015-04-20 15:25:17"},{"email_confirm_id":"28","confirmation_code":"a4ef15e3fa35c0d20512e96947e16f6f","email":"guest4@adamsonsacademy.com","time_stamp":"2015-04-20 16:31:59"},{"email_confirm_id":"29","confirmation_code":"dd82f5166696362fc44cb4a5c2c143d6","email":"guest5@adamsonsacademy.com","time_stamp":"2015-04-20 16:47:08"},{"email_confirm_id":"31","confirmation_code":"6306a56d3a8963758190d524a216b538","email":"guest6@adamsonsacademy.com","time_stamp":"2015-04-20 17:33:26"},{"email_confirm_id":"32","confirmation_code":"62a142a135805b6aa3476f3a25ba257a","email":"guest7@adamsonsacademy.com","time_stamp":"2015-04-20 17:33:47"},{"email_confirm_id":"33","confirmation_code":"224d278664e897a5286575f7f46d4171","email":"guest8@adamsonsacademy.com","time_stamp":"2015-04-20 17:34:47"}],"primary_key_name":"email_confirm_id","class_name":"MtcEmailConfirm"}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:59:03-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => MtcEmailConfirm.delete
+    [email_confirm_id] => 17
+    [userid] => 45
+    [ukey] => 5YbHKUduDpqxi
+)
+]END
+
+OBJECT
+DEBUG at 2015-04-23T15:59:03-04:00 in /json-api/index.php
+member_id: 45 PERMISSIONS:5
+
+OBJECT
+DEBUG at 2015-04-23T15:59:03-04:00 in /json-api/index.php
+class:MtcEmailConfirm mthd:delete
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:59:03-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","email_confirm_id":"17"}
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:59:03-04:00 in /json-api/index.php
+DEBUG: [Array
+(
+    [method] => CannedQueryHelper.runCannedQuery
+    [userid] => 45
+    [ukey] => 5YbHKUduDpqxi
+    [key] => show_old_email_confirmations
+    [time_stamp] => 2015-05-04
+)
+]END
+
+OBJECT
+DEBUG at 2015-04-23T15:59:03-04:00 in /json-api/index.php
+member_id: 45 PERMISSIONS:5
+
+OBJECT
+DEBUG at 2015-04-23T15:59:03-04:00 in /json-api/index.php
+class:CannedQueryHelper mthd:runCannedQuery
+
+Generic
+DEBUG at 2015-04-23T15:59:03-04:00 in /json-api/index.php
+DEBUG query: SELECT * FROM `mtc_email_confirm` WHERE `time_stamp` < :time_stamp
+
+Generic
+DEBUG at 2015-04-23T15:59:03-04:00 in /json-api/index.php
+DEBUG postArray: Array
+(
+    [time_stamp] => 2015-05-04
+)
+
+
+BOOT UP THE SERVICE
+DEBUG at 2015-04-23T15:59:03-04:00 in /json-api/index.php
+return json: {"status":"SUCCESS","fields":[{"email_confirm_id":"9","confirmation_code":"b962489278b156a25a977c1f94eaba27","email":"danwestenberger@gmail.com","time_stamp":"2015-04-13 19:28:23"},{"email_confirm_id":"16","confirmation_code":"e105e6ccb4645f42daae909c853fadfa","email":"yuhanji@gmail.com","time_stamp":"2015-04-15 17:54:25"},{"email_confirm_id":"25","confirmation_code":"33502d07a365368829b11204cce497c8","email":"guest1@adamsonsacademy.com","time_stamp":"2015-04-20 15:23:14"},{"email_confirm_id":"26","confirmation_code":"4882538048c42800a6b25f1c8b5c8151","email":"guest2@adamsonsacademy.com","time_stamp":"2015-04-20 15:24:46"},{"email_confirm_id":"27","confirmation_code":"e2256a6c7b75e51eb69998a86ecd4412","email":"guest3@adamsonsacademy.com","time_stamp":"2015-04-20 15:25:17"},{"email_confirm_id":"28","confirmation_code":"a4ef15e3fa35c0d20512e96947e16f6f","email":"guest4@adamsonsacademy.com","time_stamp":"2015-04-20 16:31:59"},{"email_confirm_id":"29","confirmation_code":"dd82f5166696362fc44cb4a5c2c143d6","email":"guest5@adamsonsacademy.com","time_stamp":"2015-04-20 16:47:08"},{"email_confirm_id":"31","confirmation_code":"6306a56d3a8963758190d524a216b538","email":"guest6@adamsonsacademy.com","time_stamp":"2015-04-20 17:33:26"},{"email_confirm_id":"32","confirmation_code":"62a142a135805b6aa3476f3a25ba257a","email":"guest7@adamsonsacademy.com","time_stamp":"2015-04-20 17:33:47"},{"email_confirm_id":"33","confirmation_code":"224d278664e897a5286575f7f46d4171","email":"guest8@adamsonsacademy.com","time_stamp":"2015-04-20 17:34:47"}],"primary_key_name":"email_confirm_id","class_name":"MtcEmailConfirm"}

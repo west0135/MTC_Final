@@ -1,0 +1,109 @@
+
+G12 OBJECT ERROR
+DEBUG at 2015-04-20T16:20:44-04:00 in /json-api/index.php
+Database Error code: 5
+Failed Query for mtc_permissions 
+
+G12 OBJECT ERROR
+DEBUG at 2015-04-20T16:21:07-04:00 in /json-api/index.php
+Database Error code: 5
+Failed Query for mtc_permissions 
+
+G12 OBJECT ERROR
+DEBUG at 2015-04-20T16:21:58-04:00 in /json-api/index.php
+Database Error code: 5
+Failed Query for mtc_permissions 
+
+PDOStandardTable
+ERROR at 2015-04-20T16:47:19-04:00 in /json-api/index.php
+INSERT INTO: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'guest5@adamsonsacademy.com' for key 'email' on mtc_member query [INSERT INTO mtc_member(`member_id`,`first_name`,`last_name`,`address`,`city`,`postal_code`,`home_phone`,`business_phone`,`family_members`,`email`,`donate`,`membership_category_id`)VALUES(:member_id,:first_name,:last_name,:address,:city,:postal_code,:home_phone,:business_phone,:family_members,:email,:donate,:membership_category_id);]
+
+G12 OBJECT ERROR
+DEBUG at 2015-04-20T16:47:19-04:00 in /json-api/index.php
+The email guest5@adamsonsacademy.com has already been used. code: 3
+mtc_member: INSERT INTO: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'guest5@adamsonsacademy.com' for key 'email' on mtc_member query [INSERT INTO mtc_member(`member_id`,`first_name`,`last_name`,`address`,`city`,`postal_code`,`home_phone`,`business_phone`,`family_members`,`email`,`donate`,`membership_category_id`)VALUES(:member_id,:first_name,:last_name,:address,:city,:postal_code,:home_phone,:business_phone,:family_members,:email,:donate,:membership_category_id);] Row Values: Array
+(
+    [member_id] => NULL
+    [first_name] => Guest5
+    [last_name] => Player
+    [address] => March Tennis Club
+    [city] => Ottawa
+    [postal_code] => K2K 2W3
+    [home_phone] => (613) 592-6269
+    [business_phone] => (613) 592-6269
+    [family_members] => null
+    [email] => guest5@adamsonsacademy.com
+    [donate] => 0
+    [membership_category_id] => 7
+)
+
+
+G12 OBJECT ERROR
+DEBUG at 2015-04-20T17:36:01-04:00 in /json-api/index.php
+No Return. Check input values. code: 5
+No Records for Canned Query: show_permissions_for_members_first_name POST ARRAY: Array
+(
+    [permissions] => 0
+    [first_name] => %
+)
+ using query: SELECT * FROM `mtc_permissions` WHERE `permissions` = :permissions AND `first_name` LIKE :first_name
+
+G12 OBJECT ERROR
+DEBUG at 2015-04-20T17:36:33-04:00 in /json-api/index.php
+No Return. Check input values. code: 5
+No Records for Canned Query: show_permissions_for_members_first_name POST ARRAY: Array
+(
+    [permissions] => 0
+    [first_name] => %
+)
+ using query: SELECT * FROM `mtc_permissions` WHERE `permissions` = :permissions AND `first_name` LIKE :first_name
+
+G12 OBJECT ERROR
+DEBUG at 2015-04-21T08:30:36-04:00 in /json-api/index.php
+No Return. Check input values. code: 5
+No Records for Canned Query: search_members_by_permissions_and_name POST ARRAY: Array
+(
+    [first_name] => %
+    [permissions] => 
+)
+ using query: SELECT m.member_id, m.first_name, m.last_name, m.address, m.city, m.postal_code, m.home_phone, m.business_phone, m.family_members, m.email,  m.donate, m.amount_enclosed
+FROM `mtc_member` AS m
+INNER JOIN `mtc_permissions` AS mp
+ON m.member_id= mp.member_id
+WHERE mp.permissions = :permissions AND m.first_name LIKE :first_name ORDER BY m.first_name
+
+
+G12 OBJECT ERROR
+DEBUG at 2015-04-21T10:44:51-04:00 in /json-api/index.php
+No Return. Check input values. code: 5
+No Records for Canned Query: search_members_by_permissions_and_name POST ARRAY: Array
+(
+    [first_name] => %
+    [permissions] => 
+)
+ using query: SELECT m.member_id, m.first_name, m.last_name, m.address, m.city, m.postal_code, m.home_phone, m.business_phone, m.family_members, m.email,  m.donate, m.amount_enclosed
+FROM `mtc_member` AS m
+INNER JOIN `mtc_permissions` AS mp
+ON m.member_id= mp.member_id
+WHERE mp.permissions = :permissions AND m.first_name LIKE :first_name ORDER BY m.first_name
+
+
+G12 OBJECT ERROR
+DEBUG at 2015-04-22T16:09:04-04:00 in /json-api/index.php
+Database Error code: 5
+Failed Query for mtc_permissions 
+
+G12 OBJECT ERROR
+DEBUG at 2015-04-22T16:10:03-04:00 in /json-api/index.php
+Database Error code: 5
+Failed Query for mtc_permissions 
+
+G12 OBJECT ERROR
+DEBUG at 2015-04-22T16:17:14-04:00 in /json-api/index.php
+Not allowed check permission status. code: 5
+Failed Query for mtc_permissions 
+
+G12 OBJECT ERROR
+DEBUG at 2015-04-22T16:18:00-04:00 in /json-api/index.php
+Reservation NOT allowed check permission status. code: 5
+Failed Query for mtc_permissions 
